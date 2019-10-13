@@ -1,0 +1,18 @@
+echo "--------------------------------"
+printf "new words: "
+egrep '::1' .spanish_vocab.voc -c
+printf "in progress: "
+egrep '::0|::2' .spanish_vocab.voc -c
+echo ""
+printf "no score: "
+egrep 999 .spanish_vocab.voc -c
+printf "score=12: "
+grep 12 .spanish_vocab.voc -c
+printf "score=13: "
+grep 13 .spanish_vocab.voc -c
+printf "score=14: "
+grep 14 .spanish_vocab.voc -c
+printf "score=15: "
+grep 15 .spanish_vocab.voc -c
+echo "--------------------------------"
+
