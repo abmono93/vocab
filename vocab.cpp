@@ -7,16 +7,15 @@
 
 using namespace std;
 
-string strip_spaces(string str){
-//Removes leading and trailing spaces from str
+void strip_spaces(string& str){
+//Removes leading and trailing spaces from str, makes all internal spaces exactly 1
 	int double_spaces;
-	while (isspace(str[str.size() - 1])) str.erase(str.size() - 1, 1);
-	while (isspace(str[0])) str.erase(0, 1);
+	while (isspace(str[str.size() - 1])) str.erase(str.end() - 1);
+	while (isspace(str[0])) str.erase(str.begin());
 	while ((double_spaces = str.find("  ")) >= 0) str.erase(double_spaces, 1);
-	return str;
 }
 
-int index_in(vector<string> list, string test_item){
+int index_in(vector<string>& list, string test_item){
 //Returns index of test_item in list, or -1 if it is not present
 	for (int i = 0; i < list.size(); i++){
 		if (list[i].compare(test_item) == 0) return i;
@@ -25,21 +24,20 @@ int index_in(vector<string> list, string test_item){
 }
 
 int random_number(int i){return rand()%i;}
-void shuffle_indices(vector<int>* indices, int desired_size){
+
+void shuffle_indices(vector<int>& indices, int desired_size){
 //Populates indices with numbers zero through desired_size in a random order
 	srand(time(NULL));
-	//int previous_size = indices->size();
-	//for (int i = 0; i < previous_size; i++) 
-	while (indices->size() > 0) indices->erase(indices->begin());
-	for (int i = 0; i < desired_size; i++) indices->push_back(i);
-	random_shuffle(indices->begin(), indices->end(), random_number);
+	while (indices.size() > 0) indices.erase(indices.begin());
+	for (int i = 0; i < desired_size; i++) indices.push_back(i);
+	random_shuffle(indices.begin(), indices.end(), random_number);
 }
 
-int is_same_list(vector<string> l1,vector<string> l2){
+bool is_same_list(vector<string>& l1,vector<string>& l2){
 //Returns TRUE if l1 and l2 contain the exact same set of strings
 	int element;
 	vector<string> temp_list;
-	if (l1.size() != l2.size()) return FALSE;
+	if (l1.size() != l2.size()) return false;
 	for (int i = 0; i < l1.size(); i++){
 		temp_list.push_back(l1[i]);
 	}
@@ -47,8 +45,8 @@ int is_same_list(vector<string> l1,vector<string> l2){
 		element = index_in(temp_list, l2[i]);
 		if (element >= 0) temp_list.erase(temp_list.begin() + element);
 	}
-	if (temp_list.size() == 0) return TRUE;
-	return FALSE;
+	if (temp_list.size() == 0) return true;
+	return false;
 }
 
 Row::Row(string target, string def){
@@ -97,9 +95,7 @@ string Row::get_word(int choice){
 	else return "error";
 }
 
-Category::Category(){
-
-}
+Category::Category(){}
 
 int Category::contains(Row* testerRow){
 //Returns the index of testerRow in the category, or -1 if it is not in this category
@@ -143,6 +139,7 @@ void VocabList::add_to_list(Row* new_word){
 void VocabList::categorize(Row* this_row){
 //Places this_row in the right category
 	int element, correct_cat;
+
 	int score = this_row->get_score();
 	int cat = this_row->get_category();
 	vector<Category*> d = difficulty_categories; //Just to save some typing
@@ -199,7 +196,7 @@ void VocabList::read_from_file(string filename){
 	//Read line by line
 		if (str.compare("") != 0){
 		//If this line isn't empty, it should either be set to def or target
-			str = strip_spaces(str);
+			strip_spaces(str);
 			//If target hasn't been set yet, this is in the target lang (by convention)
 			if (target.compare("") == 0) target = str;
 			//If it has, this is the definition
@@ -288,7 +285,7 @@ void Session::save(){
 	_session_vocab_list->save_list(_save_filename);
 }
 
-int Session::is_correct(string user_response, Row* cur_row, int answer_with){
+bool Session::is_correct(string user_response, Row* cur_row, int answer_with){
 //Returns TRUE if the user response counts as correct for this row
 	int num_commas, ur_num_commas, num_semicolons, ur_num_semicolons, num_parens;
 	//Look up the correct answer for this row
@@ -302,7 +299,7 @@ int Session::is_correct(string user_response, Row* cur_row, int answer_with){
 		int close_paren = correct_answer.find(")");
 		//Remove the parentheses from correct_answer so all subsequent tests ignore parentheses
 		correct_answer.erase(open_paren, close_paren - open_paren + 1);
-		correct_answer = strip_spaces(correct_answer);
+		strip_spaces(correct_answer);
 		if (user_response.compare(correct_answer) == 0) {
 			cout << cur_row->get_word(answer_with) << endl;
 			return TRUE;
@@ -325,12 +322,12 @@ int Session::is_correct(string user_response, Row* cur_row, int answer_with){
 		//Add each comma separated section (without spaces) to the appropriate list
 		stringstream ur_tokenized(ur);
 		while(getline(ur_tokenized, next_word, ',')){
-			next_word = strip_spaces(next_word);
+			strip_spaces(next_word);
 			ur_words.push_back(next_word);
 		}
 		stringstream correct_tokenized(correct_answer);
 		while(getline(correct_tokenized, next_word, ',')){
-			next_word = strip_spaces(next_word);
+			strip_spaces(next_word);
 			correct_words.push_back(next_word);
 		}
 		//If the two lists are the same, it also counts as correct
@@ -349,12 +346,12 @@ int Session::is_correct(string user_response, Row* cur_row, int answer_with){
 		vector <string> correct_words;
 		stringstream ur_tokenized(ur);
 		while(getline(ur_tokenized, next_word, ';')){
-			next_word = strip_spaces(next_word);
+			strip_spaces(next_word);
 			ur_words.push_back(next_word);
 		}
 		stringstream correct_tokenized(correct_answer);
 		while(getline(correct_tokenized, next_word, ';')){
-			next_word = strip_spaces(next_word);
+			strip_spaces(next_word);
 			correct_words.push_back(next_word);
 		}
 		if (is_same_list(correct_words, ur_words)){
@@ -364,9 +361,9 @@ int Session::is_correct(string user_response, Row* cur_row, int answer_with){
 
 	}
 	//Also check they didn't put extra spaces
-	user_response = strip_spaces(user_response);
-	if (user_response.compare(correct_answer) == 0) return TRUE;
-	return FALSE;	
+	strip_spaces(user_response);
+	if (user_response.compare(correct_answer) == 0) return true;
+	return false;	
 }
 
 void Session::round_begin_message(int answer_with){
@@ -430,7 +427,7 @@ void Session::round(int answer_with){
 	else if (answer_with == DEFINITION) ask = TARGET_LANG;
 	else return;
 	//Use a shuffled version of the study list
-	shuffle_indices(&shuffled_indices, study_list.size()); 
+	shuffle_indices(shuffled_indices, study_list.size()); 
 	for (int i = 0; i < study_list.size(); i++){
 	//Print the word being quizzed ang get a user response
 		cur_row = study_list[shuffled_indices[i]];
@@ -459,7 +456,7 @@ void Session::round(int answer_with){
 	//Keep re-testing the ones they got wrong until they get them all right
 		num_wrong = incorrect.size();
 		//Shuffle them each time and print how many they are being re-tested on
-		shuffle_indices(&shuffled_indices, num_wrong);
+		shuffle_indices(shuffled_indices, num_wrong);
 		cout << num_wrong << " to try again:" << endl << endl;
 		for (int i = 0; i < num_wrong; i++){
 		//Repeat as above (except save the ones they got right instead of the ones they got wrong)
@@ -508,6 +505,7 @@ void Session::assemble_study_list(){
 	int to_add = STUDY_WORDS;
 	//Make sure the current study list is empty to start
 	_clear_study_list();
+
 	cat_hard = _session_vocab_list->difficulty_categories[CAT_HARD];
 	can_add = min(to_add, (int) cat_hard->size());
 	for (int i = 0; i < can_add; i++){
@@ -515,18 +513,20 @@ void Session::assemble_study_list(){
 		study_list.push_back((*cat_hard)[i]);
 		to_add--;
 	}
+
 	cat_learn = _session_vocab_list->difficulty_categories[CAT_LEARN];
 	size_of_learn = (int) cat_learn->size();
-	shuffle_indices(&shuffled_indices, size_of_learn);
+	shuffle_indices(shuffled_indices, size_of_learn);
 	if (to_add > 0){
 	//Next add a few of the familiar words at random
 		can_add = min(to_add, size_of_learn);
-		can_add = min(can_add, size_of_learn / LEARNING_RATIO);
+		can_add = min(can_add, size_of_learn * size_of_learn / LEARNING_RATIO);
 		for (learn_index = 0; learn_index < can_add; learn_index++) {
 			study_list.push_back((*cat_learn)[shuffled_indices[learn_index]]);
 			to_add--;
 		}
 	}
+
 	cat_new = _session_vocab_list->difficulty_categories[CAT_NEW];
 	if (to_add > 0){
 	//Only put a few new words in at a time
@@ -546,11 +546,13 @@ void Session::assemble_study_list(){
 			to_add--;
 		}
 	}
+	
 	//Fill the rest of the spots with random words to reveiw (at least 2)
 	cat_review = _session_vocab_list->difficulty_categories[CAT_REVIEW];
 	size_of_to_review = (int) cat_review->size();
-	to_add = max(REVIEW_WORDS, to_add);
+	//to_add = max(REVIEW_WORDS, to_add);
+	to_add += REVIEW_WORDS;
 	can_add = min(to_add, size_of_to_review);
-	shuffle_indices(&shuffled_indices, size_of_to_review);
+	shuffle_indices(shuffled_indices, size_of_to_review);
 	for (int i = 0; i < can_add; i++) study_list.push_back((*cat_review)[shuffled_indices[i]]);
 }

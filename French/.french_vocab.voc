@@ -1,14 +1,14 @@
 tl=French
-l'élan==momentum++13::3
+l'élan==momentum++14::3
 démuni==deprived++12::3
 mûr==mature, ripe++12::3
-fougueux==spirited, rash++14::3
+fougueux==spirited, rash++15::4
 ardent==fervent++14::3
 exigeant==demanding++13::3
 le fauve==wildcat; a tan++14::3
-fixer==to stare++12::3
+fixer==to stare++15::4
 la proie==prey++999::3
-défier==to challenge, defy, distrust++12::3
+défier==to challenge, defy, distrust++13::3
 le fourré==thicket++13::3
 la confiance==trust++999::3
 le deuil==mourning++999::3
@@ -17,14 +17,14 @@ tant bien que mal==as best as one can++12::3
 demeurer==to remain++999::3
 survenir==to occur++12::3
 contrecarrer==to thwart++13::3
-la tentative==attempt++999::3
-errant==wandering++12::3
+la tentative==attempt++13::3
+errant==wandering++13::3
 engendrer==to generate++13::3
-déferler==to unfurl++999::3
+déferler==to unfurl++14::3
 d'aucuns==some people++12::3
 habile==skillful; clever++999::3
 profane==unholy++12::3
-hautain==haughty++13::3
+hautain==haughty++15::4
 jouir==to enjoy++12::3
 dépourvu==devoid++12::3
 le menton==chin++999::3
@@ -33,10 +33,10 @@ restituer==to restore++12::3
 tisser==to weave++15::4
 l'intendant==overseer++12::3
 la maisonnée==household++13::3
-la rosée==dew++13::3
-soulager==to soothe++999::3
-s'attenuer==to mitigate++12::3
-veiller==to watch over++12::3
+la rosée==dew++14::3
+soulager==to soothe++12::3
+s'attenuer==to mitigate++10::2
+veiller==to watch over++10::2
 la randonée==a walk++13::3
 s'incliner devant==to bow to++14::3
 s'écarter==to move aside++12::3
@@ -48,14 +48,14 @@ le seuil==threshold++13::3
 frisé==curly++999::3
 la chevelure==head of hair++13::3
 aigu==sharp++13::3
-guère==hardly++999::3
-miser sur==to count on++12::3
+guère==barely++12::3
+miser sur==to count on++14::3
 le chantier==construction site++12::3
 méprisable==despicable++15::4
 débarasser==to get rid of++14::3
-le châtiment==punishment++12::3
+le châtiment==punishment++13::3
 contraindre==to force++999::3
-dépérir==to waste away++12::3
+dépérir==to waste away++10::2
 le précepteur==tutor++12::3
 piquer au vif==to deeply insult++12::3
 porter plainte==to file a complaint++12::3
@@ -63,42 +63,42 @@ sévir==to deal with severely++999::3
 se dresser contre==to stand against++999::3
 la torpeur==sleepiness++12::3
 assoupis==drowsy++12::3
-dans la mesure où==insofar as++11::2
-le gestionnaire==administrator++12::3
-la prestance==presence++12::3
+dans la mesure où==insofar as++12::3
+le gestionnaire==administrator++13::3
+la prestance==presence++14::3
 convenir à==to be suitable for++14::3
 la demeure==residence++15::4
-désuète==obsolete++12::3
+désuète==obsolete++13::3
 la semence==seed++13::3
 le gré==liking++12::3
 trapu==stocky++13::3
 rebondi==plump++12::3
 gourmand==greedy++12::3
-flottant==flowing++13::3
+flottant==flowing++14::3
 par intérêt==out of self interest++13::3
 éprouver==to feel, experience++999::3
-reconaissant==grateful++14::3
+reconaissant==grateful++15::4
 exiger==to require, demand++12::3
 la cuirasse==armor++12::3
-l'agrafe==clip++12::3
+l'agrafe==clip++14::3
 le vaisseau==ship, vessel++13::3
 prôner==to advocate++12::3
 l'échelle==ladder, scale++13::3
 déclencher==to trigger++15::4
 s'épanouir==to flourish++12::3
-se solder==to settle++13::3
+se solder==to settle++15::4
 le bilan==balance sheet++12::3
-l'exutoire==outlet++13::3
+l'exutoire==outlet++15::4
 anodin==insignificant++12::3
 l'étincelle==spark++999::3
-se répandre==to spread++13::3
+se répandre==to spread++14::3
 la prédication==preaching++999::3
 prévaloir==to prevail++12::3
 surveiller==to monitor++14::3
 la méfiance==suspicion++12::3
 louvoyer==to zigzag++13::3
-la rivage==shore++12::3
-propice==favorable++13::3
+la rivage==shore++13::3
+propice==favorable++12::3
 ainsi que==as well as++999::3
 l'atermoiement==procrastination++13::3
 malencontreux==regrettable++13::3
@@ -112,11 +112,11 @@ inépuisable==endless++13::3
 s'estomper==to fade++12::3
 alors que==while++12::3
 la rangée==row++999::3
-la grue==crane++12::3
+la grue==crane++13::3
 cendré==ashen++12::3
-constater==to notice++12::3
+constater==to notice++14::3
 déchiqueter==to shred++12::3
-les viscères==intestines++12::3
+les viscères==intestines++13::3
 prostré==laying flat (prostrate)++12::3
 épouvanter==to terrify++999::3
 la rixe==brawl++12::3
@@ -126,10 +126,10 @@ disposer==to arrange++12::3
 la déroute==defeat++12::3
 limitrophe==bordering++12::3
 la contrée==region++12::3
-or==however++999::3
+or==however++13::3
 dévolu==allotted to++999::3
 la perspective==perspective; prospect++12::3
-le giron==bosom; lap++13::3
+le giron==bosom; lap++14::3
 entretenir==to maintain++12::3
 s'entretenir==to converse++13::3
 la glycine==wisteria++12::3
@@ -147,13 +147,13 @@ le désœuvrement==idleness++12::3
 arracher==to rip, rip out++999::3
 se morfondre==to mope++999::3
 mutin==mischievous++12::3
-enjoué==cheerful++12::3
+enjoué==cheerful++13::3
 afficher==to display++12::3
 le majordome==butler++999::3
 creusé==hollow++12::3
 le liseré==border, edge++12::3
-l'étoffe==material, fabric++999::3
-dénué de==lacking in++999::3
+l'étoffe==material, fabric++12::3
+dénué de==lacking in++12::3
 la portée==reach, scope++12::3
 désemparé==helpless++12::3
 l'échec==failure++999::3
@@ -161,8 +161,8 @@ une nuit blanche==sleepless night++999::3
 étourdir==to stun++12::3
 se tramer==to plot++12::3
 la lisière==edge (of the forest)++999::3
-les tenailles==pincers++12::3
-découper==to cut up (or out)++12::3
+les tenailles==pincers++13::3
+découper==to cut up (or out)++13::3
 le barbelé==barbed wire++12::3
 se frayer==to clear a path++12::3
 crayeux==chalky++13::3
@@ -171,38 +171,38 @@ boueux==muddy++12::3
 les truquages==special effects++13::3
 la mitrailleuse==machine gun++13::3
 preux==valiant++999::3
-la garde à vue==police custody++999::3
+la garde à vue==police custody++12::3
 passer les menottes à==to handcuff++12::3
 déférer==to refer to the courts++12::3
 la matraque==billy club++12::3
 fouiller==to search, rummage++12::3
 prélever==to remove++12::3
 les couilles==balls (slang)++15::4
-le carton anthropométrique==mugshot sign++13::3
+le carton anthropométrique==mugshot sign++15::4
 la morve==snot++13::3
 la remise==delivery, discount++12::3
 le chêne==oak++12::3
 la baie vitrée==sliding glass door++13::3
 le banc==bench++999::3
 interpeller==to take in for questioning++12::3
-le stupéfiant==narcotic++12::3
-beugler==to bawl out (pejorative)++14::3
+le stupéfiant==narcotic++14::3
+beugler==to bawl out (pejorative)++13::3
 apostropher==to shout at++13::3
 sourd==deaf++15::4
-le néon blanc==fluorescent tube++999::3
-gémir==to moan++999::3
+le néon blanc==fluorescent tube++12::3
+gémir==to moan++13::3
 péter==to fart++15::4
 le sol==ground, floor++13::3
 le béton==concrete++13::3
-crasseux==filthy++14::3
-gamberger==to think hard++12::3
+crasseux==filthy++15::4
+gamberger==to think hard++13::3
 affreusement==dreadfully++12::3
 piquer une crise==to throw a fit++15::4
 évanoui==unconscious++12::3
 indélébile==permanent++12::3
 s'étourdir==to drown one's sorrows++12::3
-onctueux==smooth++999::3
-rédiger==to draft, write++999::3
+onctueux==smooth++13::3
+rédiger==to draft, write++12::3
 convoquer==to summon++12::3
 acheminer==to route, deliver++12::3
 la partance==departure++14::3
@@ -211,15 +211,15 @@ la missive==important letter++12::3
 s'éloigner==to move away++12::3
 arroser==to water, sprinkle++12::3
 déposer==to deposit, file++999::3
-le parterre==flowerbed++12::3
+le parterre==flowerbed; lawn++12::3
 bâiller==to yawn++12::3
 s'étirer==to stretch++13::3
 s'étendre==to extend++14::3
-humer==to smell, breathe in++14::3
-la truffe==nose (of dog)++999::3
+humer==to smell, breathe in++15::4
+la truffe==nose (of dog); truffle++12::3
 flairer==to scent++12::3
 jucher==to perch++15::4
-la voie==route, way++13::3
+la voie==route, way++12::3
 gaver==to force feed, stuff++14::3
 mener==to lead++12::3
 feuler==to growl, hiss++12::3
@@ -230,12 +230,12 @@ la griffe==claw++12::3
 insolite==unusual++13::3
 le poignard==dagger++12::3
 le fourreau==sheath++12::3
-le chiffon==cloth, rag++11::2
+le chiffon==cloth, rag++12::3
 dépasser==to exceed++12::3
-fouetter==to whip++14::3
-retourner==to go back++12::3
+fouetter==to whip++15::4
+retourner==to go back++11::2
 se retourner==to turn around++13::3
-serrer==to clamp, tighten++12::3
+serrer==to clamp, tighten++13::3
 le manche==handle++13::3
 la manche==sleeve++12::3
 la ruade==a kick++12::3
@@ -250,19 +250,19 @@ marmonner==to mumble++12::3
 le trépas==death; demise++12::3
 fourbe==deceitful++13::3
 auprés de==among++12::3
-la clémence==leniency++13::3
+la clémence==leniency++12::3
 avoir affaire à==to deal with++12::3
-la denrée==commodity++12::3
+la denrée==commodity++13::3
 confier==to entrust++12::3
-béni==blessed++14::3
+béni==blessed++12::3
 le gouvernail==rudder++13::3
-la navire==ship++12::3
+la navire==ship++13::3
 l'équipage==crew++12::3
 le fonctionnaire==official, officer++12::3
-le marchand==merchant, dealer++12::3
-le troupeau==herd, flock++12::3
-reconduire==to renew, extend++12::3
-tant==so much++13::3
+le marchand==merchant, dealer++13::3
+le troupeau==herd, flock++13::3
+reconduire==to renew, extend++9::2
+tant==so much++12::3
 tant que==as long as++13::3
 la solde==pay; balance++13::3
 recueillir==to collect, gather++12::3
@@ -271,8 +271,8 @@ dans les meilleurs délais==as quickly as possible++12::3
 s'emparer==to seize++12::3
 nouer==to establish++12::3
 le douanier==customs officer (or customs as an adjective)++12::3
-parvenir à==to achieve++13::3
-les reprises==occasions++11::2
+parvenir à==to achieve++12::3
+les reprises==occasions++13::3
 la reprise==recovery; resumption++12::3
 la facture==invoice++12::3
 appartenir à==to belong to++15::4
@@ -280,9 +280,9 @@ le réseau==network++12::3
 livrer==to deliver++12::3
 fournir==to provide++12::3
 insensé==insane++12::3
-le bavardage==chatter++12::3
+le bavardage==chatter++11::2
 relégué à==relegated to++13::3
-le plan==plan; level++10::2
+le plan==plan; level++12::3
 impitoyable==ruthless++12::3
 rusé==cunning++12::3
 le piège tendu par==trap set by++12::3
@@ -291,12 +291,12 @@ tendre à==to tend to++12::3
 tendre==tender, sweet++12::3
 à savoir==namely++14::3
 le verrou==latch, lock++12::3
-volontiers==willingly++13::3
+volontiers==willingly++14::3
 la visée==target++12::3
-lénifiant==appeasing, soothing++10::2
-grassement==generously++13::3
+lénifiant==appeasing, soothing++12::3
+grassement==generously++12::3
 belliqueux==belligerent++14::3
-la fougue==spirit, passion++12::3
+la fougue==spirit, passion++11::2
 se laisser emporter==to get carried away++12::3
 mieux vaut (mieux valait)==it is better (to)++12::3
 le dessein==design, plan++12::3
@@ -308,34 +308,34 @@ fluet==slender++12::3
 le bac==bin; tray++12::3
 l'intrigant==schemer++12::3
 intrigant==intriguing; scheming++13::3
-mordiller==to nibble, chew on++13::3
+mordiller==to nibble, chew on++10::2
 s'étonner==to wonder; to be surprised++12::3
 têtu==stubborn++14::3
 parvenir==to reach (e.g. a letter)++12::3
-précieux==precious, valuable++14::3
+précieux==precious, valuable++12::3
 l'enduit==coating++12::3
 enduire==to coat, smear++12::3
 le fourneau==furnace (also pipe bowl)++12::3
-la coquille==shell++12::3
-tantôt==sometimes++12::3
+la coquille==shell; typo++12::3
+tantôt==sometimes++11::2
 dépêcher==to hurry; to send (dispatch)++12::3
 le goulot==bottleneck++12::3
-étroit==narrow++13::3
-le filet==net; thread++12::3
+étroit==narrow++12::3
+le filet==net; thread++11::2
 la colonnette==post, pillar++13::3
-supportable==bearable; sustainable++13::3
-guérir==to heal++13::3
-buriné==withered++13::3
+supportable==bearable; sustainable++9::2
+guérir==to heal++14::3
+buriné==withered++12::3
 buriner==to engrave, chisel++12::3
 l'orage==thunderstorm++13::3
 subir==to undergo++12::3
-l'éclair==flash, lightning++13::3
+l'éclair==flash, lightning++12::3
 la crue==flood++12::3
 crue==raw++12::3
 la crue éclair==flash flood++12::3
 zébrer==to streak++12::3
-la foudre==thunderbolt++13::3
-le tonnerre==thunder++12::3
+la foudre==thunderbolt++12::3
+le tonnerre==thunder++13::3
 gronder==to scold; to rumble++12::3
 dévaler==to descend++12::3
 la pierraille==loose stone++12::3
@@ -352,35 +352,35 @@ le devin==psychic++12::3
 quérir==to fetch++12::3
 veule==spineless++12::3
 borné==stubborn, narrow-minded++12::3
-franchir==to cross, overcome++13::3
+franchir==to cross, overcome++12::3
 attribuer==to assign, allocate++12::3
 se précipiter==to rush++12::3
 précipiter==to hasten; to precipitate++12::3
 prendre en otage==to take hostage++12::3
 la veuve==widow++12::3
-le veuf==widower++11::2
-arborer==to wear, display++14::3
+le veuf==widower++13::3
+arborer==to wear, display++12::3
 s'adosser==to lean++12::3
 reposant==relaxing++12::3
 reposant sur==based on++12::3
 égorger==to slaughter++12::3
-l'abîme (m.)==abyss++13::3
+l'abîme (m.)==abyss++15::4
 ténébreux (ténébreuse)==dark++12::3
 les ténèbres==darkness++12::3
 s'approcher de==to go near++12::3
-compter==to count; to expect++13::3
+compter==to count; to expect++12::3
 utopique==utopian; unrealistic++12::3
-le terrain d'entente==common ground++12::3
+le terrain d'entente==common ground++14::3
 l'entente (f.)==agreement++12::3
 démentir==to refute++12::3
 le chantage==blackmail++12::3
 sombrer==to sink++12::3
-privé de==deprived of++13::3
+privé de==deprived of++12::3
 le garant==guarantor++12::3
 transpercer==to pierce (weapon)++12::3
 percer==to pierce; to drill++12::3
 faire admettre==to ensure acceptance; to get to admit++13::3
-prendre le large==to sail; to shove off++12::3
+prendre le large==to set sail++12::3
 sain==healthy; sane++14::3
 le quolibet==quip++12::3
 la fiole==vial++12::3
@@ -400,7 +400,7 @@ détenir==to hold, possess++12::3
 la morsure==bite++13::3
 restreint==select (select few)++12::3
 la belle affaire==big deal++12::3
-prendre d'assaut==to storm (e.g. a beach)++12::3
+prendre d'assaut==to storm (e.g. a beach)++10::2
 le pari==bet++13::3
 se glisser==to sneak++12::3
 la paroi==wall (not of a building)++12::3
@@ -422,13 +422,13 @@ mordre==to bite++12::3
 volontariste==proactive++12::3
 le commando==hit squad++12::3
 dissimuler==to conceal++12::3
-endosser==to endorse; to shoulder++12::3
+endosser==to endorse; to shoulder++11::2
 destiné à==intended to++12::3
-larguer==to dump++12::3
+larguer==to dump++11::2
 l'amarre (f.)==mooring line (sailing)++14::3
-la proue==bow (of a ship)++13::3
-se tenir==to stand; to be held (e.g. event)++12::3
-hurler==to scream++12::3
+la proue==bow (of a ship)++12::3
+se tenir==to stand; to be held (e.g. event)++13::3
+hurler==to scream++10::2
 le vacarme==racket++12::3
 berner==to trick++12::3
 empoigner==to grab++12::3
@@ -438,8 +438,8 @@ pivoter==to rotate++12::3
 dérober==to snatch++12::3
 creuse==hollow++12::3
 racé==racy, sleek++12::3
-envoûter==to enchant++12::3
-fulgurant==dazzling++12::3
+envoûter==to enchant++13::3
+fulgurant==dazzling++11::2
 rendre compte==to report++12::3
 creuser==to dig++12::3
 le serment==oath++12::3
@@ -449,7 +449,7 @@ appareiller==to sail++13::3
 autrui==others++12::3
 émouvoir==to move (emotionally)++12::3
 l'écurie (f.)==stable++12::3
-préoccupant==worrying++13::3
+préoccupant==worrying++14::3
 altier==haughty, proud++12::3
 la maestria==mastery++12::3
 l'écuyer (m.)==squire++13::3
@@ -459,7 +459,7 @@ mettre en garde==to warn++13::3
 la poussière==dust++12::3
 le destrier==steed++12::3
 le palefrenier==stableboy++12::3
-en l'occurence==in this case++14::3
+en l'occurence==in this case++12::3
 pentu==steep++12::3
 aussitôt==immediately++12::3
 repousser==to repel; to postpone++12::3
@@ -468,9 +468,9 @@ s'accomplir==to come true++12::3
 abriter==to house++12::3
 à sa guise==as (s)he pleases++13::3
 léguer==to bequeath++12::3
-le proviseur==principal++12::3
-dans l'angle==in the corner++14::3
-le chantre==cantor, bard++13::3
+le proviseur==principal++14::3
+dans l'angle==in the corner++15::4
+le chantre==cantor, bard++14::3
 quoique==although++13::3
 le drap==sheet, cloth++13::3
 la fente==slot, gap++12::3
@@ -479,12 +479,12 @@ jaunâtre==yellowish++13::3
 la bretelle==ramp; strap++12::3
 chausser==to put on, lace up++12::3
 cirer==to wax, polish++12::3
-garnir==to garnish; to fill++13::3
+garnir==to garnish; to fill++12::3
 la cuisse==thigh++12::3
 le coude==elbow++12::3
 le rang==row, rank++12::3
 de façon à==so as to++12::3
-entraîner==to lead to++13::3
+entraîner==to lead to++12::3
 la muraille==wall (taller, older than mur)++12::3
 à poil==naked; furry++12::3
 la loutre==otter++12::3
@@ -496,11 +496,11 @@ la broderie==embroidery++14::3
 la soutache==braid++12::3
 le croisillon==crossbar++12::3
 le fil==wire, thread++12::3
-le visière==visor++12::3
-éclater==to burst++13::3
-s'éclater==to have a blast++11::2
+le visière==visor++13::3
+éclater==to burst++12::3
+s'éclater==to have a blast++12::3
 décontenancer==to unnerve++12::3
-bredouiller==to stammer++13::3
+bredouiller==to babble++12::3
 huer==to jeer++12::3
 démesuré==disproportionate++12::3
 le bond==leap++12::3
@@ -508,67 +508,67 @@ aboyer==to bark++12::3
 trépigner==to stomp++12::3
 à grand-peine==with great difficulty++12::3
 saillir==to protrude++12::3
-le pétard==firecracker; gun++12::3
+le pétard==firecracker; gun++9::2
 le pensum==extra work++12::3
 épeler==to spell++12::3
-la paresse==laziness++12::3
+la paresse==laziness++13::3
 la chaire==pulpit++12::3
 la bourrasque==gust++12::3
 essuyer==to wipe++13::3
-la toque==fur hat++12::3
+la toque==fur hat++11::2
 la tournure==turn (of events)++14::3
 passablement==quite++12::3
-la dot==dowry++11::2
-la bonneterie==hosiery++12::3
+la dot==dowry++13::3
+la bonneterie==hosiery++9::2
 l'hâbleur (m.)==boaster++12::3
 l'éperon (m.)==spur++12::3
-les favoris==whiskers++13::3
+les favoris==whiskers++14::3
 le voyant==light; psychic++12::3
 l'aspect (m.)==aspect; appearance++12::3
-l'entrain (m.)==spirit++13::3
+l'entrain (m.)==spirit++12::3
 le commis==clerk++12::3
 le commis voyageur==travelling salesman++14::3
 la barrique==barrel++12::3
 la volaille==poultry++12::3
-graisser==to grease++13::3
-rongé de==consumed by++12::3
+graisser==to grease++12::3
+rongé de==consumed by++10::2
 ronger==to gnaw++12::3
-jadis==formerly++12::3
+jadis==formerly++13::3
 l'orgueil (m.)==pride++12::3
 éventé==stale++12::3
 éventer==to fan++12::3
 piailler==to squeal++12::3
-blasé==jaded++12::3
-avaler==to swallow++12::3
+blasé==jaded++13::3
+avaler==to swallow++11::2
 l'avoué (m.)==solicitor++12::3
 l'échéance (f.)==deadline++12::3
 blanchir==to bleach++12::3
-engourdir==to numb++12::3
+engourdir==to numb++10::2
 boudeur (boudeuse)==sulky++12::3
 désobligeant==derogatory++12::3
-cracher==to spit++12::3
+cracher==to spit++13::3
 la nourrice==wet nurse (also nanny)++12::3
 le marmot==brat++12::3
-gâter==to spoil++13::3
+gâter==to spoil++12::3
 la chatterie==caress (cattery)++12::3
-babillarde==babbling++12::3
+babillarde==babbling++11::2
 épars==sparse, scattered++12::3
 la chaussée==pavement++12::3
 le fonds==fund++12::3
 la mûre==blackberry++12::3
 le dindon==gobbler, sitting duck++12::3
-la gaule==boner; long pole++12::3
+la gaule==boner; long pole++9::2
 faner==to wither++12::3
-se faner==to fade++11::2
-la moisson==harvest++12::3
-la marelle==hopscotch++13::3
-pendre==to hang++12::3
+se faner==to fade++12::3
+la moisson==harvest++13::3
+la marelle==hopscotch++12::3
+pendre==to hang++13::3
 le moucheron==gnat++12::3
 le polisson==prank; rascal++12::3
-la foire==fair++12::3
+la foire==fair++10::2
 causer avec==to chat with++12::3
 le dortoir==dorm++13::3
-le réfectoire==dining hall++12::3
+le réfectoire==dining hall++13::3
 le quincaillier==hardware store (or hardware dealer)++12::3
 cacheter==to seal++12::3
 l'accessit (m.)==certificate of merit++13::3
@@ -590,7 +590,7 @@ le hêtre==beech++12::3
 la narine==nostril++12::3
 se dilater==to dilate++12::3
 enthousiasmer==to inspire++13::3
-faire demander==to send for; to ask for++13::3
+faire demander==to send for; to ask for++11::2
 le sot==fool++12::3
 guetter==to watch out for++12::3
 plier==to fold++12::3
@@ -598,11 +598,11 @@ l'huissier (m.)==bailiff++12::3
 le cotret==bundle of sticks (old term)++12::3
 bourgeonner==to bud++12::3
 le parti==suitor (old term)++12::3
-évincer==to oust++9::2
-déjouer==to foil++12::3
+évincer==to oust++12::3
+déjouer==to foil++11::2
 entrevoir==to foresee++12::3
 décacheter==to unseal++12::3
-épier==to spy on++13::3
+épier==to spy on++12::3
 la démarche==approach++13::3
 la cloison==partition++12::3
 comme il l'entend==as he sees fit++13::3
@@ -615,30 +615,30 @@ grelotter==to shiver++12::3
 la serrure==keyhole++12::3
 la houppe==tuft++12::3
 l'oreiller (m.)==pillow++13::3
-la pudeur==modesty++12::3
+la pudeur==modesty++14::3
 la clôture==fence++13::3
 bercer==to cradle++12::3
 le sillon==groove++12::3
-le sursaut==burst++12::3
+le sursaut==burst++8::0
 le pommier==apple tree++12::3
-hérisser==to bristle++12::3
+hérisser==to bristle++13::3
 s'étaler==to spread out++12::3
 morne==dreary++12::3
-le cataplasme==poultice++13::3
+le cataplasme==poultice++12::3
 le tringle==rod++12::3
-la tache==stain++12::3
+la tache==stain++9::2
 le sabot==wooden shoe; hoof++12::3
 l'ornière (m.)==rut++13::3
 la niche==niche; doghouse++12::3
 l'écart (m.)==gap++12::3
-dessus==above++12::3
+dessus==above++13::3
 le râtelier==rack++12::3
 le fumier==manure++13::3
 la buée==fog++12::3
 picorer==to peck++12::3
 le paon==peacock++12::3
 la basse-cour==barnyard++12::3
-la bergerie==sheepfold++12::3
+la bergerie==sheepfold++11::2
 lisse==smooth++12::3
 le hangar==hangar, shed++12::3
 la charrette==cart++12::3
@@ -650,14 +650,14 @@ l'oie (f.)==goose++13::3
 retentir==to sound++12::3
 la mare==pond++12::3
 bouillonner==to bubble++12::3
-alentour==around++12::3
+alentour==around++14::3
 la pelle==shovel++12::3
 la pincette==forecep++12::3
-le soufflet==bellow++12::3
+le soufflet==bellow++10::2
 miroiter==to shimmer++12::3
 la lueur==glow++12::3
 le carreau==tile++12::3
-chauve==bald++12::3
+chauve==bald++11::2
 verser==to pour; to pay++12::3
 sacrer==to crown; to swear++12::3
 geindre==to whine++12::3
@@ -671,10 +671,10 @@ le coussinet==pad++12::3
 l'étui (m.)==case, cover++12::3
 se piquer==to shoot up; to prick++12::3
 mou (molle)==soft, limp++12::3
-le cil==eyelash++12::3
+le cil==eyelash++13::3
 l'hardiesse (f.)==boldness++12::3
-le pansement==bandage++12::3
-le baldaquin==canopy++12::3
+le pansement==bandage++11::2
+le baldaquin==canopy++11::2
 revêtir==to coat++12::3
 le trop-plein==overflow++12::3
 s'écailler==to flake, chip++12::3
@@ -692,14 +692,14 @@ la pommette==cheekbone++13::3
 le lorgnon==monocle++12::3
 l'écaille (f.)==scale++12::3
 se confondre==to get mixed up++12::3
-l'échalas (m.)==beanpole++12::3
-fureter==to snoop around++12::3
+l'échalas (m.)==beanpole++11::2
+fureter==to snoop around++10::2
 se redresser==to recover; to stand up++12::3
 par-dessus==over++12::3
 le nerf de bœuf==blackjack; jerky; bullwhip++12::3
 par mégarde==inadvertently++12::3
-la dalle==slab++13::3
-la bottine==ankle boot++11::2
+la dalle==slab++12::3
+la bottine==ankle boot++12::3
 le perron==stoop++12::3
 les feux follets==wisps++12::3
 la nuqe==nape (back of the neck)++13::3
@@ -712,16 +712,16 @@ la gorge==throat++12::3
 la goutte==drop++12::3
 la moire==rippled silk (moire)++12::3
 se tortiller==to squirm++13::3
-la banderole==banner++11::2
+la banderole==banner++12::3
 le comble==the last straw++12::3
 en partie double==double entry++12::3
 abîmer==to damage++12::3
 à brule-pourpoint==point-blank++12::3
-la brodeuse==embroiderer (or embroidery machine)++12::3
+la brodeuse==embroiderer (or embroidery machine)++13::3
 le fla-fla==big show++12::3
-le colza==rapeseed++12::3
-l'arrérage==arrear++12::3
-le comble de==the height of++12::3
+le colza==rapeseed++11::2
+l'arrérage==arrear++13::3
+le comble de==the height of++13::3
 a failli==nearly++12::3
 faillir==to falter++12::3
 le sanglot==sob++12::3
@@ -730,13 +730,13 @@ baiser==to fuck++12::3
 le châle==shawl++12::3
 l'omoplate (.f)==scalpula++12::3
 gainer==to sheathe++12::3
-la cheville==ankle++12::3
+la cheville==ankle++13::3
 le ruban==tape, ribbon++12::3
-intrecroiser==to interlace++12::3
+intrecroiser==to interlace++13::3
 la bru==daughter-in-law++12::3
 aiguiser==to sharpen++12::3
 avoir tort==to be wrong++12::3
-l'entêtement (m.)==stubbornness++12::3
+l'entêtement (m.)==stubbornness++10::2
 le détenteur==owner, holder++12::3
 la marée==tide++12::3
 le mobilier==furnishings++12::3
@@ -745,8 +745,8 @@ paraître==to seem; to publish++12::3
 le ménage==household; housekeeping++12::3
 vermoulu==worm-eaten++12::3
 le pilotis==stilt++12::3
-atteler==to tackle (a job); to hitch up++13::3
-l'haridelle==nag++11::2
+atteler==to tackle (a job); to hitch up++12::3
+l'haridelle==nag++12::3
 conjurer==to ward off (e.g. a spirit)++12::3
 l'hypothèque (f.)==mortgage++12::3
 l'harnais (m.)==harness++13::3
@@ -765,64 +765,246 @@ le poirier==pear tree++12::3
 prodiguer==to lavish++12::3
 faire semblant==to pretend++12::3
 apprêter==to get ready; to prepare (food)++12::3
-tels que==including, such as++12::3
-à mesure que==as++11::2
-l'agrément (m.)==approval++9::2
-choyer==to coddle++9::2
-dorloter==to pamper++9::2
-l'auvent (m.)==awning++11::2
-bourdonner==to buzz++11::2
+tels que==including, such as++13::3
+à mesure que==as++12::3
+l'agrément (m.)==approval++12::3
+choyer==to coddle++12::3
+dorloter==to pamper++13::3
+l'auvent (m.)==awning++12::3
+bourdonner==to buzz++12::3
 se noyer==to drown++12::3
-noyer==to drown someone++10::2
-velouter==to soften++11::2
-bleuir==to turn blue++10::2
-fichu==ruined++11::2
-emplir==to fill (litterary)++10::2
-trinquer==to drink to that++11::2
-lécher==to lick++11::2
-se renverser==to tip over++10::2
-renverser==to overthrow; to reverse++9::2
-se traîner==to crawl++9::2
-traîner==to drag; to hang out++11::2
-pondre==to lay (eggs)++11::2
-les chenets==andiron++10::2
-la chenille==caterpillar++9::2
-creux==hollow++10::2
-le couvent==convent++10::2
-la plate-bande==flowerbed (f.)++10::2
-cueillir==to pick, gather++10::2
-aiguë==acute++9::2
-la langueur==languor++9::2
-la paupière==eyelid++9::2
-vagabonder==to wander++9::2
-la toupie==spinning top++8::0
-le gigot==leg of meat++9::2
-saignant==rare (meat)++10::2
-ruminer==to ruminate++9::2
-le gendre==son-in-law++9::2
-le maçon==mason++9::2
-le bourrelier==saddler++7::0
-le pressoir==winepress++9::2
-le gringalet==weakling++9::2
-chicaner==to quibble, haggle++8::0
-s'écouler==to flow (time)++8::0
-reculer==to decline++5::0
-se taire==to keep quiet++8::1
-taire==to silence++8::1
-balbutier==to stammer++8::1
-le sentier==trail++8::1
-s'efforcer==to strive++8::1
-le trousseau==bride's outfit (trousseau)++8::1
-se confectionner==to make++8::1
-la noce==wedding++8::1
-le flambeau==torch++8::1
-convier==to invite++8::1
-la carriole==carriage++8::1
-le tapissier==upholsterer; tapestry-maker++8::1
-la ridelle==side panel++8::1
-secouer==to shake++8::1
-raccommoder==to mend++8::1
-brouiller==to scramble, blur++8::1
-la pèlerine==woman's cape (pelerine)++8::1
-le fichu==scarf++8::1
-l'épingle (f.)==hairpin++8::1
+noyer==to drown someone++12::3
+velouter==to soften++12::3
+bleuir==to turn blue++12::3
+fichu==ruined++13::3
+emplir==to fill (litterary)++12::3
+trinquer==to drink to that++12::3
+lécher==to lick++12::3
+se renverser==to tip over++12::3
+renverser==to overthrow; to reverse++13::3
+se traîner==to crawl++13::3
+traîner==to drag; to hang out++12::3
+pondre==to lay (eggs)++12::3
+les chenets==andiron++12::3
+la chenille==caterpillar++12::3
+creux==hollow++13::3
+le couvent==convent++12::3
+la plate-bande==flowerbed++12::3
+cueillir==to pick, gather++9::2
+aiguë==acute++13::3
+la langueur==languor++11::2
+la paupière==eyelid++12::3
+vagabonder==to wander++12::3
+la toupie==spinning top++12::3
+le gigot==leg of meat++12::3
+saignant==rare (meat)++12::3
+ruminer==to ruminate++12::3
+le gendre==son-in-law++12::3
+le maçon==mason++13::3
+le bourrelier==saddler++13::3
+le pressoir==winepress++14::3
+le gringalet==weakling++12::3
+chicaner==to quibble, haggle++12::3
+s'écouler==to flow (time)++12::3
+reculer==to decline++12::3
+se taire==to keep quiet++12::3
+taire==to silence++12::3
+balbutier==to stammer++12::3
+le sentier==trail++12::3
+s'efforcer==to strive++12::3
+le trousseau==bride's outfit (trousseau)++12::3
+se confectionner==to make++12::3
+la noce==wedding++12::3
+le flambeau==torch++10::2
+convier==to invite++12::3
+la carriole==carriage++12::3
+le tapissier==upholsterer; tapestry-maker++12::3
+la ridelle==side panel++12::3
+secouer==to shake++12::3
+raccommoder==to mend++12::3
+brouiller==to scramble, blur++12::3
+la pèlerine==woman's cape (pelerine)++12::3
+le fichu==scarf++12::3
+l'épingle (f.)==hairpin++12::3
+étrenner==to christen++12::3
+souffler mot==to breathe a word++13::3
+la fillette==little girl++13::3
+rougeaud==red-faced++12::3
+ahuri==flabbergasted++12::3
+la pommade==ointment, cream++12::3
+dételer==to uncouple, unhitch++12::3
+retrousser==to roll up++12::3
+la sollenité==solemnity; feast++12::3
+le collet==collar++12::3
+rapprocher==to bring closer, reconcile++12::3
+la hache==axe++12::3
+froncer==to gather++12::3
+froncer les sourcils==to frown++12::3
+le pli==fold++12::3
+cousu==sewn++12::3
+bomber==to bulge++12::3
+raser==to shave++12::3
+balafrer==to scar++10::2
+la pelure==peel (e.g. of a fruit)++12::3
+l'écu==shield (medieval)++12::3
+marbrer==to marble, mottle++12::3
+la mairie==town hall++12::3
+la lieue==league, mile++11::2
+la cortège==procession++12::3
+le ménétrier==fiddler++9::2
+le panache==plume++9::2
+l'avoine (f.)==oat++12::3
+le dard==dart++12::3
+le chardon==thistle++12::3
+mépriser==to despise++12::3
+débiter==to charge++12::3
+l'estaminet (m.)==tavern++12::3
+le crincrin==fiddle music++12::3
+l'haleine (m.)==breath++12::3
+tenir en haleine==to keep in suspense++12::3
+le colophane==rosin++11::2
+l'archet (m.)==fiddlestick++12::3
+grincer==to grind++11::2
+l'aloyau (m.)==sirloin++12::3
+la fricassée de poulet==chicken fricassee++12::3
+l'andouille==sausage; idiot (slang)++12::3
+l'oseille==sorrel; money (slang)++12::3
+la mousse==foam++12::3
+le bouchon==stopper++12::3
+la tourte==pie++12::3
+le portique==portico++12::3
+le stuc==stucco++12::3
+le donjon==dungeon++12::3
+menue==tiny, petite++12::3
+l'écale (f.)==hull++10::2
+l'escarpolette (f.)==swing++9::2
+le poteau==pole++9::2
+la grange==barn++9::2
+entamer==to begin (carreer, dialouge, etc.)++9::2
+la pouce==thumb++12::3
+la gaudriole==debauchery++12::3
+le brancard==stretcher++12::3
+se ruer==to rush, scramble++7::0
+cabrer==to rear up (like a horse)++9::2
+le caillou==pebble++12::3
+s'accrocher==to hang on++12::3
+le talus==slope, embankment++10::2
+le mareyeur==fish merchant++12::3
+le festin==feast; treat++9::2
+le kirsch==kirsch (cherry brandy)++12::3
+facétieux==mischievous, facetious++12::3
+briller==to shine++12::3
+le calembour==pun++12::3
+la gaillardise==bawdy remark++12::3
+décocher==to deselect, untick++12::3
+le potage==soup++11::2
+desserer==to loosen, release++9::2
+chiffonner==to crumple++12::3
+la guimpe==wimple++10::2
+la croupe==rump++9::2
+le panier==shopping cart++10::2
+la dentelle==lacework++12::3
+la mine==mine; look (on your face)++12::3
+la cervelle==brain matter++12::3
+obscurci==obscured++12::3
+la bombance==carousal++9::2
+la bride==flange++12::3
+le houseau==spatterdash++7::0
+le serin==canary++11::2
+relever==to address (a problem); to be under++3::0
+la guirlande==wreath++10::2
+le calicot==calico++12::3
+bordé par==surrounded by++11::2
+le galon==braid++9::2
+le chambranle==architrave (door frame)++10::2
+resplendir==to shine, glitter++10::2
+la grossesse==pregnancy++11::2
+la pendule==pendulum clock++10::2
+le fauteuil==armchair; wheelchair++9::2
+la brochure==brochure; booklet++9::2
+délabré==dilapidated++9::2
+le bûcher==pyre++9::2
+le sapin==fir tree++9::2
+le cellier==cellar, pantry++9::2
+le garde-magasin==storekeeper++12::3
+la feraille==scrap metal++9::2
+le tonneau==barrel++7::0
+la bauge==cob (building material)++6::0
+l'abricot (m.)==apricot++8::1
+l'espalier (m.)==espalier (trained tree)++8::1
+la haie==hedge++8::1
+le cadran solaire==sundial++8::1
+l'ardoise (f.)==slate++8::1
+l'églantier (m.)==wild rose++8::1
+le plâtre==plaster++8::1
+le bréviaire==breviary (prayer book)++8::1
+l'acajou (m.)==mahogany++8::1
+le coquillage==shell++8::1
+repeindre==to repaint++8::1
+la crotte==dropping (poop)++8::1
+piqué==pitted++8::1
+cuir piqué==quilted leather++8::1
+éclaircir==to clarify; to lighten++8::1
+l'émail (m.)==enamel++8::1
+le foulard==headscarf++8::1
+la patte==leg, paw++8::1
+la couche==layer++8::1
+le bord==edge, side++8::1
+le peignoir==bathrobe++8::1
+la borne==terminal++8::1
+la bribe==snippet++8::1
+la verdure==greenery++8::1
+voltiger==to flutter++8::1
+le crin==horsehair++8::1
+la jument==mare (horse)++8::1
+le char==tank; chariot++8::1
+la chair==flesh++8::1
+le manchon==muff++8::1
+le contredanse==English county dance++8::1
+le glaçon==ice cube; icicle++8::1
+soyeux==silky; smooth++8::1
+le jupon==petticoat++8::1
+avoir des choses à se reprocher==to have shortcomings++8::1
+se retenir==to hold back++8::1
+retenir==to hold, retain; to remember++8::1
+la peigne==comb++8::1
+la file==line++8::1
+se pendre==to hang oneself++8::1
+au juste==exactly++8::1
+l'ivresse==drunkenness; rapture++8::1
+le nid==nest++8::1
+l'égratignure (f.)==scratch, flesh wound++8::1
+la pompe==pump++8::1
+les pompes de la Cour==the pomp of the court++8::1
+le chapelet==rosary++8::1
+l'autel==altar++8::1
+le bénitier==stoup (holy water bowl)++8::1
+la cierge==taper (offering candle)++8::1
+la vignette==thumbnail (image)++8::1
+le vœu==wish; vow++8::1
+la brebis==ewe++8::1
+le cuivre==copper++8::1
+accomplir un vœu==to fullfill a vow++8::1
+sonore==audible++8::1
+l'envahissement (m.)==invasion++8::1
+le bêlement==bleating++8::1
+le laitage==dairy++8::1
+accidenté==rugged++8::1
+clairsemé==sparse++8::1
+en semaine==on weekdays++8::1
+la causette==chit chat++8::1
+l'aiguille (f.)==needle++8::1
+la cachette==hiding place, stash++8::1
+le tablier==apron++8::1
+le postillon==coachman++8::1
+le rossignol==nightingale++8::1
+le bosquet==grove++8::1
+crever==to drop dead++8::1
+la nacelle==skiff (small boat)++8::1
+le bahut==high school; wooden chest++8::1
+la châtelaine==lady of the manor++8::1
+le corsage==bodice++8::1
+le trèfle==clover++8::1
+l'ogive (f.)==warhead++8::1
+vanter==to boast++8::1
+vanté==praised++8::1

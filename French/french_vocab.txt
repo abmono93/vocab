@@ -143,7 +143,7 @@ aigu
 sharp
 
 guère 
-hardly
+barely
 
 miser sur 
 to count on
@@ -629,7 +629,7 @@ déposer
 to deposit, file
 
 le parterre 
-flowerbed
+flowerbed; lawn
 
 bâiller 
 to yawn
@@ -644,7 +644,7 @@ humer
 to smell, breathe in
 
 la truffe 
-nose (of dog)
+nose (of dog); truffle
 
 flairer 
 to scent
@@ -947,7 +947,7 @@ le fourneau
 furnace (also pipe bowl)
 
 la coquille
-shell
+shell; typo
 
 tantôt
 sometimes
@@ -1139,7 +1139,7 @@ faire admettre
 to ensure acceptance; to get to admit
 
 prendre le large
-to sail; to shove off
+to set sail
 
 sain
 healthy; sane
@@ -2366,7 +2366,7 @@ le couvent
 convent
 
 la plate-bande
-flowerbed (f.)
+flowerbed
 
 cueillir
 to pick, gather
@@ -2415,9 +2415,6 @@ to quibble, haggle
 
 s'écouler
 to flow (time)
-
-couler
-to flow
 
 reculer
 to decline
@@ -2478,4 +2475,550 @@ scarf
 
 l'épingle (f.)
 hairpin
+
+étrenner
+to christen
+
+souffler mot
+to breathe a word
+
+la fillette
+little girl
+
+rougeaud
+red-faced
+
+ahuri
+flabbergasted
+
+la pommade
+ointment, cream
+
+dételer
+to uncouple, unhitch
+
+retrousser
+to roll up
+
+la sollenité
+solemnity; feast
+
+le collet
+collar
+
+rapprocher
+to bring closer, reconcile
+
+la hache
+axe
+
+froncer
+to gather
+
+froncer les sourcils
+to frown
+
+le pli
+fold
+
+cousu
+sewn
+
+bomber
+to bulge
+
+raser
+to shave
+
+balafrer
+to scar
+
+la pelure
+peel (e.g. of a fruit)
+
+l'écu
+shield (medieval)
+
+marbrer
+to marble, mottle
+
+la mairie
+town hall
+
+la lieue
+league, mile
+
+la cortège
+procession
+
+le ménétrier
+fiddler
+
+le panache
+plume
+
+l'avoine (f.)
+oat
+
+le dard
+dart
+
+le chardon
+thistle
+
+mépriser
+to despise
+
+débiter
+to charge
+
+l'estaminet (m.)
+tavern
+
+le crincrin
+fiddle music
+
+l'haleine (m.)
+breath
+
+tenir en haleine
+to keep in suspense
+
+le colophane
+rosin
+
+l'archet (m.)
+fiddlestick
+
+grincer
+to grind
+
+l'aloyau (m.)
+sirloin
+
+la fricassée de poulet
+chicken fricassee
+
+l'andouille
+sausage; idiot (slang)
+
+l'oseille
+sorrel; money (slang)
+
+la mousse
+foam
+
+le bouchon
+stopper
+
+la tourte
+pie
+
+le portique
+portico
+
+le stuc
+stucco
+
+le donjon
+dungeon
+
+menue
+tiny, petite
+
+l'écale (f.)
+hull
+
+l'escarpolette (f.)
+swing
+
+le poteau
+pole
+
+la grange
+barn
+
+entamer
+to begin (carreer, dialouge, etc.)
+
+la pouce
+thumb
+
+la gaudriole
+debauchery
+
+le brancard
+stretcher
+
+se ruer
+to rush, scramble
+
+cabrer
+to rear up (like a horse)
+
+le caillou
+pebble
+
+s'accrocher
+to hang on
+
+le talus
+slope, embankment
+
+le mareyeur
+fish merchant 
+
+le festin
+feast; treat
+
+le kirsch
+kirsch (cherry brandy)
+
+facétieux
+mischievous, facetious
+
+briller
+to shine
+
+le calembour
+pun
+
+la gaillardise
+bawdy remark
+
+décocher
+to deselect, untick
+
+le potage
+soup
+
+desserer
+to loosen, release
+
+chiffonner
+to crumple
+
+la guimpe
+wimple
+
+la croupe
+rump
+
+le panier
+shopping cart
+
+la dentelle
+lacework
+
+la mine
+mine; look (on your face)
+
+la cervelle
+brain matter
+
+obscurci
+obscured
+
+la bombance
+carousal
+
+la bride
+flange
+
+le houseau
+spatterdash
+
+le serin
+canary
+
+relever
+to address (a problem); to be under
+
+la guirlande
+wreath
+
+le calicot
+calico
+
+bordé par
+surrounded by
+
+le galon
+braid
+
+le chambranle
+architrave (door frame)
+
+resplendir
+to shine, glitter
+
+la grossesse
+pregnancy
+
+la pendule
+pendulum clock
+
+le fauteuil
+armchair; wheelchair
+
+la brochure
+brochure; booklet
+
+délabré
+dilapidated
+
+le bûcher
+pyre
+
+le sapin
+fir tree
+
+le cellier
+cellar, pantry
+
+le garde-magasin
+storekeeper
+
+la feraille
+scrap metal
+
+le tonneau
+barrel
+
+la bauge
+cob (building material)
+
+l'abricot (m.)
+apricot
+
+l'espalier (m.)
+espalier (trained tree)
+
+la haie
+hedge
+
+le cadran solaire
+sundial
+
+l'ardoise (f.)
+slate
+
+l'églantier (m.)
+wild rose
+
+le plâtre
+plaster
+
+le bréviaire
+breviary (prayer book)
+
+l'acajou (m.)
+mahogany
+
+le coquillage
+shell
+
+repeindre
+to repaint
+
+la crotte
+dropping (poop)
+
+piqué
+pitted
+
+cuir piqué
+quilted leather
+
+éclaircir
+to clarify; to lighten
+
+l'émail (m.)
+enamel
+
+le foulard
+headscarf
+
+la patte
+leg, paw
+
+la couche
+layer
+
+le bord
+edge, side
+
+le peignoir
+bathrobe
+
+la borne
+terminal
+
+la bribe
+snippet
+
+la verdure
+greenery
+
+voltiger
+to flutter
+
+le crin
+horsehair
+
+la jument
+mare (horse)
+
+le char
+tank; chariot
+
+la chair
+flesh
+
+le manchon
+muff
+
+le contredanse
+English county dance
+
+le glaçon
+ice cube; icicle
+
+soyeux
+silky; smooth
+
+le jupon
+petticoat
+
+avoir des choses à se reprocher
+to have shortcomings
+
+se retenir
+to hold back
+
+retenir
+to hold, retain; to remember
+
+la peigne
+comb
+
+la file
+line
+
+se pendre
+to hang oneself
+
+au juste
+exactly
+
+l'ivresse
+drunkenness; rapture
+
+le nid
+nest
+
+l'égratignure (f.)
+scratch, flesh wound
+
+la pompe
+pump
+
+les pompes de la Cour
+the pomp of the court
+
+le chapelet
+rosary
+
+l'autel
+altar
+
+le bénitier
+stoup (holy water bowl)
+
+la cierge
+taper (offering candle)
+
+la vignette
+thumbnail (image)
+
+le vœu
+wish; vow
+
+la brebis
+ewe
+
+le cuivre
+copper
+
+accomplir un vœu
+to fullfill a vow
+
+sonore
+audible
+
+l'envahissement (m.)
+invasion
+
+le bêlement
+bleating
+
+le laitage
+dairy
+
+accidenté
+rugged
+
+clairsemé
+sparse
+
+en semaine
+on weekdays
+
+la causette
+chit chat
+
+l'aiguille (f.)
+needle
+
+la cachette
+hiding place, stash
+
+le tablier
+apron
+
+le postillon
+coachman
+
+le rossignol
+nightingale
+
+le bosquet
+grove
+
+crever
+to drop dead
+
+la nacelle
+skiff (small boat)
+
+le bahut
+high school; wooden chest
+
+la châtelaine
+lady of the manor
+
+le corsage
+bodice
+
+le trèfle
+clover
+
+l'ogive (f.)
+warhead
+
+vanter
+to boast
+
+vanté
+praised
 

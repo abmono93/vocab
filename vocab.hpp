@@ -9,7 +9,7 @@
 #define CAT_REVIEW_UPPERBOUND 14
 
 #define MAX_NEW_PER_ROUND 5
-#define LEARNING_RATIO 5
+#define LEARNING_RATIO 350 
 
 #define CAT_UNASSIGNED -1
 #define CAT_HARD 0
@@ -85,7 +85,7 @@ class Session{
 		void round_begin_message(int);
 		void stats_message();
 		void save();
-		int is_correct(std::string, Row*, int);
+		bool is_correct(std::string, Row*, int);
 		Category study_list;
 	private:
 		VocabList* _session_vocab_list;

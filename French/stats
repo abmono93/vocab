@@ -6,15 +6,9 @@ egrep '::0|::2' .french_vocab.voc -c
 echo ""
 printf "no score: "
 egrep 999 .french_vocab.voc -c
-printf "score>=12: "
-egrep '12|13|14|15' .french_vocab.voc -c
-printf "\tscore=12: "
-grep 12 .french_vocab.voc -c
-printf "\tscore=13: "
-grep 13 .french_vocab.voc -c
-printf "\tscore=14: "
-grep 14 .french_vocab.voc -c
-printf "\tscore=15: "
+printf "to review: "
+egrep '12|13|14' .french_vocab.voc -c
+printf "learnt: "
 grep 15 .french_vocab.voc -c
 echo "--------------------------------"
 
