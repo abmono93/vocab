@@ -47,7 +47,7 @@ quisiera
 I'd like
 
 profundo 
-deep
+deep, profound
 
 embriagarse 
 to get drunk
@@ -125,7 +125,7 @@ irse
 to leave
 
 la penca 
-leaf; midrib (of a leaf)
+stalk (of a plant)
 
 coser 
 to sew
@@ -1604,7 +1604,7 @@ innegable
 undeniable
 
 dispuesto 
-willing
+willing; prepared
 
 estallar 
 to explode
@@ -2692,27 +2692,6 @@ madness
 el hombro
 shoulder
 
-salvaje
-wild
-
-cuadrar
-to square
-
-el cuchillo
-knife
-
-faltar
-to miss, skip
-
-el sortilegio
-spell, fortune-telling
-
-la locura
-madness
-
-el hombro
-shoulder
-
 descuidado
 careless
 
@@ -2961,4 +2940,181 @@ creature
 
 espumoso
 sparkling; frothy
+
+trazar
+to trace, draw
+
+pudrir
+to rot
+
+rumiar
+to brood
+
+trasladar
+to move (usu. geographic)
+
+trasladar a
+to relocate, transfer
+
+la hormiguita
+doodlebug
+
+predisponer a
+to predispose
+
+predispuso
+prejudiced
+
+la veleidad
+fickleness
+
+para la mudanza
+for the move (e.g. houses)
+
+la maraña
+tangle
+
+el contratiempo
+setback
+
+la evasiva
+evasion
+
+la piedad
+mercy
+
+el hisopo
+swab
+
+entintar
+to ink
+
+secundar
+to support, go along with
+
+la amargura
+bitterness
+
+alterar
+to alter; to disturb
+
+alterarse
+to get upset
+
+propicio
+favorable
+
+la caja
+box
+
+clavar
+to nail
+
+desmontar
+to dismantle
+
+contestar
+to answer
+
+la firmeza
+firmness
+
+la voluntad
+will (noun)
+
+el hechizo
+spell
+
+bastar
+to suffice
+
+el aparato
+device, equipment
+
+insensible
+insensitive
+
+la clarividencia
+clairvoyance
+
+descalzo
+barefoot
+
+soleado
+sunny
+
+desarraigar
+to uproot
+
+absorto
+absorbed
+
+hondo
+deep
+
+en vez de
+rather than
+
+alocado
+crazy
+
+la novelería
+novelty
+
+la deriva
+drift
+
+el cajón
+drawer
+
+hirsuto
+rough
+
+voluntarioso
+willing
+
+dar a luz
+to give birth
+
+penoso
+painful
+
+vientre
+belly; womb
+
+el ombligo
+belly button
+
+reconocer
+to recognize
+
+el rostro
+face (more intimate than cara)
+
+la palma
+palm tree
+
+derrumbarse
+to collapse
+
+derrumbar
+to tear down
+
+la olla
+pot
+
+el caldo
+broth
+
+cumplir
+to fulfill
+
+retraído
+withdrawn
+
+acordarse
+to remember
+
+acordar
+to agree
 

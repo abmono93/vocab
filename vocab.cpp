@@ -1,6 +1,7 @@
 #include "vocab.hpp"
 #include <fstream>
 #include <sstream>
+#include <algorithm>
 
 #include <stdlib.h>
 #include <time.h>
@@ -30,7 +31,7 @@ void shuffle_indices(vector<int>& indices, int desired_size){
 	srand(time(NULL));
 	while (indices.size() > 0) indices.erase(indices.begin());
 	for (int i = 0; i < desired_size; i++) indices.push_back(i);
-	random_shuffle(indices.begin(), indices.end(), random_number);
+	random_suffle(indices.begin(), indices.end(), random_number);
 }
 
 bool is_same_list(vector<string>& l1,vector<string>& l2){
