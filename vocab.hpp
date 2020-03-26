@@ -21,7 +21,7 @@
 #define TRUE 1
 #define FALSE 0
 
-#define STUDY_WORDS 20 
+#define STUDY_WORDS 20
 #define REVIEW_WORDS 2
 
 #define DEFINITION 1
@@ -59,11 +59,11 @@ class Category : public std::vector<Row*>{
 		
 };
 
-class VocabList{
+class VocabList : public std::vector<Row>{
 	public:
 		VocabList();
-		void add_to_list(Row*);
-		void categorize(Row*);
+		void add_to_list(Row);
+		void categorize(Row*, int index_of_row = -1);
 		void record_result(Row*, int);
 		void read_from_file(std::string);
 		void save_list(std::string);
@@ -71,8 +71,8 @@ class VocabList{
 		void set_target_language(std::string);
 		std::string get_target_language();
 		int index_of(std::string);
-		Category rows;
-		std::vector<Category *> difficulty_categories;
+		std::vector<Category*> difficulty_categories;
+		//Category difficulty_categories[5];
 	private:
 		std::string _target_language;
 };

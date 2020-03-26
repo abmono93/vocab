@@ -31,7 +31,7 @@ void shuffle_indices(vector<int>& indices, int desired_size){
 	srand(time(NULL));
 	while (indices.size() > 0) indices.erase(indices.begin());
 	for (int i = 0; i < desired_size; i++) indices.push_back(i);
-	random_suffle(indices.begin(), indices.end(), random_number);
+	random_shuffle(indices.begin(), indices.end(), random_number);
 }
 
 bool is_same_list(vector<string>& l1,vector<string>& l2){
@@ -131,16 +131,17 @@ string VocabList::get_target_language(){
 	return _target_language;
 }
 
-void VocabList::add_to_list(Row* new_word){
+void VocabList::add_to_list(Row new_word){
 //Adds new word to VocabList and places it in the right category
-	rows.push_back(new_word);
-	this->categorize(new_word);
+	this->push_back(new_word);
+	this->categorize(nullptr, this->size() - 1);
 }
 
-void VocabList::categorize(Row* this_row){
+void VocabList::categorize(Row* this_row, int index_of_row){
 //Places this_row in the right category
 	int element, correct_cat;
-
+	
+	if (!this_row) this_row = &(*this)[index_of_row];
 	int score = this_row->get_score();
 	int cat = this_row->get_category();
 	vector<Category*> d = difficulty_categories; //Just to save some typing
@@ -181,8 +182,8 @@ void VocabList::record_result(Row* cur_row, int result){
 
 int VocabList::index_of(string target_word){
 //Returns index of the row defining targe_word in the VocabList, or -1 if it is not present
-	for (int i = 0; i < this->rows.size(); i++){
-		if (this->rows[i]->get_word(TARGET_LANG) == target_word) return i;
+	for (int i = 0; i < this->size(); i++){
+		if ((*this)[i].get_word(TARGET_LANG) == target_word) return i;
 	}
 	return -1;
 }
@@ -206,10 +207,10 @@ void VocabList::read_from_file(string filename){
 		//If this line is empty, that means target and def were set to a corresponding pair
 			Row* next = new Row(target, def);
 			//Add it to the VocabList if it isn't already in there
-			if ((index = index_of(target)) == -1 and target.compare("") != 0) add_to_list(next);	
+			if ((index = index_of(target)) == -1 and target.compare("") != 0) add_to_list(*next);	
 			else{
 			//If it is already in there, print a message noting the duplicate and move on
-				string previous_def = this->rows[index]->get_word(DEFINITION);
+				string previous_def = (*this)[index].get_word(DEFINITION);
 				if (previous_def.compare(def) != 0){
 					cout << "Note two definitions for " << target << " found: ";
 					cout << previous_def << "/" << def << endl;
@@ -228,13 +229,13 @@ void VocabList::save_list(string filename){
 //Saves VocabList in a file called <filename.voc> for future use in format:
 //<target language>==<definition>++<score>::<category>
 	ofstream outputfile;
-	Row* cur;
+	//Row* cur;
 	filename = HIDDEN_FILE_PREFIX + filename + VOCAB_FILE_EXTENSION;
 	outputfile.open(filename);
 	outputfile << "tl=" << _target_language << endl;
-	for (int i = 0; i < this->rows.size(); i++){
-		cur = this->rows[i];
-		outputfile << cur->get_word(TARGET_LANG) << "==" << cur->get_word(DEFINITION) << "++" << cur->get_score() << "::" << cur->get_category() << endl;
+	for (int i = 0; i < this->size(); i++){
+		Row cur = (*this)[i];
+		outputfile << cur.get_word(TARGET_LANG) << "==" << cur.get_word(DEFINITION) << "++" << cur.get_score() << "::" << cur.get_category() << endl;
 	}
 	outputfile.close();
 		
@@ -270,7 +271,7 @@ void VocabList::load_saved_list(string filename){
 		next->set_score(stoi(score));
 		next->set_category(stoi(category));
 		//Add it to this VocabList if it's not already in there
-		if (index_of(target) == -1) add_to_list(next);
+		if (index_of(target) == -1) add_to_list(*next);
 	}
 	inputfile.close();
 }
