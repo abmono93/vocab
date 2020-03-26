@@ -15,7 +15,7 @@ el rumor==rumor; murmur++12::3
 la gaviota==seagull++999::3
 navegar==to sail++999::3
 quisiera==I'd like++12::3
-profundo==deep++12::3
+profundo==deep, profound++12::3
 embriagarse==to get drunk++12::3
 la hermosa==beauty++13::3
 el duelo==mourning++999::3
@@ -41,7 +41,7 @@ envolver==to wrap++999::3
 el manto==cloak++12::3
 el encanto==charm++999::3
 irse==to leave++13::3
-la penca==leaf; midrib (of a leaf)++12::3
+la penca==stalk (of a plant)++12::3
 coser==to sew++12::3
 la arena==sand++999::3
 el barco==ship++12::3
@@ -533,7 +533,7 @@ quejarse==to complain++12::3
 olvidar==to forget++13::3
 llenar==to fill++13::3
 innegable==undeniable++14::3
-dispuesto==willing++12::3
+dispuesto==willing; prepared++12::3
 estallar==to explode++12::3
 agregar==to add to++7::0
 menudo==often++12::3
@@ -972,3 +972,61 @@ el costillar==rack; ribcage++12::3
 la amapola==poppy++12::3
 el engendro==creature++12::3
 espumoso==sparkling; frothy++12::3
+trazar==to trace, draw++8::1
+pudrir==to rot++8::1
+rumiar==to brood++8::1
+trasladar==to move (usu. geographic)++8::1
+trasladar a==to relocate, transfer++8::1
+la hormiguita==doodlebug++8::1
+predispuso==prejudiced++8::1
+la veleidad==fickleness++8::1
+para la mudanza==for the move (e.g. houses)++8::1
+la maraña==tangle++8::1
+el contratiempo==setback++8::1
+la evasiva==evasion++8::1
+la piedad==mercy++8::1
+el hisopo==swab++8::1
+entintar==to ink++8::1
+secundar==to support, go along with++8::1
+la amargura==bitterness++8::1
+alterar==to alter; to disturb++8::1
+alterarse==to get upset++8::1
+propicio==favorable++8::1
+la caja==box++8::1
+clavar==to nail++8::1
+desmontar==to dismantle++8::1
+contestar==to answer++8::1
+la firmeza==firmness++8::1
+la voluntad==will (noun)++8::1
+el hechizo==spell++8::1
+bastar==to suffice++8::1
+el aparato==device, equipment++8::1
+insensible==insensitive++8::1
+la clarividencia==clairvoyance++8::1
+descalzo==barefoot++8::1
+soleado==sunny++8::1
+desarraigar==to uproot++8::1
+absorto==absorbed++8::1
+hondo==deep++8::1
+en vez de==rather than++8::1
+alocado==crazy++8::1
+la novelería==novelty++8::1
+la deriva==drift++8::1
+el cajón==drawer++8::1
+hirsuto==rough++8::1
+voluntarioso==willing++8::1
+dar a luz==to give birth++8::1
+penoso==painful++8::1
+vientre==belly; womb++8::1
+el ombligo==belly button++8::1
+reconocer==to recognize++8::1
+el rostro==face (more intimate than cara)++8::1
+la palma==palm tree++8::1
+derrumbarse==to collapse++8::1
+derrumbar==to tear down++8::1
+la olla==pot++8::1
+el caldo==broth++8::1
+cumplir==to fulfill++8::1
+retraído==withdrawn++8::1
+acordarse==to remember++8::1
+acordar==to agree++8::1
