@@ -288,7 +288,7 @@ rusé==cunning++12::3
 le piège tendu par==trap set by++12::3
 tendu==tense++12::3
 tendre à==to tend to++12::3
-tendre==tender, sweet++12::3
+tendre==tender, sweet++11::2
 à savoir==namely++14::3
 le verrou==latch, lock++12::3
 volontiers==willingly++14::3
@@ -328,7 +328,7 @@ guérir==to heal++14::3
 buriné==withered++12::3
 buriner==to engrave, chisel++12::3
 l'orage==thunderstorm++13::3
-subir==to undergo++12::3
+subir==to undergo++11::2
 l'éclair==flash, lightning++12::3
 la crue==flood++12::3
 crue==raw++12::3
@@ -531,7 +531,7 @@ le commis voyageur==travelling salesman++14::3
 la barrique==barrel++12::3
 la volaille==poultry++12::3
 graisser==to grease++12::3
-rongé de==consumed by++9::2
+rongé de==consumed by++11::2
 ronger==to gnaw++12::3
 jadis==formerly++13::3
 l'orgueil (m.)==pride++12::3
@@ -701,7 +701,7 @@ par mégarde==inadvertently++12::3
 la dalle==slab++12::3
 la bottine==ankle boot++12::3
 le perron==stoop++12::3
-les feux follets==wisps++10::2
+les feux follets==wisps++11::2
 la nuqe==nape (back of the neck)++13::3
 le tabier==apron++12::3
 l'hanch (f.)==hip++12::3
@@ -714,7 +714,7 @@ la moire==rippled silk (moire)++12::3
 se tortiller==to squirm++13::3
 la banderole==banner++12::3
 le comble==the last straw++12::3
-en partie double==double entry++11::2
+en partie double==double entry++12::3
 abîmer==to damage++12::3
 à brule-pourpoint==point-blank++12::3
 la brodeuse==embroiderer (or embroidery machine)++13::3
@@ -809,13 +809,13 @@ s'écouler==to flow (time)++12::3
 reculer==to decline++12::3
 se taire==to keep quiet++12::3
 taire==to silence++12::3
-balbutier==to stammer++8::0
+balbutier==to stammer++9::2
 le sentier==trail++11::2
 s'efforcer==to strive++12::3
 le trousseau==bride's outfit (trousseau)++12::3
 se confectionner==to make++12::3
 la noce==wedding++12::3
-le flambeau==torch++11::2
+le flambeau==torch++12::3
 convier==to invite++12::3
 la carriole==carriage++11::2
 le tapissier==upholsterer; tapestry-maker++12::3
@@ -844,14 +844,14 @@ le pli==fold++12::3
 cousu==sewn++12::3
 bomber==to bulge++12::3
 raser==to shave++12::3
-balafrer==to scar++8::0
+balafrer==to scar++9::2
 la pelure==peel (e.g. of a fruit)++12::3
 l'écu==shield (medieval)++12::3
 marbrer==to marble, mottle++12::3
 la mairie==town hall++12::3
 la lieue==league, mile++12::3
 la cortège==procession++12::3
-le ménétrier==fiddler++11::2
+le ménétrier==fiddler++13::3
 le panache==plume++10::2
 l'avoine (f.)==oat++12::3
 le dard==dart++12::3
@@ -879,8 +879,8 @@ menue==tiny, petite++12::3
 l'écale (f.)==hull++12::3
 l'escarpolette (f.)==swing++11::2
 le poteau==pole++11::2
-la grange==barn++10::2
-entamer==to begin (carreer, dialouge, etc.)++9::2
+la grange==barn++11::2
+entamer==to begin (carreer, dialouge, etc.)++10::2
 la pouce==thumb++12::3
 la gaudriole==debauchery++12::3
 le brancard==stretcher++12::3
@@ -890,7 +890,7 @@ le caillou==pebble++12::3
 s'accrocher==to hang on++12::3
 le talus==slope, embankment++12::3
 le mareyeur==fish merchant++12::3
-le festin==feast; treat++9::2
+le festin==feast; treat++10::2
 le kirsch==kirsch (cherry brandy)++12::3
 facétieux==mischievous, facetious++12::3
 briller==to shine++12::3
@@ -915,7 +915,7 @@ relever==to address (a problem); to be under++11::2
 la guirlande==wreath++10::2
 le calicot==calico++12::3
 bordé par==surrounded by++12::3
-le galon==braid++8::0
+le galon==braid++9::2
 le chambranle==architrave (door frame)++12::3
 resplendir==to shine, glitter++11::2
 la grossesse==pregnancy++11::2
@@ -923,34 +923,34 @@ la pendule==pendulum clock++12::3
 le fauteuil==armchair; wheelchair++12::3
 la brochure==brochure; booklet++9::2
 délabré==dilapidated++12::3
-le bûcher==pyre++11::2
+le bûcher==pyre++12::3
 le sapin==fir tree++10::2
 le cellier==cellar, pantry++9::2
 le garde-magasin==storekeeper++12::3
 la feraille==scrap metal++12::3
-le tonneau==barrel++12::3
+le tonneau==barrel++13::3
 la bauge==cob (building material)++12::3
 l'abricot (m.)==apricot++11::2
 l'espalier (m.)==espalier (trained tree)++11::2
-la haie==hedge++9::2
+la haie==hedge++10::2
 le cadran solaire==sundial++10::2
 l'ardoise (f.)==slate++9::2
 l'églantier (m.)==wild rose++10::2
 le plâtre==plaster++9::2
 le bréviaire==breviary (prayer book)++10::2
-l'acajou (m.)==mahogany++9::2
+l'acajou (m.)==mahogany++10::2
 le coquillage==shell++9::2
 repeindre==to repaint++9::2
-la crotte==dropping (poop)++5::0
-piqué==pitted++6::0
+la crotte==dropping (poop)++7::0
+piqué==pitted++8::0
 cuir piqué==quilted leather++10::2
-éclaircir==to clarify; to lighten++8::0
+éclaircir==to clarify; to lighten++10::2
 l'émail (m.)==enamel++10::2
-le foulard==headscarf++8::0
-la patte==leg, paw++7::0
-la couche==layer++8::0
-le bord==edge, side++8::1
-le peignoir==bathrobe++8::1
+le foulard==headscarf++9::2
+la patte==leg, paw++4::0
+la couche==layer++9::2
+le bord==edge, side++8::0
+le peignoir==bathrobe++6::0
 la borne==terminal++8::1
 la bribe==snippet++8::1
 la verdure==greenery++8::1
