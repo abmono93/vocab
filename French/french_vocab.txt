@@ -1867,9 +1867,6 @@ apple tree
 hérisser
 to bristle
 
-s'étaler
-to spread out
-
 morne
 dreary
 
@@ -2010,9 +2007,6 @@ case, cover
 
 se piquer
 to shoot up; to prick
-
-mou (molle)
-soft, limp
 
 le cil
 eyelash
@@ -2723,7 +2717,7 @@ la bombance
 carousal
 
 la bride
-flange
+bridle
 
 le houseau
 spatterdash
@@ -2879,7 +2873,7 @@ le manchon
 muff
 
 le contredanse
-English county dance
+English country dance
 
 le glaçon
 ice cube; icicle
@@ -3021,4 +3015,157 @@ to boast
 
 vanté
 praised
+
+la niaiserie
+silliness
+
+manier
+to handle
+
+la reliure
+binding
+
+éblouir
+to dazzle
+
+frémir
+to shudder
+
+la gravure
+engraving
+
+balustrade
+balustrade (rail)
+
+l'aumônier
+chaplain
+
+étaler
+to spread out
+
+s'étaler
+to sprawl
+
+le lévrier
+greyhound
+
+l'attelage (m.)
+hitch
+
+la culotte
+pants
+
+becqueter
+to peck
+
+la tourterelle
+turtledove
+
+le barreau
+bar (on a window)
+
+effeuiller
+to pick the leaves off
+
+le poulain
+foal
+
+se pâmer
+to swoon
+
+la marguerite
+daisy
+
+la tonnelle
+arbor
+
+blafard
+pale
+
+dithyrambique
+gushing (dithyrambic)
+
+le chameau
+camel
+
+trembloter
+to jiggle
+
+l'écorchure (f.)
+abraision
+
+le cygne
+swan
+
+l'aumônière
+alms-purse
+
+l'abat-jour (m.)
+lampshade
+
+le quinquet
+oil lamp
+
+le fiacre
+cab
+
+attarder
+to linger
+
+ensevelir
+to bury
+
+le méandre
+meandering
+
+discourir
+to elaborate
+
+le vallon
+dale
+
+prêcher
+to preach
+
+le mors
+bit (horse)
+
+la pension
+pension; (room and) board
+
+planer
+to soar; to hover
+
+le salut
+salvation; bow (e.g. to a king)
+
+de même que
+along with
+
+s'insurger
+to rise up
+
+escarpé
+steep, craggy
+
+cascade
+cascade; stunt; waterfall
+
+mou (molle)
+soft; sluggish
+
+la manchette
+headline; cuff
+
+la nuée
+cloud; swarm
+
+tourbillonner
+to whirl
+
+les stores
+awnings, blinds
+
+faire des projets
+to make plans for the future
 

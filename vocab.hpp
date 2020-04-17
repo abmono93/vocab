@@ -72,7 +72,6 @@ class VocabList : public std::vector<Row>{
 		std::string get_target_language();
 		int index_of(std::string);
 		std::vector<Category*> difficulty_categories;
-		//Category difficulty_categories[5];
 	private:
 		std::string _target_language;
 };

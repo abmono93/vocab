@@ -1169,7 +1169,7 @@ el aguacero
 downpour
 
 despedir 
-to fire
+to fire, dismiss
 
 despedirse 
 to say goodbye
@@ -1673,7 +1673,7 @@ impactante
 shocking, impressive
 
 superar
-to overcome
+to overcome, exceed
 
 la maquila
 assembly factory
@@ -2351,7 +2351,7 @@ en cambio
 instead; on the other hand
 
 el frasco
-jar, flask
+bottle, vial
 
 el olor
 smell
@@ -2698,9 +2698,6 @@ careless
 echarse
 to lie down
 
-echar
-to throw
-
 el concurso
 contest
 
@@ -2962,9 +2959,6 @@ doodlebug
 predisponer a
 to predispose
 
-predispuso
-prejudiced
-
 la veleidad
 fickleness
 
@@ -3117,4 +3111,538 @@ to remember
 
 acordar
 to agree
+
+perplejo
+perplexed
+
+el borde
+edge, side
+
+despedazar
+to break apart
+
+ajeno
+alien
+
+demasiado
+unreasonable; too much
+
+absorto
+absorbed
+
+desempacar
+to unpack
+
+apartado
+section, paragraph
+
+el pared
+wall (internal)
+
+inverosímil
+implausible
+
+forzar
+to force
+
+meridional
+southern
+
+entretenimiento
+entertainment
+
+alucinante
+amazing, thrilling
+
+la lección
+lesson
+
+el pífano
+fife
+
+la sonaja
+rattle
+
+de tal modo
+in such a way
+
+sacar cuentas
+to do the math
+
+aturdidos
+stunned
+
+ejemplar
+exemplary
+
+aceitada
+oiled
+
+sembrar
+to sow
+
+alborotado
+rowdy
+
+el loro
+parrot
+
+recitar
+to recite
+
+un centenar
+a hundred (not literal)
+
+la pandereta
+tambourine
+
+amaestrado
+performing (e.g. circus animal)
+
+adivinar
+to guess
+
+el pensamiento
+thought
+
+el botón
+button
+
+el emplasto
+plaster
+
+un millar
+a thousand (not literal)
+
+insólito
+unusual, extraordinary
+
+la feria
+fair
+
+tropezar
+to stumble
+
+el saltimbanqui
+acrobat, showman
+
+acorazado
+armored
+
+el malabarista
+juggler
+
+el aliento
+encouragement; breath
+
+el estiércol
+manure
+
+revelar
+to reveal, disclose
+
+la pesadilla
+nightmare
+
+el sándalo
+sandalwood
+
+el muchedumbre
+crowd
+
+ambarino
+amber
+
+el empujón
+nudge, boost
+
+presenciar
+to witness
+
+atónito
+astonished
+
+el charco
+puddle
+
+el alquitrán
+tar
+
+sobreponerse a
+to overcome
+
+los médanos
+dunes
+
+la duna
+dune
+
+arrojar
+to throw, toss
+
+portentoso
+wondrous
+
+peludo
+hairy
+
+rapado
+shaved
+
+el anillo
+ring
+
+el tobillo
+ankle
+
+custodiar
+to safeguard
+
+el cofre
+chest
+
+destapar
+to uncover
+
+la aguja
+needle
+
+el crepúsculo
+twilight
+
+el témpano
+iceberg
+
+apartar
+to turn away; to set aside
+
+hinchar
+to swell
+
+el júbilo
+jubilation
+
+negar
+to deny
+
+negarse a
+to refuse to do
+
+asustado
+scared
+
+prestar atención
+to pay attention
+
+el pirata
+pirate
+
+asaltar
+to assault; to raid
+
+el bisabuelo
+great-grandfather
+
+asustar
+to frighten
+
+el estampido
+boom
+
+la quemadura
+burn
+
+de medio lado
+on the side
+
+el cojín
+cushion
+
+la chamusquina
+searing
+
+la alba
+daybreak
+
+someterse
+to submit to
+
+vergonzoso
+shameful
+
+gastar
+to spend
+
+la estribación
+foothill
+
+el toque de reabto
+clarion call
+
+al rojo vivo
+red hot
+
+el tataranieto
+great-great-grandson
+
+el tatarabuelo
+great-great-grandfather
+
+el nieto
+grandson
+
+casar
+to marry
+
+casarse
+to get married
+
+maldecir
+to curse
+
+el recurso
+resource
+
+el desahogo
+relief
+
+el vínculo
+link, relationship
+
+el remordimiento
+remorse
+
+entre sí
+with each other
+
+el antepasado
+ancestor
+
+el pariente (la pariente)
+relative
+
+saludable
+healthful
+
+la raza
+race, breed
+
+engendrar
+to engender, produce
+
+englobar
+to encompass
+
+flojo
+loose
+
+morir desangrado
+to bleed to death
+
+la cola
+tail
+
+el tirabuzón
+corkscrew
+
+la escobilla
+brush
+
+el carnicero
+butcher
+
+la hacha
+hatchet
+
+la ligereza
+lightness
+
+el cochinito
+piglet
+
+el cohete
+rocket
+
+rehusar
+to refuse
+
+la lona
+canvas
+
+el velero
+sailboat
+
+grueso
+thick, coarse
+
+la hebilla
+buckle
+
+pastorear a
+to shepherd
+
+el bastidor
+frame
+
+forcejear
+to struggle
+
+ansioso
+eager
+
+olfatear
+to sniff
+
+la correa
+strap
+
+bordar
+to embroider
+
+el perdedor
+loser
+
+vuelvo en seguida
+I'll be right back
+
+la lanza
+lance
+
+cebar
+to bait
+
+velar
+to watch
+
+velarse
+to be ensured
+
+la castidad
+chastity
+
+blandir
+to wield
+
+criar
+to raise, breed
+
+retozar
+to frolic
+
+el llanto
+crying
+
+el asunto
+matter, issue
+
+el malestar
+discomfort
+
+la tinaja
+jar
+
+cegar
+to blind
+
+el tapón
+stopper, plug (alo bottle cap)
+
+la lástima
+pity
+
+hacer caso a
+to listen to
+
+la garganta
+throat
+
+fastidiado
+peeved; broken
+
+fastidiar
+to annoy; to tease
+
+carajo
+fuck (general swear word, S. Am.)
+
+la honda
+sling
+
+hondo
+deep
+
+añorar a
+to long for someone
+
+añorar
+to long for something
+
+se ve
+it seems
+
+conmovido
+moved, touched
+
+la hornilla
+burner
+
+embullado
+excited (rare)
+
+desmantelar
+to dismantle
+
+degollar
+to slit the throat
+
+el baúl
+trunk (box)
+
+recién casado
+newly wed
+
+cofre
+chest (container)
+
+cofrecito
+casket
+
+la pieza
+piece
+
+el rastro
+trace (track, trail)
+
+la culebra
+snake
+
+las varices
+varicose veins
+
+reventar
+to burst
+
+la burbuja
+bubble
+
+templado
+hardened, tempered
+
+la vertiente
+slope; strand
+
+nublado
+cloudy
+
+la llanura
+plain
+
+explayar
+to expound
+
+explayado
+spread
+
+procurar
+to procure; to try
 
