@@ -493,7 +493,7 @@ renflé==swollen, bulbous++13::3
 le boudin==coil++12::3
 le losange==diamond++12::3
 la broderie==embroidery++14::3
-la soutache==braid++12::3
+la soutache==braid (uncommon)++12::3
 le croisillon==crossbar++12::3
 le fil==wire, thread++12::3
 le visière==visor++13::3
@@ -513,7 +513,7 @@ le pensum==extra work++12::3
 épeler==to spell++12::3
 la paresse==laziness++13::3
 la chaire==pulpit++12::3
-la bourrasque==gust++12::3
+la bourrasque==squall++12::3
 essuyer==to wipe++13::3
 la toque==fur hat++12::3
 la tournure==turn (of events)++14::3
@@ -817,7 +817,7 @@ se confectionner==to make++12::3
 la noce==wedding++12::3
 le flambeau==torch++12::3
 convier==to invite++12::3
-la carriole==carriage++12::3
+la carriole==cart++12::3
 le tapissier==upholsterer; tapestry-maker++12::3
 la ridelle==side panel++12::3
 secouer==to shake++12::3
@@ -843,7 +843,7 @@ froncer les sourcils==to frown++12::3
 le pli==fold++12::3
 cousu==sewn++12::3
 bomber==to bulge++12::3
-raser==to shave++12::3
+raser==to shave; to level++12::3
 balafrer==to scar++12::3
 la pelure==peel (e.g. of a fruit)++12::3
 l'écu==shield (medieval)++12::3
@@ -869,7 +869,7 @@ l'aloyau (m.)==sirloin++12::3
 la fricassée de poulet==chicken fricassee++12::3
 l'andouille==sausage; idiot (slang)++13::3
 l'oseille==sorrel; money (slang)++12::3
-la mousse==foam++12::3
+la mousse==foam; moss++12::3
 le bouchon==stopper++12::3
 la tourte==pie++12::3
 le portique==portico++12::3
@@ -1057,3 +1057,75 @@ la nuée==cloud; swarm++8::1
 tourbillonner==to whirl++8::1
 les stores==awnings, blinds++8::1
 faire des projets==to make plans for the future++8::1
+subite==sudden++8::1
+la récolte==harvest, yield++8::1
+délier==to untie++8::1
+défiler==to scroll; to parade++8::1
+la pesanteur==gravity++8::1
+en vouloir==to blame, resent++8::1
+le carton==cardboard; box++8::1
+cligner==to blink++8::1
+la mie==crumb++8::1
+émerveiller==to amaze++8::1
+friser==to curl++8::1
+le chausson==slipper; inner-boot++8::1
+arrondir==to round++8::1
+parcourir==to roam, browse++8::1
+coquet==pretty++8::1
+la vigne==vine++8::1
+la reine-claude==greengage (type of fruit tree)++8::1
+le rince-bouche==mouthwash++8::1
+rejaillir sur==to splash up (usu. figurative)++8::1
+le croquis==sketch++8::1
+la pantoufle==slipper++8::1
+éplucher==to peel++8::1
+croquer==to crunch++8::1
+l'empeigne (f.)==upper (of a shoe)++8::1
+filer==to spin; to tail (i.e. follow); to slip away (coloq.)++8::1
+la braise==ember++8::1
+s'attabler==to sit at the table++8::1
+remuer==to stir; to wiggle++8::1
+le briquet==lighter++8::1
+jaillir==to gush++8::1
+le garde-chasse==game warden++8::1
+la levrette==doggy style++8::1
+le levron==greyhound++8::1
+poudreux==powdery++8::1
+le roseau==reed++8::1
+le saut-de-loup==ditch++8::1
+la hêtraie==beech grove++8::1
+la ravenelle==wild radish++8::1
+le radis==radish++8::1
+l'ortie (f.)==nettle++8::1
+le volet==pane; element++8::1
+clos==sealed++8::1
+la pourriture==rot++8::1
+rouiller==to rust++8::1
+la rouille==rust++8::1
+japper==to yelp++8::1
+la musaraigne==shrew++8::1
+le coquelicot==poppy++8::1
+la toile==canvas; web++8::1
+l'estraide (f.)==platform, podium++8::1
+la tresse==braid++8::1
+la prunelle==sloe (blackthorn fruit)++8::1
+la prunelle de mes yeux==the apple of my eyes++8::1
+la calèche==horse-drawn carriage++8::1
+svelte==trim++8::1
+la lenteur==slowness++8::1
+attendrir==to soften++8::1
+la rafale==gust++8::1
+au ras du sol==at ground level++8::1
+le jonc==cane grass++8::1
+bruire==to rustle++8::1
+le frisson==chill; thrill++8::1
+la cime==mountaintop++8::1
+craquer==to crunch++8::1
+s'affaiser==to sag++8::1
+de longue main==for a long time++8::1
+lors de==throughout++8::1
+la bouture==clipping (e.g. grass, newspapwer)++8::1
+outrepasser==to override++8::1
+la malle==trunk++8::1
+la boîte à chapeau==gift box++8::1
+le lampion==lantern++8::1

@@ -3047,7 +3047,7 @@ hondo
 deep
 
 en vez de
-rather than
+instead of
 
 alocado
 crazy
@@ -3073,7 +3073,7 @@ to give birth
 penoso
 painful
 
-vientre
+el vientre
 belly; womb
 
 el ombligo

@@ -1475,7 +1475,7 @@ la broderie
 embroidery
 
 la soutache
-braid
+braid (uncommon)
 
 le croisillon
 crossbar
@@ -1535,7 +1535,7 @@ la chaire
 pulpit
 
 la bourrasque
-gust
+squall
 
 essuyer
 to wipe
@@ -2444,7 +2444,7 @@ convier
 to invite
 
 la carriole
-carriage
+cart
 
 le tapissier
 upholsterer; tapestry-maker
@@ -2521,9 +2521,6 @@ sewn
 bomber
 to bulge
 
-raser
-to shave
-
 balafrer
 to scar
 
@@ -2598,9 +2595,6 @@ sausage; idiot (slang)
 
 l'oseille
 sorrel; money (slang)
-
-la mousse
-foam
 
 le bouchon
 stopper
@@ -3168,4 +3162,226 @@ awnings, blinds
 
 faire des projets
 to make plans for the future
+
+subite
+sudden
+
+la récolte
+harvest, yield
+
+délier
+to untie
+
+défiler
+to scroll; to parade
+
+la pesanteur
+gravity
+
+en vouloir
+to blame, resent
+
+le carton
+cardboard; box
+
+cligner
+to blink
+
+la mie
+crumb
+
+émerveiller
+to amaze
+
+friser
+to curl
+
+le chausson
+slipper; inner-boot
+
+arrondir
+to round
+
+parcourir
+to roam, browse
+
+coquet
+pretty
+
+la vigne
+vine
+
+la reine-claude
+greengage (type of fruit tree)
+
+le rince-bouche
+mouthwash
+
+rejaillir sur
+to splash up (usu. figurative)
+
+le croquis
+sketch
+
+la pantoufle
+slipper
+
+éplucher
+to peel
+
+croquer
+to crunch
+
+l'empeigne (f.)
+upper (of a shoe)
+
+filer
+to spin; to tail (i.e. follow); to slip away (coloq.)
+
+la braise
+ember
+
+s'attabler
+to sit at the table
+
+remuer
+to stir; to wiggle
+
+le briquet
+lighter
+
+jaillir
+to gush
+
+le garde-chasse
+game warden
+
+la levrette
+doggy style
+
+le levron
+greyhound
+
+poudreux
+powdery
+
+le roseau
+reed
+
+le saut-de-loup
+ditch
+
+la hêtraie
+beech grove
+
+la ravenelle
+wild radish
+
+le radis
+radish
+
+l'ortie (f.)
+nettle
+
+le volet
+pane; element
+
+clos
+sealed
+
+la pourriture
+rot
+
+rouiller
+to rust
+
+la rouille
+rust
+
+japper
+to yelp
+
+la musaraigne
+shrew
+
+le coquelicot
+poppy
+
+la toile
+canvas; web
+
+l'estraide (f.)
+platform, podium
+
+la tresse
+braid
+
+la prunelle
+sloe (blackthorn fruit)
+
+la prunelle de mes yeux
+the apple of my eyes
+
+la calèche
+horse-drawn carriage
+
+svelte
+trim
+
+la lenteur
+slowness
+
+attendrir
+to soften
+
+la rafale
+gust
+
+au ras du sol
+at ground level
+
+le jonc
+cane grass
+
+bruire
+to rustle
+
+le frisson
+chill; thrill
+
+la cime
+mountaintop
+
+la mousse
+foam; moss
+
+raser
+to shave; to level
+
+craquer
+to crunch
+
+s'affaiser
+to sag
+
+de longue main
+for a long time
+
+lors de
+throughout
+
+la bouture
+clipping (e.g. grass, newspapwer)
+
+outrepasser
+to override
+
+la malle
+trunk
+
+la boîte à chapeau
+gift box
+
+le lampion
+lantern
 
