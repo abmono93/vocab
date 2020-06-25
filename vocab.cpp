@@ -49,14 +49,14 @@ bool is_same_list(vector<string>& l1,vector<string>& l2){
 	return false;
 }
 
-Row::Row(string target, string def){
+VocabWord::VocabWord(string target, string def){
 	_score = DEFAULT_SCORE;
 	_category = CAT_UNASSIGNED;
 	_target_lang = target;
 	_definition = def;
 }
 
-int Row::change_score(int result){
+int VocabWord::change_score(int result){
 //Increases or decreases _score by one, depending if the result is CORRECT or INCORRECT
 	if (result == CORRECT) {
 		if (_score == 999) _score = CAT_LEARN_UPPERBOUND;
@@ -69,26 +69,25 @@ int Row::change_score(int result){
 		return 1;
 	}
 	return 0;
-	
 }
 
-void Row::set_score(int s){
+void VocabWord::set_score(int s){
 	if (s >= 0) _score = s;
 }
 
-void Row::set_category(int c){
+void VocabWord::set_category(int c){
 	_category = c;
 }
 
-int Row::get_score(){
+int VocabWord::get_score(){
 	return _score;
 }
 
-int Row::get_category(){
+int VocabWord::get_category(){
 	return _category;
 }
 
-string Row::get_word(int choice){
+string VocabWord::get_word(int choice){
 //Returns the word in this row in either language
 	if (choice == DEFINITION) return _definition;
 	else if (choice == TARGET_LANG) return _target_lang;
@@ -97,12 +96,12 @@ string Row::get_word(int choice){
 
 Category::Category(){}
 
-int Category::contains(Row* testerRow){
-//Returns the index of testerRow in the category, or -1 if it is not in this category
+int Category::contains(VocabWord* testerVocabWord){
+//Returns the index of testerVocabWord in the category, or -1 if it is not in this category
 	int stop = this->size();
 	if (stop == 0) return -1;
 	for (int i = 0; i < stop; i++){
-		if ((*this)[i] == testerRow) return i;
+		if ((*this)[i] == testerVocabWord) return i;
 	}
 	return -1;
 }
@@ -130,13 +129,13 @@ string VocabList::get_target_language(){
 	return _target_language;
 }
 
-void VocabList::add_to_list(Row new_word){
+void VocabList::add_to_list(VocabWord new_word){
 //Adds new word to VocabList and places it in the right category
 	this->push_back(new_word);
 	this->categorize(nullptr, this->size() - 1);
 }
 
-void VocabList::categorize(Row* this_row, int index_of_row){
+void VocabList::categorize(VocabWord* this_row, int index_of_row){
 //Places this_row in the right category
 	int element, correct_cat;
 	
@@ -173,7 +172,7 @@ void VocabList::categorize(Row* this_row, int index_of_row){
 	}
 }
 
-void VocabList::record_result(Row* cur_row, int result){
+void VocabList::record_result(VocabWord* cur_row, int result){
 //Increases or decreases the score according to result, then places it in the correct category
 	int check = cur_row->change_score(result);
 	if (check) categorize(cur_row);
@@ -204,7 +203,7 @@ void VocabList::read_from_file(string filename){
 			else def = str;
 		}else{
 		//If this line is empty, that means target and def were set to a corresponding pair
-			Row* next = new Row(target, def);
+			VocabWord* next = new VocabWord(target, def);
 			//Add it to the VocabList if it isn't already in there
 			if ((index = index_of(target)) == -1 and target.compare("") != 0) add_to_list(*next);	
 			else{
@@ -228,12 +227,12 @@ void VocabList::save_list(string filename){
 //Saves VocabList in a file called <filename.voc> for future use in format:
 //<target language>==<definition>++<score>::<category>
 	ofstream outputfile;
-	//Row* cur;
+	//VocabWord* cur;
 	filename = HIDDEN_FILE_PREFIX + filename + VOCAB_FILE_EXTENSION;
 	outputfile.open(filename);
 	outputfile << "tl=" << _target_language << endl;
 	for (int i = 0; i < this->size(); i++){
-		Row cur = (*this)[i];
+		VocabWord cur = (*this)[i];
 		outputfile << cur.get_word(TARGET_LANG) << "==" << cur.get_word(DEFINITION) << "++" << cur.get_score() << "::" << cur.get_category() << endl;
 	}
 	outputfile.close();
@@ -266,7 +265,7 @@ void VocabList::load_saved_list(string filename){
 		//Except category which is after the last one
 		category = str.substr(double_colon + 2, str.size() - double_colon - 2);
 		//Create a new row using the strings found above, and set score and category
-		Row* next = new Row(target, def);
+		VocabWord* next = new VocabWord(target, def);
 		next->set_score(stoi(score));
 		next->set_category(stoi(category));
 		//Add it to this VocabList if it's not already in there
@@ -286,7 +285,7 @@ void Session::save(){
 	_session_vocab_list->save_list(_save_filename);
 }
 
-bool Session::is_correct(string user_response, Row* cur_row, int answer_with){
+bool Session::is_correct(string user_response, VocabWord* cur_row, int answer_with){
 //Returns TRUE if the user response counts as correct for this row
 	int num_commas, ur_num_commas, num_semicolons, ur_num_semicolons, num_parens;
 	//Look up the correct answer for this row
@@ -417,7 +416,7 @@ void Session::round(int answer_with){
 //Performs one round of quizzing in one direction
 	string user_response, choice;
 	int ask, element, num_wrong;
-	Row* cur_row;
+	VocabWord* cur_row;
 	Category incorrect, correct_this_loop;
 	vector<int> shuffled_indices;
 	//Get a list of words to quiz on based on the categories

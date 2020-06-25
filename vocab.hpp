@@ -34,9 +34,9 @@
 #define VOCAB_FILE_EXTENSION ".voc"
 #define TEXT_FILE_EXTENSION ".txt"
 
-class Row{
+class VocabWord{
 	public:
-		Row(std::string, std::string);
+		VocabWord(std::string, std::string);
 		int get_score();
 		int get_category();
 		int change_score(int);
@@ -51,20 +51,20 @@ class Row{
 		std::string _definition;
 };
 
-class Category : public std::vector<Row*>{
+class Category : public std::vector<VocabWord*>{
 	public:
 		Category();
-		int contains(Row*);
+		int contains(VocabWord*);
 		void print_category();
 		
 };
 
-class VocabList : public std::vector<Row>{
+class VocabList : public std::vector<VocabWord>{
 	public:
 		VocabList();
-		void add_to_list(Row);
-		void categorize(Row*, int index_of_row = -1);
-		void record_result(Row*, int);
+		void add_to_list(VocabWord);
+		void categorize(VocabWord*, int index_of_row = -1);
+		void record_result(VocabWord*, int);
 		void read_from_file(std::string);
 		void save_list(std::string);
 		void load_saved_list(std::string);
@@ -84,7 +84,7 @@ class Session{
 		void round_begin_message(int);
 		void stats_message();
 		void save();
-		bool is_correct(std::string, Row*, int);
+		bool is_correct(std::string, VocabWord*, int);
 		Category study_list;
 	private:
 		VocabList* _session_vocab_list;
