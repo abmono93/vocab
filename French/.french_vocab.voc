@@ -151,7 +151,7 @@ enjoué==cheerful++11::2
 afficher==to display++12::3
 le majordome==butler++999::3
 creusé==hollow++12::3
-le liseré==border, edge++12::3
+le liseré==border, edging++12::3
 l'étoffe==material, fabric++12::3
 dénué de==lacking in++12::3
 la portée==reach, scope++12::3
@@ -888,7 +888,7 @@ se ruer==to rush, scramble++12::3
 cabrer==to rear up (like a horse)++13::3
 le caillou==pebble++12::3
 s'accrocher==to hang on++12::3
-le talus==slope, embankment++12::3
+le talus==embankment++12::3
 le mareyeur==fish merchant++12::3
 le festin==feast; treat++12::3
 le kirsch==kirsch (cherry brandy)++12::3
@@ -1129,3 +1129,20 @@ outrepasser==to override++8::1
 la malle==trunk++8::1
 la boîte à chapeau==gift box++8::1
 le lampion==lantern++8::1
+la pelouse==lawn++8::1
+la touffe==tuft++8::1
+la chaume==thatch++8::1
+éparpiller==to scatter++8::1
+le coteau==hillside++8::1
+la parure==adornment++8::1
+la pente==slope++8::1
+paître==to graze++8::1
+caramboler==to collide++8::1
+la boiserie==woodwork++8::1
+le lambris==panel++8::1
+le cadre==frame++8::1
+la bordure==border, edge++8::1
+la craquelure==cracking++8::1
+le vernis==varnish++8::1
+la jarretière==garter (holds up stockings)++8::1
+le mollet==calf (leg)++8::1

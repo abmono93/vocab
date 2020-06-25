@@ -4,9 +4,9 @@ repartir==to distribute (also to deal cards)++999::3
 los besos==kisses++13::3
 enredar==to tangle++12::3
 abrazar==to hug, embrace++12::3
-valiente==brave++11::2
+valiente==brave++12::3
 dejar que==to let++12::3
-encendido==lit up++999::3
+encendido==lit up++12::3
 corresponder==to correspond; to reciprocate++12::3
 la herida==injury++12::3
 el coro==chorus++12::3
@@ -27,15 +27,15 @@ bendito==blessed++13::3
 la morena==brunette++12::3
 la apuesta==bet++12::3
 marchitar==to wither++999::3
-la cuesta==slope++999::3
+la cuesta==slope++12::3
 poderoso==powerful++999::3
 colorido==colorful++14::3
-el rocío==dew++999::3
+el rocío==dew++12::3
 el campo==countryside; field++12::3
-el grillo==cricket++13::3
+el grillo==cricket++12::3
 desvestirse==to undress++999::3
 la mariposa==butterfly++12::3
-morado==purple++999::3
+morado==purple++12::3
 llorar==to cry++999::3
 envolver==to wrap++999::3
 el manto==cloak++12::3
@@ -44,12 +44,12 @@ irse==to leave++13::3
 la penca==stalk (of a plant)++12::3
 coser==to sew++12::3
 la arena==sand++999::3
-el barco==ship++12::3
-la pierna==leg++999::3
+el barco==ship++13::3
+la pierna==leg++12::3
 huevonear==to laze around (Lat. Amer.)++999::3
-extrañar==to miss (someone/something)++999::3
+extrañar==to miss (someone/something)++9::2
 el paisaje==landscape, scenery++999::3
-la guayaba==guava++999::3
+la guayaba==guava++12::3
 la pitaya==dragonfruit++12::3
 el corresponsal==correspondent++999::3
 a través de==through, across++12::3
@@ -60,7 +60,7 @@ afuera==outside++12::3
 el golpe de estado==coup++999::3
 vetado==banned++999::3
 temer==to fear++999::3
-aterrizar==to land++999::3
+aterrizar==to land++12::3
 sucio==dirty++12::3
 la moto==motorcycle++14::3
 vacio==empty++12::3
@@ -84,16 +84,16 @@ el pecho==chest++999::3
 inmediatamente==immediately++12::3
 seguir==to follow; to continue++999::3
 el reino==kingdom++12::3
-la sospecha==hunch++13::3
+la sospecha==hunch++14::3
 controlar==to control; to monitor++12::3
 la toma de decisiones==decision-making++12::3
 para que==so that++12::3
-plantear==to pose (raise, propose)++999::3
+plantear==to pose (raise, propose)++12::3
 aquellos==those++12::3
 resulta que==it turns out++13::3
 el hilo==thread++999::3
 reunirse==to meet up++12::3
-el parqueo==parking lot++999::3
+el parqueo==parking lot++12::3
 la colonia==colony; neighborhood++999::3
 la ametralladora==machine gun++15::4
 meterse==to get high++12::3
@@ -102,7 +102,7 @@ pegar==to hit; to stick++12::3
 jerárquico==heirarchical++999::3
 la tontería==nonsense++999::3
 colocado==high, stoned++12::3
-el problema==problem++12::3
+el problema==problem++13::3
 el idioma==language++14::3
 la frase==sentence, phrase++12::3
 enfadarse con==to get mad at++12::3
@@ -115,18 +115,18 @@ antibalas==bulletproof++13::3
 atreverse a==to dare to++12::3
 infundir==to instill++999::3
 aguerrido==veteran, hardened++999::3
-el estado de derecho==rule of law++999::3
+el estado de derecho==rule of law++13::3
 el índice==index, rate++999::3
 en torno a==around, about++999::3
-denunciar==to denounce; to report++13::3
-el lío==mess++999::3
-tener sentido==to make sense++10::2
+denunciar==to denounce; to report++12::3
+el lío==mess++9::2
+tener sentido==to make sense++12::3
 comprobar==to prove; to confirm++12::3
 caer en saco roto==to fall on deaf ears++12::3
 mientras==while++12::3
 la depuración==purification++12::3
 apañar==to fix; to rig++12::3
-hasta el momento==so far++999::3
+hasta el momento==so far++9::2
 abrir==to open++12::3
 aprender==to learn++999::3
 asistir==to attend++12::3
@@ -139,9 +139,9 @@ cantar==to sing++14::3
 cocinar==to cook++12::3
 comer==to eat++12::3
 comprender==to comprehend++12::3
-correr==to run++999::3
+correr==to run++12::3
 dibujar==to draw++13::3
-escribir==to write++999::3
+escribir==to write++12::3
 escuchar==to listen++999::3
 hablar==to talk, speak++999::3
 lavar==to wash++13::3
@@ -151,7 +151,7 @@ llevar==to wear; to carry++999::3
 mirar==to look at++999::3
 montar==to get on; to set up++12::3
 nadar==to swim++13::3
-prestar==to lend++999::3
+prestar==to lend++11::2
 recibir==to receive++13::3
 subir==to go up++999::3
 vender==to sell++999::3
@@ -161,7 +161,7 @@ cerrar==to close++12::3
 comenzar==to begin++12::3
 confesar==to confess++999::3
 contar==to tell; to count++999::3
-costar==to cost++999::3
+costar==to cost++12::3
 defender==to defend++12::3
 devolver==to give back++12::3
 dormir==to sleep++14::3
@@ -170,34 +170,34 @@ encontrar==to find; to meet++12::3
 entender==to understand++13::3
 jugar==to play++13::3
 medir==to measure++999::3
-morir==to die++999::3
+morir==to die++12::3
 mostrar==to show++999::3
 pedir==to ask for++999::3
-pensar==to think++12::3
-perder==to lose++12::3
+pensar==to think++13::3
+perder==to lose++13::3
 poder==to be able to++999::3
 preferir==to prefer++999::3
 querer==to want; to love++999::3
 recordar==to remember, remind++12::3
 referir==to refer++999::3
-repetir==to repeat++999::3
+repetir==to repeat++12::3
 sentir==to be sorry++999::3
 servir==to serve++12::3
 soñar==to dream++13::3
 volar==to fly++999::3
-volver==to go back; to repeat++999::3
+volver==to go back++12::3
 averiguar==to find out; to check++13::3
 coger==to catch, grab++999::3
 conducir==to drive++999::3
-conocer==to know someone++12::3
+conocer==to know someone++13::3
 conseguir==to get++13::3
 continuar==to continue++999::3
 delinquir==to break the law++999::3
-desaparecer==to disappear++999::3
+desaparecer==to disappear++12::3
 dirigir==to direct++999::3
 distinguir==to distinguish++999::3
 distribuir==to distribute++12::3
-ejercer==to exercise++999::3
+ejercer==to exercise++13::3
 escoger==to choose++12::3
 establecer==to establish++12::3
 fiar==to confide; to trust++12::3
@@ -212,19 +212,19 @@ traer==to bring++13::3
 vaciar==to empty++13::3
 vencer==to defeat++999::3
 caber==to fit into++12::3
-caer==to fall (object or person)++12::3
-dar==to give++999::3
+caer==to fall (object or person)++13::3
+dar==to give++12::3
 obedecer==to obey++13::3
 ofrecer==to offer++12::3
 poner==to put++999::3
-producir==to produce++999::3
+producir==to produce++12::3
 satisfacer==to satisfy++999::3
-sumergir==to submerge++999::3
-ver==to see++999::3
+sumergir==to submerge++12::3
+ver==to see++12::3
 contener==to contain++12::3
-decir==to say++12::3
-ir==to go++999::3
-mantener==to maintain++999::3
+decir==to say++13::3
+ir==to go++12::3
+mantener==to maintain++12::3
 oír==to hear++999::3
 prevenir==to prevent++12::3
 ser==to be (permanent)++14::3
@@ -234,10 +234,10 @@ venir==to come++12::3
 estar==to be (temporary)++999::3
 haber==there is/are++12::3
 acostarse==to go to bed++999::3
-afeitarse==to shave++11::2
+afeitarse==to shave++12::3
 caerse==to fall (person)++999::3
 cepillarse==to brush oneself++999::3
-despertarse==to wake up++12::3
+despertarse==to wake up++13::3
 lavarse==to wash oneself++999::3
 llamarse==to be named++12::3
 mercer==to deserve++999::3
@@ -245,32 +245,32 @@ peinarse==to comb one's hair++999::3
 preocuparse==to worry++12::3
 quedarse==to remain, stay++999::3
 quitarse==to take off++12::3
-saber==to know++999::3
+saber==to know++12::3
 secarse==to dry oneself off++12::3
 sentarse==to sit down++12::3
 sentirse==to feel++12::3
 vestirse==to get dressed++999::3
-llegar==to arrive++999::3
-el puente==bridge++999::3
+llegar==to arrive++12::3
+el puente==bridge++12::3
 de modo que==in order to; so that++999::3
 inusitado==unusual++999::3
 sin embargo==however++12::3
 el alrededor==immediate area++999::3
 el enlace==connection++12::3
-la carretera==highway++12::3
+la carretera==highway++13::3
 apenas==barely++13::3
 el eslabón==link++12::3
 roto==broken++12::3
-la cadena==chain++999::3
+la cadena==chain++12::3
 andar==to move, walk++13::3
 imponente==imposing++12::3
 la tormenta==thunderstorm++13::3
-llover==to rain++12::3
+llover==to rain++13::3
 después==after++999::3
 la pregaria==prayer++999::3
 el trueno==thunderclap++999::3
 enviar==to send++12::3
-demorado==delayed++12::3
+demorado==delayed++13::3
 regarse==to shower++999::3
 sembrado==sown++12::3
 hasta==until; even++999::3
@@ -283,11 +283,11 @@ promulgar==to enact++12::3
 intentar==to try++999::3
 el edificio==building++13::3
 desordenado==messy++12::3
-el hueco==hole, gap++12::3
+el hueco==hole, gap++13::3
 empeorar==to worsen++999::3
 la fábrica==factory++12::3
 el negocio==business++12::3
-adquisitivo==purchasing++999::3
+adquisitivo==purchasing++12::3
 bastante==enough; rather++12::3
 además==in addition++999::3
 caro==expensive++12::3
@@ -296,36 +296,36 @@ luego==later++999::3
 el puesto==position++13::3
 según==according to++999::3
 el rumbo==direction, course++12::3
-desgastado==worn++999::3
+desgastado==worn++11::2
 galopear==to gallop++999::3
 descuidar==to get distracted; to neglect++12::3
 estrecho==narrow, tight++999::3
-crecer==to grow; to grow up++11::2
+crecer==to grow; to grow up++12::3
 aunque==although++12::3
 justo==fair++13::3
 compartir==to share++12::3
 el lado==side++999::3
 sino==but rather++12::3
-la escena==scene++13::3
+la escena==scene++14::3
 creer==to believe++12::3
 la fila==line++999::3
 hacia==toward++999::3
-el permiso==permission; permit++999::3
+el permiso==permission; permit++12::3
 vigente==valid, updated++999::3
 dejar==to leave behind++999::3
 expedir==to issue++12::3
 darse cuenta de que==to realize that++15::4
 largo plazo==long term++14::3
 lidiar==to deal with++12::3
-tanto==so much++12::3
-ya==already++13::3
-las trochas==trails++12::3
+tanto==so much++13::3
+ya==already++14::3
+las trochas==trails++13::3
 cargar==to load++999::3
 lo que sea==whatever++999::3
 la maleta==suitcase++999::3
 la espalda==back++13::3
 el morral==backpack++13::3
-la bandera==flag++999::3
+la bandera==flag++12::3
 las pertenencias==belongings++13::3
 la pertenencia==membership++12::3
 la licuadora==blender++999::3
@@ -336,7 +336,7 @@ oscuro==dark++999::3
 el edad==age++12::3
 la cara==face++999::3
 la rabia==anger++12::3
-buscar==to search++14::3
+buscar==to search++15::4
 el pañal==diaper++999::3
 robar==to steal++999::3
 matar==to kill++13::3
@@ -345,7 +345,7 @@ las gafas==glasses++12::3
 cruzar==to cross++12::3
 acabar==to finish++999::3
 vacunar==to vaccinate++999::3
-incluso==even, including++13::3
+incluso==even, including++14::3
 parir==to give birth++12::3
 juntar==to put together++12::3
 lejos==far away++13::3
@@ -356,22 +356,22 @@ cobrar==to charge++999::3
 ahorrar==to save++12::3
 así que==therefore++12::3
 tratar==to try++999::3
-por más que==no matter how much++12::3
+por más que==no matter how much++13::3
 la supervivencia==survival++999::3
 rendirse==to give up, surrender++999::3
-parar==to block++999::3
-un montón==a lot++12::3
+parar==to block++12::3
+un montón==a lot++13::3
 el páramo==wasteland++999::3
 aún así==even so++12::3
-regresar==to go back++12::3
-sacar==to take out++999::3
+regresar==to return++12::3
+sacar==to take out++12::3
 quedar==to be located++12::3
 es que==the thing is++999::3
 cómo así==how come?++999::3
 pura subida==entirely uphill++12::3
 demorar==to take time++999::3
-recoger==to pick up++12::3
-acercar==to bring near++999::3
+recoger==to pick up++11::2
+acercar==to bring near++12::3
 el peaje==toll booth++999::3
 joder==to piss off (vulgar)++999::3
 la ida==leg (of a journey)++12::3
@@ -384,7 +384,7 @@ callado==quiet++12::3
 ni siquiera==not even++12::3
 capaz==capable++13::3
 cubrir==to cover++13::3
-freír==to fry++999::3
+freír==to fry++12::3
 resolver==to solve; to resolve++12::3
 romper==to break++12::3
 el aguacero==downpour++999::3
@@ -422,7 +422,7 @@ el techo==roof; ceiling++999::3
 la cubeta==bucket++12::3
 para ese entonces==by that time++12::3
 la costumbre==custom; habit++999::3
-temprano==early++999::3
+temprano==early++12::3
 la taza==cup++13::3
 la diligencia==errand++999::3
 la caridad==charity++999::3
@@ -430,17 +430,17 @@ apoyar==to support (emotionally)++12::3
 atender==to help++12::3
 la solicitud==request++999::3
 los demás (las demás)==the rest of++12::3
-el refugio==shelter++999::3
+el refugio==shelter++12::3
 a pesar de==despite++999::3
 abrigar==to keep warm++12::3
 hospedarse==to stay (e.g. in a hotel)++999::3
 lleno==full++999::3
-agobiante==stifling++999::3
+agobiante==stifling++12::3
 lograr==to achieve++12::3
 el cupo==space available++13::3
 el viaje==trip++13::3
 alcanzar==to reach++999::3
-flaco==skinny++999::3
+flaco==skinny++12::3
 una y otra vez==again and again++12::3
 bajar==to go down++999::3
 rebajar==to lower (prices, lose weight)++13::3
@@ -472,7 +472,7 @@ el palo==stick; golf club++999::3
 la lata==(tin) can++999::3
 recorrer==to visit; to go around++12::3
 mojarse==to get wet++999::3
-acampar==to go camping++12::3
+acampar==to go camping++13::3
 el dueño==owner; landlord++12::3
 la cerca==fence++12::3
 la intemperie==the elements++12::3
@@ -484,15 +484,15 @@ la fuente==source++13::3
 la ganadería==livestock++12::3
 el miedo==fear++13::3
 mudarse==to move (houses)++999::3
-agarrar==to grab++999::3
-el ambiente==environment++999::3
+agarrar==to grab++12::3
+el ambiente==environment++12::3
 aprovechar==to take advantage++999::3
 de todas formas==in any case++12::3
 tener que hacer==to have to do++14::3
 la falta==lack of++999::3
 amenzar==to threaten++999::3
 volverse==to turn++999::3
-en fin==anyway; in short++999::3
+en fin==anyway; in short++12::3
 parecido==similar++13::3
 el ejército==military++999::3
 encargarse==to be in charge++999::3
@@ -501,15 +501,15 @@ sincero==honest++12::3
 el abrigo==coat++999::3
 el terreno baldío==wasteland; vacant lot++999::3
 el pleito==dispute++12::3
-colocar==to place++999::3
-el funcionario==government official++11::2
+colocar==to place++12::3
+el funcionario==government official++13::3
 espeso==thick++12::3
 pleno==full, total++12::3
 armar==to assemble++12::3
 el bombero==firefighter++999::3
 el hecho==fact; event++999::3
 hacer daño==to harm++12::3
-el asesor==consultant++12::3
+el asesor==consultant++11::2
 la pandilla==gang++13::3
 reclutar==to recruit; to draft++12::3
 anterior==previous++12::3
@@ -520,14 +520,14 @@ echar==to throw++12::3
 consigo==with them++999::3
 el sarampión==measles++999::3
 el motivo==cause, reason++999::3
-rechazar==to reject++12::3
+rechazar==to reject++13::3
 descartar==to discard++12::3
 la mercancía==merchandise++12::3
 eso sí==of course++12::3
 el endurecimiento==hardening++12::3
 la grabadora==recorder++999::3
 callarse==to shut up++12::3
-el patrón==pattern; boss++12::3
+el patrón==pattern; boss++13::3
 enseguida==right away++12::3
 quejarse==to complain++12::3
 olvidar==to forget++13::3
@@ -535,13 +535,13 @@ llenar==to fill++13::3
 innegable==undeniable++14::3
 dispuesto==willing; prepared++12::3
 estallar==to explode++12::3
-agregar==to add to++11::2
+agregar==to add to++12::3
 menudo==often++12::3
 el disturbio==riot++12::3
 gritar==to shout++12::3
 soltar==to let go++12::3
 saquear==to loot++12::3
-quemar==to burn++12::3
+quemar==to burn++13::3
 abuchear==to jeer++12::3
 borroso==blurry++12::3
 el escalofrío==chill, shiver++12::3
@@ -576,7 +576,7 @@ el bolsillo==pocket++12::3
 el juguete==toy++12::3
 el recreo==recess++12::3
 el raspón==scratch++12::3
-la picadura==sting++11::2
+la picadura==sting++13::3
 la cortada==cut++12::3
 chévere==awesome++12::3
 rodear==to surround++12::3
@@ -590,16 +590,16 @@ sonrojarse==to blush++14::3
 sonrojar==to make blush++12::3
 arreglar==to fix++12::3
 la vergüenza==shame++12::3
-frente a==in front of++12::3
+frente a==in front of++13::3
 el frente==front, face++12::3
 el pelotón de fusilamiento==firing squad++12::3
 la aldea==village++12::3
-la cañabrava==reed++13::3
-la orilla==shore++13::3
+la cañabrava==reed++12::3
+la orilla==shore++14::3
 el lecho==bed, riverbed++12::3
 pulido==polished++13::3
 precipitarse==to rush++12::3
-la piedra==stone++12::3
+la piedra==stone++13::3
 carecer==to lack++12::3
 señalar==to point out++12::3
 el dedo==finger++12::3
@@ -614,17 +614,17 @@ corpulento==portly++12::3
 el montaraz==ranger++12::3
 el gorrión==sparrow++12::3
 arrastrar==to drag++12::3
-el lingote==ingot (bar of gold, steel etc.)++12::3
+el lingote==ingot (bar of gold, steel etc.)++10::2
 espantar==to scare++12::3
 espantarse==to panic++12::3
 el caldero==cauldron++12::3
 la paila==pot++12::3
-las tenazas==pliers++11::2
+las tenazas==pliers++12::3
 el anafe==portable stove++13::3
 la madera==wood++12::3
 crujir==to creak++12::3
 el clavo==nail++12::3
-el tornillo==bolt++12::3
+el tornillo==bolt++11::2
 desenclavar==to dislodge++12::3
 ahí==there++14::3
 el pelotón==squad++12::3
@@ -640,23 +640,23 @@ la imaginación==imagination++12::3
 servirse==to make use of++12::3
 desentrañar==to unravel++12::3
 la honradez==honesty++13::3
-el mulo==mule++13::3
+el mulo==mule++14::3
 el chivo==goat++12::3
 contar con==to count on++12::3
-ensanchar==to widen++7::0
+ensanchar==to widen++12::3
 desmedrado==stunted++12::3
 sobrar==to be left over++12::3
-empedrar==to pave++11::2
+empedrar==to pave++12::3
 empeñarse en==to strive to++12::3
 empeñar==to pawn++12::3
 demostrar==to demonstrate++12::3
-el acierto==success; wisdom++9::2
+el acierto==success; wisdom++12::3
 el palmo==hand (measurement)++12::3
 el hierro==iron++12::3
 el conjuro==incantation++12::3
-la armadura==armor++12::3
+la armadura==armor++11::2
 soldar==to weld++12::3
-la cascote==rubble++12::3
+la cascote==rubble++9::2
 el óxido==rust++13::3
 la resonancia==resonance++13::3
 el calabazo==gourd++12::3
@@ -671,7 +671,7 @@ la lupa==magnifying glass++12::3
 el tambor==drum++12::3
 mediante==using++15::4
 asomarse==to lean out++12::3
-asomar==to show, poke out++12::3
+asomar==to poke out++12::3
 el alcance==scope, reach++12::3
 dentro de poco==before long++12::3
 ardiente==fiery++12::3
@@ -683,7 +683,7 @@ concebir==to conceive++13::3
 la privación==deprivation++13::3
 enterrar==to bury++12::3
 el científico==scientist++12::3
-científico==scientific++12::3
+científico==scientific++13::3
 el enemigo==enemy++13::3
 sanar==to heal++12::3
 ante==before; in the face of++12::3
@@ -691,7 +691,7 @@ la inventiva==inventiveness++12::3
 novedoso==novel++13::3
 entregar==to hand over, deliver++12::3
 componer==to compose, write++12::3
-el pliego==sheet, list of specifications++11::2
+el pliego==sheet, list of specifications++12::3
 explicativo==explanatory++12::3
 atravesar==to cross++12::3
 extraviar==to misplace++12::3
@@ -715,14 +715,14 @@ el fondo==fund; back++12::3
 permanecer==to remain, stay (long term)++12::3
 el patio==courtyard; patio++13::3
 la insolación==sunstroke++12::3
-los seres==beings++13::3
+los seres==beings++14::3
 el gabinete==office++12::3
 adquirir==to acquire, purchase++12::3
-sin hacer caso==without noticing++12::3
+sin hacer caso==without noticing++9::2
 partirse==to split++12::3
 el espinazo==backbone++12::3
 la huerta==garden++12::3
-cuidar==to take care of++11::2
+cuidar==to take care of++12::3
 el plátano==banana; plantain++12::3
 el ñame==yam++12::3
 la berenjena==eggplant++12::3
@@ -732,7 +732,7 @@ de pronto==suddenly++12::3
 febrile==feverish++12::3
 sustituir==to replace++12::3
 hechizar==to bewitch++12::3
-sí mismo==itself (himself/ herself)++11::2
+sí mismo==itself (himself/ herself)++12::3
 su mismo==its own (his own/ her own)++12::3
 por fin==finally++13::3
 de un golpe==at once++12::3
@@ -757,7 +757,7 @@ husmear==to sniff around++12::3
 el zarpazo==swipe++12::3
 flagelar==to flog++12::3
 el género humano==mankind++12::3
-el escorbuto==scurvy++13::3
+el escorbuto==scurvy++14::3
 el terremoto==earthquake++12::3
 el naufragio==shipwreck++12::3
 multitudinario==mass (adjective)++12::3
@@ -765,7 +765,7 @@ lúgubre==grim++12::3
 la ala==wing++12::3
 el terciopelo==velvet++12::3
 el verdín==scum++12::3
-la sabiduría==wisdom, knowledge++12::3
+la sabiduría==wisdom, knowledge++13::3
 el percance==mishap++12::3
 reír==to laugh++13::3
 arrancar==to boot up; to rip off++12::3
@@ -790,7 +790,7 @@ la probeta==test tube++13::3
 angosto==narrow++12::3
 los propios==their own; themselves++12::3
 el alambique==still (distilling)++12::3
-la muestra==sample++9::2
+la muestra==sample++12::3
 el apunte==note++12::3
 el azogue==quicksilver++12::3
 inquebrantable==unwavering++12::3
@@ -803,49 +803,49 @@ el jarabe==syrup++12::3
 pestilente==pestilent, stinking++12::3
 azaroso==random++12::3
 fundido==molten++12::3
-hermético==airtight++11::2
+hermético==airtight++12::3
 el Chipre==Cyprus++13::3
-cocer==to cook, boil++12::3
+cocer==to cook, boil++10::2
 la manteca==butter++12::3
 el cerdo==pig++12::3
 el rábano==radish++13::3
 a falta de==for lack of++12::3
 la herencia==inheritance++12::3
-el chicharrón==pork rind++12::3
-desprendir==to detach++12::3
+el chicharrón==pork rind++14::3
+desprendir==to detach++11::2
 carbonizado==charred++12::3
 predisponer a==to predispose++12::3
-el ruido==noise++9::2
+el ruido==noise++12::3
 ensordecedor==deafening++12::3
 el hallazgo==finding++12::3
 hallar==to find++12::3
 el pago==payment++12::3
-desarrugar==to steam (clothing)++4::0
+desarrugar==to steam (clothing)++12::3
 la dentadura==set of teeth++12::3
 las encías==gums++12::3
 la mejilla==cheek++12::3
 estremecer==to shudder++12::3
 el pavor==dread++12::3
-la prueba terminante==conclusive proof++14::3
-engastar==to set, mount++9::2
+la prueba terminante==conclusive proof++15::4
+engastar==to set, mount++12::3
 fugaz==fleeting++12::3
 sonreír==to smile++12::3
 el dominio==domain; domination++12::3
-el alborozo==exhilaration++11::2
+el alborozo==exhilaration++12::3
 postizo==fake++12::3
 dando vueltas==hanging around++12::3
 asombrarse==to wonder++12::3
 la crianza==upbringing++12::3
 puesto que==since, because++12::3
-su imagen y semajanza==his own image++12::3
+su imagen y semajanza==his own image++9::2
 la sala==living room++12::3
-el comedor==dining room++12::3
+el comedor==dining room++10::2
 alegrar==to cheer++12::3
 castaño==brown++12::3
 el castaño==chestnut tree++12::3
 la gallina==hen++12::3
 pelear==to fight++12::3
-el marido==husband++13::3
+el marido==husband++15::4
 menuda==petite++12::3
 el amanecer==dawn++12::3
 susurrar==to whisper++12::3
@@ -861,14 +861,14 @@ encalar==to whitewash++12::3
 el arcón==chest; bunker++12::3
 tibio==lukewarm++12::3
 la albahaca==large chest++12::3
-el emprendedor==entrepreneur++13::3
+el emprendedor==entrepreneur++12::3
 jamás==never++12::3
 llegarse==to go over++13::3
 abastecerse==to stock up++12::3
-abastecer==to supply++12::3
+abastecer==to supply++13::3
 mayor==greater++13::3
 disponer de==to dispose of++12::3
-tal==such++12::3
+tal==such++13::3
 la trampa==trap++12::3
 la jaula==cage++12::3
 el turpial==blackbird (turpial)++12::3
@@ -892,7 +892,7 @@ el sortilegio==spell, fortune-telling++12::3
 la locura==madness++12::3
 el hombro==shoulder++12::3
 descuidado==careless++12::3
-echarse==to lie down++12::3
+echarse==to lie down++11::2
 el concurso==contest++12::3
 el deporte==sport++12::3
 cazar==to hunt++12::3
@@ -903,22 +903,22 @@ la paja==straw++12::3
 los enseres==equipment++12::3
 al cabo de==at the end of++12::3
 el cabo==cape++12::3
-desistir==to give up++12::3
+desistir==to give up++7::0
 emprender==to undertake++12::3
 la nata==cream++12::3
 confundir==to confuse++12::3
 dotar==to provide, equip++12::3
 el desmonte==dismount; land clearing++12::3
-la cacería==hunt++12::3
-temerario==reckless++11::2
+la cacería==hunt++13::3
+temerario==reckless++12::3
 pedregoso==stony++12::3
 la ribera==riverside++12::3
 el sendero==path++12::3
-silvestre==wild (sylvan)++9::2
+silvestre==wild (sylvan)++13::3
 asar==to roast++12::3
 el venado==deer++12::3
 conformarse==to conform++12::3
-aplazar==to postpone++9::2
+aplazar==to postpone++12::3
 la guacamaya==macaw++13::3
 el almizcle==musk++12::3
 húmedo==damp++12::3
@@ -931,10 +931,10 @@ el pecado==sin++13::3
 hundir==to sink++12::3
 el pozo==well, pit++12::3
 humeante==smoky; steamy++12::3
-destrozar==to destroy++12::3
+destrozar==to destroy++13::3
 el lirio==lilly++12::3
 el pesadumbre==sorrow++12::3
-conformarse con==to settle for++10::2
+conformarse con==to settle for++12::3
 tenue==dim++12::3
 pendiente de==eye on++12::3
 pendiente==pending++12::3
@@ -959,7 +959,7 @@ la orquídea==orchid++13::3
 la coraza==shell++12::3
 el musgo==moss++12::3
 tierno==tender++12::3
-el ámbito==area; field++9::2
+el ámbito==area; field++12::3
 vedado==forbidden++12::3
 el vicio==vice++13::3
 sigiloso==stealthy++12::3
@@ -972,204 +972,204 @@ el costillar==rack; ribcage++12::3
 la amapola==poppy++12::3
 el engendro==creature++12::3
 espumoso==sparkling; frothy++12::3
-trazar==to trace, draw++10::2
+trazar==to trace, draw++12::3
 pudrir==to rot++12::3
 rumiar==to brood++12::3
-trasladar==to move (usu. geographic)++10::2
+trasladar==to move (usu. geographic)++12::3
 trasladar a==to relocate, transfer++12::3
-la hormiguita==doodlebug++11::2
-la veleidad==fickleness++11::2
+la hormiguita==doodlebug++12::3
+la veleidad==fickleness++12::3
 para la mudanza==for the move (e.g. houses)++12::3
 la maraña==tangle++12::3
 el contratiempo==setback++12::3
-la evasiva==evasion++11::2
+la evasiva==evasion++13::3
 la piedad==mercy++12::3
-el hisopo==swab++10::2
+el hisopo==swab++12::3
 entintar==to ink++12::3
-secundar==to support, go along with++10::2
-la amargura==bitterness++10::2
+secundar==to support, go along with++12::3
+la amargura==bitterness++12::3
 alterar==to alter; to disturb++12::3
-alterarse==to get upset++10::2
-propicio==favorable++10::2
-la caja==box++11::2
+alterarse==to get upset++12::3
+propicio==favorable++12::3
+la caja==box++12::3
 clavar==to nail++12::3
-desmontar==to dismantle++10::2
+desmontar==to dismantle++12::3
 contestar==to answer++12::3
-la firmeza==firmness++10::2
-la voluntad==will (noun)++10::2
-el hechizo==spell++9::2
+la firmeza==firmness++12::3
+la voluntad==will (noun)++12::3
+el hechizo==spell++12::3
 bastar==to suffice++12::3
-el aparato==device, equipment++11::2
+el aparato==device, equipment++12::3
 insensible==insensitive++12::3
-la clarividencia==clairvoyance++11::2
-descalzo==barefoot++9::2
-soleado==sunny++12::3
-desarraigar==to uproot++10::2
+la clarividencia==clairvoyance++12::3
+descalzo==barefoot++12::3
+soleado==sunny++13::3
+desarraigar==to uproot++13::3
 absorto==absorbed++12::3
-hondo==deep++10::2
-en vez de==instead of++10::2
-alocado==crazy++7::0
-la novelería==novelty++9::2
-la deriva==drift++9::2
-el cajón==drawer++10::2
-hirsuto==rough++9::2
-voluntarioso==willing++9::2
-dar a luz==to give birth++10::2
-penoso==painful++10::2
-el vientre==belly; womb++9::2
-el ombligo==belly button++11::2
-reconocer==to recognize++9::2
-el rostro==face (more intimate than cara)++10::2
-la palma==palm tree++11::2
-derrumbarse==to collapse++10::2
-derrumbar==to tear down++8::0
-la olla==pot++9::2
-el caldo==broth++9::2
-cumplir==to fulfill++9::2
-retraído==withdrawn++9::2
-acordarse==to remember++4::0
-acordar==to agree++8::0
-perplejo==perplexed++9::2
-el borde==edge, side++8::0
-despedazar==to break apart++3::0
-ajeno==alien++8::0
-demasiado==unreasonable; too much++7::0
-desempacar==to unpack++8::1
-apartado==section, paragraph++8::1
-el pared==wall (internal)++8::1
-inverosímil==implausible++8::1
-forzar==to force++8::1
-meridional==southern++8::1
-entretenimiento==entertainment++8::1
-alucinante==amazing, thrilling++8::1
-la lección==lesson++8::1
-el pífano==fife++8::1
-la sonaja==rattle++8::1
-de tal modo==in such a way++8::1
-sacar cuentas==to do the math++8::1
-aturdidos==stunned++8::1
-ejemplar==exemplary++8::1
-aceitada==oiled++8::1
-sembrar==to sow++8::1
-alborotado==rowdy++8::1
-el loro==parrot++8::1
-recitar==to recite++8::1
-un centenar==a hundred (not literal)++8::1
-la pandereta==tambourine++8::1
-amaestrado==performing (e.g. circus animal)++8::1
-adivinar==to guess++8::1
-el pensamiento==thought++8::1
-el botón==button++8::1
-el emplasto==plaster++8::1
-un millar==a thousand (not literal)++8::1
-insólito==unusual, extraordinary++8::1
-la feria==fair++8::1
-tropezar==to stumble++8::1
-el saltimbanqui==acrobat, showman++8::1
-acorazado==armored++8::1
-el malabarista==juggler++8::1
-el aliento==encouragement; breath++8::1
-el estiércol==manure++8::1
-revelar==to reveal, disclose++8::1
-la pesadilla==nightmare++8::1
-el sándalo==sandalwood++8::1
-el muchedumbre==crowd++8::1
-ambarino==amber++8::1
-el empujón==nudge, boost++8::1
-presenciar==to witness++8::1
-atónito==astonished++8::1
-el charco==puddle++8::1
-el alquitrán==tar++8::1
-sobreponerse a==to overcome++8::1
-los médanos==dunes++8::1
-la duna==dune++8::1
-arrojar==to throw, toss++8::1
-portentoso==wondrous++8::1
-peludo==hairy++8::1
-rapado==shaved++8::1
-el anillo==ring++8::1
-el tobillo==ankle++8::1
-custodiar==to safeguard++8::1
-el cofre==chest++8::1
-destapar==to uncover++8::1
-la aguja==needle++8::1
-el crepúsculo==twilight++8::1
-el témpano==iceberg++8::1
-apartar==to turn away; to set aside++8::1
-hinchar==to swell++8::1
-el júbilo==jubilation++8::1
-negar==to deny++8::1
-negarse==to refuse++8::1
-asustado==scared++8::1
-prestar atención==to pay attention++8::1
-el pirata==pirate++8::1
-asaltar==to assault; to raid++8::1
-el bisabuelo==great-grandfather++8::1
-asustar==to frighten++8::1
-el estampido==boom++8::1
-la quemadura==burn++8::1
-de medio lado==on the side++8::1
-el cojín==cushion++8::1
-la chamusquina==searing++8::1
-la alba==daybreak++8::1
-someterse==to submit to++8::1
-vergonzoso==shameful++8::1
-gastar==to spend++8::1
-la estribación==foothill++8::1
-el toque de reabto==clarion call++8::1
-al rojo vivo==red hot++8::1
-negarse a==to refuse to do++8::1
-el tataranieto==great-great-grandson++8::1
-el tatarabuelo==great-great-grandfather++8::1
-el nieto==grandson++8::1
-casar==to marry++8::1
-casarse==to get married++8::1
-maldecir==to curse++8::1
-el recurso==resource++8::1
-el desahogo==relief++8::1
-el vínculo==link, relationship++8::1
-el remordimiento==remorse++8::1
-entre sí==with each other++8::1
-el antepasado==ancestor++8::1
-el pariente (la pariente)==relative++8::1
-saludable==healthful++8::1
-la raza==race, breed++8::1
-engendrar==to engender, produce++8::1
-englobar==to encompass++8::1
-flojo==loose++8::1
-morir desangrado==to bleed to death++8::1
-la cola==tail++8::1
-el tirabuzón==corkscrew++8::1
-la escobilla==brush++8::1
-el carnicero==butcher++8::1
-la hacha==hatchet++8::1
-la ligereza==lightness++8::1
-el cochinito==piglet++8::1
-el cohete==rocket++8::1
-rehusar==to refuse++8::1
-la lona==canvas++8::1
-el velero==sailboat++8::1
-grueso==thick, coarse++8::1
-la hebilla==buckle++8::1
-pastorear a==to shepherd++8::1
-el bastidor==frame++8::1
-forcejear==to struggle++8::1
-ansioso==eager++8::1
-olfatear==to sniff++8::1
-la correa==strap++8::1
-bordar==to embroider++8::1
-el perdedor==loser++8::1
-vuelvo en seguida==I'll be right back++8::1
-la lanza==lance++8::1
-cebar==to bait++8::1
-velar==to watch++8::1
-velarse==to be ensured++8::1
-la castidad==chastity++8::1
-blandir==to wield++8::1
-criar==to raise, breed++8::1
-retozar==to frolic++8::1
-el llanto==crying++8::1
-el asunto==matter, issue++8::1
+hondo==deep++12::3
+en vez de==instead of++13::3
+alocado==crazy++12::3
+la novelería==novelty++12::3
+la deriva==drift++12::3
+el cajón==drawer++12::3
+hirsuto==rough++12::3
+voluntarioso==willing++12::3
+dar a luz==to give birth++12::3
+penoso==painful++12::3
+el vientre==belly; womb++12::3
+el ombligo==belly button++12::3
+reconocer==to recognize++12::3
+el rostro==face (more intimate than cara)++12::3
+la palma==palm tree++12::3
+derrumbarse==to collapse++12::3
+derrumbar==to tear down++12::3
+la olla==pot++12::3
+el caldo==broth++12::3
+cumplir==to fulfill++12::3
+retraído==withdrawn++12::3
+acordarse==to remember++12::3
+acordar==to agree++12::3
+perplejo==perplexed++12::3
+el borde==edge, side++12::3
+despedazar==to break apart++12::3
+ajeno==alien++12::3
+demasiado==unreasonable; too much++12::3
+desempacar==to unpack++12::3
+el apartado==section, paragraph++12::3
+el pared==wall (internal)++12::3
+inverosímil==implausible++12::3
+forzar==to force++12::3
+meridional==southern++12::3
+el entretenimiento==entertainment++12::3
+alucinante==amazing, thrilling++12::3
+la lección==lesson++12::3
+el pífano==fife++12::3
+la sonaja==rattle++12::3
+de tal modo==in such a way++12::3
+sacar cuentas==to do the math++12::3
+aturdido==stunned; dazed++12::3
+ejemplar==exemplary++12::3
+aceitado==oiled++12::3
+sembrar==to sow++13::3
+alborotado==rowdy++12::3
+el loro==parrot++12::3
+recitar==to recite++12::3
+un centenar==a hundred (not literal)++12::3
+la pandereta==tambourine++12::3
+amaestrado==performing (e.g. circus animal)++12::3
+adivinar==to guess++12::3
+el pensamiento==thought++12::3
+el botón==button++12::3
+el emplasto==plaster++12::3
+un millar==a thousand (not literal)++12::3
+insólito==unusual, extraordinary++12::3
+la feria==fair++12::3
+tropezar==to stumble++12::3
+el saltimbanqui==acrobat, showman++12::3
+acorazado==armored++12::3
+el malabarista==juggler++12::3
+el aliento==encouragement; breath++12::3
+el estiércol==manure++12::3
+revelar==to reveal, disclose++11::2
+la pesadilla==nightmare++11::2
+el sándalo==sandalwood++11::2
+el muchedumbre==crowd++12::3
+ambarino==amber (adj.)++12::3
+el empujón==nudge, boost++12::3
+presenciar==to witness++12::3
+atónito==astonished++12::3
+el charco==puddle++12::3
+el alquitrán==tar++12::3
+sobreponerse a==to overcome++12::3
+los médanos==dunes++13::3
+la duna==dune++12::3
+arrojar==to throw, toss++12::3
+portentoso==wondrous++12::3
+peludo==hairy++12::3
+rapado==shaved++13::3
+el anillo==ring++12::3
+el tobillo==ankle++12::3
+custodiar==to safeguard++2::0
+el cofre==chest++12::3
+destapar==to uncover++12::3
+la aguja==needle++12::3
+el crepúsculo==twilight++12::3
+el témpano==iceberg++12::3
+apartar==to turn away; to set aside++12::3
+hinchar==to swell++12::3
+el júbilo==jubilation++12::3
+negar==to deny++12::3
+negarse==to refuse++10::2
+asustado==scared++12::3
+prestar atención==to pay attention++12::3
+el pirata==pirate++12::3
+asaltar==to assault; to raid++12::3
+el bisabuelo==great-grandfather++12::3
+asustar==to frighten++12::3
+el estampido==boom++4::0
+la quemadura==burn++11::2
+de medio lado==on the side++11::2
+el cojín==cushion++10::2
+la chamusquina==searing++12::3
+la alba==dawn++13::3
+someterse==to submit to++11::2
+vergonzoso==shameful++14::3
+gastar==to spend++12::3
+la estribación==foothill++11::2
+el toque de rebato==clarion call++12::3
+al rojo vivo==red hot++12::3
+negarse a==to refuse to do++11::2
+el tataranieto==great-great-grandson++9::2
+el tatarabuelo==great-great-grandfather++12::3
+el nieto==grandson++12::3
+casar==to marry++10::2
+casarse==to get married++12::3
+maldecir==to curse++12::3
+el recurso==resource++12::3
+el desahogo==relief++9::2
+el vínculo==link, relationship++12::3
+el remordimiento==remorse++12::3
+entre sí==with each other++10::2
+el antepasado==ancestor++12::3
+el pariente (la pariente)==relative++11::2
+saludable==healthful++12::3
+la raza==race, breed++12::3
+engendrar==to engender, produce++12::3
+englobar==to encompass++12::3
+flojo==loose++9::2
+morir desangrado==to bleed to death++10::2
+la cola==tail++8::0
+el tirabuzón==corkscrew++12::3
+la escobilla==brush++9::2
+el carnicero==butcher++12::3
+la hacha==hatchet++12::3
+la ligereza==lightness++12::3
+el cochinito==piglet++12::3
+el cohete==rocket++10::2
+rehusar==to refuse (less common)++11::2
+la lona==canvas++9::2
+el velero==sailboat++7::0
+grueso==thick, coarse++11::2
+la hebilla==buckle++9::2
+pastorear a==to shepherd++10::2
+el bastidor==frame++12::3
+forcejear==to struggle++9::2
+ansioso==eager++10::2
+olfatear==to sniff++10::2
+la correa==strap++9::2
+bordar==to embroider++10::2
+el perdedor==loser++12::3
+vuelvo en seguida==I'll be right back++9::2
+la lanza==lance++9::2
+cebar==to bait++1::0
+velar==to watch++9::2
+velarse==to be ensured++9::2
+la castidad==chastity++10::2
+blandir==to wield++1::0
+criar==to raise, breed++7::0
+retozar==to frolic++9::2
+el llanto==crying++9::2
+el asunto==matter, issue++6::0
 el malestar==discomfort++8::1
 la tinaja==jar++8::1
 cegar==to blind++8::1
@@ -1206,3 +1206,5 @@ la llanura==plain++8::1
 explayar==to expound++8::1
 explayado==spread++8::1
 procurar==to procure; to try++8::1
+el ejemplar==copy; specimen++8::1
+el ámbar==amber (noun)++8::1

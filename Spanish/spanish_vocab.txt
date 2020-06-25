@@ -560,7 +560,7 @@ volar
 to fly
 
 volver 
-to go back; to repeat
+to go back
 
 averiguar 
 to find out; to check
@@ -1094,7 +1094,7 @@ aún así
 even so
 
 regresar 
-to go back
+to return 
 
 sacar 
 to take out
@@ -2018,25 +2018,7 @@ asomarse
 to lean out
 
 asomar
-to show, poke out
-
-el alcance
-scope, reach
-
-la lupa
-magnifying glass
-
-el tambor
-drum
-
-mediante
-using
-
-asomarse
-to lean out
-
-asomar
-to show, poke out
+to poke out
 
 el alcance
 scope, reach
@@ -3133,7 +3115,7 @@ absorbed
 desempacar
 to unpack
 
-apartado
+el apartado
 section, paragraph
 
 el pared
@@ -3148,7 +3130,7 @@ to force
 meridional
 southern
 
-entretenimiento
+el entretenimiento
 entertainment
 
 alucinante
@@ -3169,13 +3151,16 @@ in such a way
 sacar cuentas
 to do the math
 
-aturdidos
-stunned
+aturdido
+stunned; dazed
 
 ejemplar
 exemplary
 
-aceitada
+el ejemplar
+copy; specimen
+
+aceitado
 oiled
 
 sembrar
@@ -3251,7 +3236,7 @@ el muchedumbre
 crowd
 
 ambarino
-amber
+amber (adj.)
 
 el empujón
 nudge, boost
@@ -3362,7 +3347,7 @@ la chamusquina
 searing
 
 la alba
-daybreak
+dawn
 
 someterse
 to submit to
@@ -3376,7 +3361,7 @@ to spend
 la estribación
 foothill
 
-el toque de reabto
+el toque de rebato
 clarion call
 
 al rojo vivo
@@ -3464,7 +3449,7 @@ el cohete
 rocket
 
 rehusar
-to refuse
+to refuse (less common)
 
 la lona
 canvas
@@ -3645,4 +3630,7 @@ spread
 
 procurar
 to procure; to try
+
+el ámbar
+amber (noun)
 

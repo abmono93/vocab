@@ -449,7 +449,7 @@ creux
 hollow
 
 le liseré 
-border, edge
+border, edging
 
 l'étoffe 
 material, fabric
@@ -2651,7 +2651,7 @@ s'accrocher
 to hang on
 
 le talus
-slope, embankment
+embankment
 
 le mareyeur
 fish merchant 
@@ -3385,3 +3385,56 @@ gift box
 le lampion
 lantern
 
+la pelouse
+lawn
+
+la touffe
+tuft
+
+la chaume
+thatch
+
+éparpiller
+to scatter
+
+le coteau
+hillside
+
+la parure
+adornment
+
+la pente
+slope
+
+paître
+to graze
+
+caramboler
+to collide
+
+la boiserie
+woodwork
+
+le lambris
+panel
+
+le cadre
+frame
+
+la bordure
+border, edge
+
+la craquelure
+cracking
+
+le vernis
+varnish
+
+la jarretière
+garter (holds up stockings)
+
+le mollet
+calf (leg)
+
+l'arête (f.)
+edge; bridge (e.g. of a nose)
