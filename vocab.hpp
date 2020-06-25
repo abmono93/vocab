@@ -21,7 +21,7 @@
 #define TRUE 1
 #define FALSE 0
 
-#define STUDY_WORDS 20
+#define STUDY_WORDS 10
 #define REVIEW_WORDS 2
 
 #define DEFINITION 1
