@@ -219,8 +219,7 @@ void VocabList::read_from_file(string filename){
 			def = "";
 		}
 	}
-	in.close();
-		
+	in.close();	
 }
 
 void VocabList::save_list(string filename){
