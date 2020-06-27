@@ -17,6 +17,8 @@
 #define LEARN_UPPERBOUND 11
 #define MAX_SCORE 14
 
+#define WORDS_PER_ROUND 10
+
 using namespace std;
 
 struct VocabWord{
@@ -72,7 +74,7 @@ class VocabList{
 };
 
 VocabList::VocabList(){
-    this->categories = vector<Category>(4);
+    this->categories = vector<Category>(5);
 }
 
 void VocabList::addToList(string word, string definition, int score, int category){
@@ -99,13 +101,6 @@ void VocabList::addToList(string word, string definition, int score, int categor
         cat = category;
     }
     if (cat < categories.size()) categories[cat][word] = vw;
-}
-
-int VocabList::categorize(int score){
-    if (score < HARD_UPPERBOUND) return HARD;
-    if (score < LEARN_UPPERBOUND) return FAMILIAR;
-    if (score < MAX_SCORE) return REVIEW;
-    return LEARNED;
 }
 
 bool VocabList::contains(string& word){
@@ -193,8 +188,10 @@ class Session{
         VocabList vocablist;
         void round(bool);
     private:
-        Category makeStudyList(bool);
-
+        Category makeStudyList();
+        int addFromCat(Category&, int, int);
+        void categorize(Category&);
+        int getCategory(int);
 };
 
 Session::Session(string filename){
@@ -203,11 +200,53 @@ Session::Session(string filename){
     vocablist.loadNewWords(filename);
 }
 
-Category Session::makeStudyList(bool answerWithDef){
-    Category studylist;
+void Session::categorize(Category& curlist){
+    int cat;
+    for (auto word : curlist){
+        cat = getCategory(word.second->score);
+        vocablist.categories[cat][word.first] = word.second;
+    }
 }
 
-void Session::round(bool answerWithDef){
-    Category studylist = makeStudyList(answerWithDef);
+int Session::getCategory(int score){
+    if (score < HARD_UPPERBOUND) return HARD;
+    if (score < LEARN_UPPERBOUND) return FAMILIAR;
+    if (score < MAX_SCORE) return REVIEW;
+    return LEARNED;
+}
 
+int Session::addFromCat(Category& curlist, int to_add, int cat){
+    //TODO: make random
+    int added = 0;
+    Category::iterator it;
+    to_add = min(to_add, (int)vocablist.categories[cat].size());
+    for (added = 0; added < to_add; added++){
+        it = vocablist.categories[cat].begin();
+        advance(it, added);
+        curlist[it->first] = it->second;
+    }
+    for (auto word : curlist){
+        vocablist.categories[cat].erase(word.first);
+    }
+    return added;
+}
+
+Category Session::makeStudyList(){
+    //TODO: replace numbers
+    Category currentList;
+    int toadd = WORDS_PER_ROUND;
+    toadd -= addFromCat(currentList, toadd, HARD);
+    if (toadd > 0) toadd -= addFromCat(currentList, min(toadd, 2), FAMILIAR);
+    if (toadd > 0) toadd -= addFromCat(currentList, min(toadd, 2),NEW);
+    addFromCat(currentList, 2, REVIEW);
+    return currentList;
+}
+
+void Session::round(bool reverse = false){
+    Category currentList = makeStudyList();
+    currentList.print(-1);
+    vocablist.printAll();
+    //quiz(currentList);
+    categorize(currentList);
+    //this->vocablist.saveToFile(filename);
 }

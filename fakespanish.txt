@@ -12,3 +12,9 @@ hello
 
 adios
 goodbye
+
+la agua
+water
+
+el planto
+plant
