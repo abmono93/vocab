@@ -21,6 +21,8 @@
 
 using namespace std;
 
+/*-------------------VocabWord------------------------------*/
+
 struct VocabWord{
         VocabWord(string, int);
         string definition;
@@ -35,12 +37,14 @@ VocabWord::VocabWord(string definition, int score){
 
 void VocabWord::changeScore(bool correct){
     if (correct){
-        score = min(MAX_SCORE, score + 1);
+        this->score = min(MAX_SCORE, score + 1);
     }else{
         if (score > LEARN_UPPERBOUND) score = LEARN_UPPERBOUND;
-        score = max(0, score - 1);
+        this->score = max(0, score - 1);
     }
 }
+
+/*-------------------Category------------------------------*/
 
 struct Category : public unordered_map<string, VocabWord*>{
     void print(int, ostream& dest = cout);
@@ -56,9 +60,10 @@ void Category::print(int categoryNum, ostream& dest){
     }
 }
 
-class VocabList{
+/*-------------------VocabList------------------------------*/
+
+class VocabList : public vector<Category>{
     public:
-        vector<Category> categories;
         VocabList();
         void addToList(string, string, int score = -1, int category = -1);
         void loadSavedList(string);
@@ -73,9 +78,7 @@ class VocabList{
         string getnext(string, string*);
 };
 
-VocabList::VocabList(){
-    this->categories = vector<Category>(5);
-}
+VocabList::VocabList() : vector<Category>(5){}
 
 void VocabList::addToList(string word, string definition, int score, int category){
     VocabWord *vw;
@@ -100,18 +103,18 @@ void VocabList::addToList(string word, string definition, int score, int categor
         vw = new VocabWord(definition, score);
         cat = category;
     }
-    if (cat < categories.size()) categories[cat][word] = vw;
+    if (cat < this->size()) (*this)[cat][word] = vw;
 }
 
 bool VocabList::contains(string& word){
-    for (Category category : categories){
+    for (Category category : *this){
         if (category.count(word) != 0) return true;
     }
     return false;
 }
 
 string VocabList::lookup(string word){
-    for (Category category : categories){
+    for (Category category : *this){
         if (category.count(word) != 0) return category[word]->definition;
     }
     return "";
@@ -166,20 +169,22 @@ void VocabList::loadNewWords(string filename){
 }
 
 void VocabList::printAll(){
-    for (int i = 0; i < categories.size(); i++){
+    for (int i = 0; i < this->size(); i++){
         cout << "\nCategory " << i << endl;
-        categories[i].print(i);
+        (*this)[i].print(i);
     }
     cout << endl;
 }
 
 void VocabList::saveToFile(string filename){
     ofstream file("." + filename + ".voc");
-    for (int i = 0; i < categories.size(); i++){
-        categories[i].print(i, file);
+    for (int i = 0; i < this->size(); i++){
+        (*this)[i].print(i, file);
     }
     file.close();
 }
+
+/*-------------------Session------------------------------*/
 
 class Session{
     public:
@@ -190,8 +195,9 @@ class Session{
     private:
         Category makeStudyList();
         int addFromCat(Category&, int, int);
-        void categorize(Category&);
+        void categorize(string, VocabWord*);
         int getCategory(int);
+        void quiz(Category&, bool);
 };
 
 Session::Session(string filename){
@@ -200,12 +206,9 @@ Session::Session(string filename){
     vocablist.loadNewWords(filename);
 }
 
-void Session::categorize(Category& curlist){
-    int cat;
-    for (auto word : curlist){
-        cat = getCategory(word.second->score);
-        vocablist.categories[cat][word.first] = word.second;
-    }
+void Session::categorize(string key, VocabWord* word){
+    int cat = getCategory(word->score);
+    vocablist[cat][key] = word;
 }
 
 int Session::getCategory(int score){
@@ -219,14 +222,14 @@ int Session::addFromCat(Category& curlist, int to_add, int cat){
     //TODO: make random
     int added = 0;
     Category::iterator it;
-    to_add = min(to_add, (int)vocablist.categories[cat].size());
+    to_add = min(to_add, (int)vocablist[cat].size());
     for (added = 0; added < to_add; added++){
-        it = vocablist.categories[cat].begin();
+        it = vocablist[cat].begin();
         advance(it, added);
         curlist[it->first] = it->second;
     }
     for (auto word : curlist){
-        vocablist.categories[cat].erase(word.first);
+        vocablist[cat].erase(word.first);
     }
     return added;
 }
@@ -244,9 +247,37 @@ Category Session::makeStudyList(){
 
 void Session::round(bool reverse = false){
     Category currentList = makeStudyList();
-    currentList.print(-1);
-    vocablist.printAll();
-    //quiz(currentList);
-    categorize(currentList);
-    //this->vocablist.saveToFile(filename);
+    quiz(currentList, reverse);
+    this->vocablist.saveToFile(filename);
+}
+
+bool isCorrect(string response, string answer){
+    return response.compare(answer) == 0;
+}
+
+void Session::quiz(Category& currentList, bool reverse){
+    string response, answer, choice;
+    bool correct;
+    auto it = currentList.begin();
+
+    while(it != currentList.end()){
+        auto word = it;
+        cout << (reverse ? word->second->definition : word->first) << ": ";
+        getline(cin, response);
+        answer = reverse ? word->first : word->second->definition;
+        it++;
+        switch(isCorrect(response, answer)){
+            case false:
+                cout << (reverse ? word->first : word->second->definition) << endl;
+                cout << "\"O\" to override ";
+                getline(cin, choice);
+                if (choice.compare("O")) break;
+            case true:
+                cout << "Correct!" << endl;
+                this->categorize(word->first, word->second);
+                currentList.erase(word->first);
+                cout << endl;
+        }
+    }
+    if (currentList.size()) quiz(currentList, reverse);
 }
