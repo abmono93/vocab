@@ -24,7 +24,7 @@
 //Words each round
 #define WORDS_PER_ROUND 10
 #define MAX_NEW_WORDS 5
-#define LEARNING_RATIO 1000
+#define LEARNING_RATIO 750
 
 #define CORRECT 1
 #define INCORRECT 0
@@ -320,9 +320,9 @@ void Session::fillStudyList(){
     int max_familiar = pow(vocablist[FAMILIAR].size(), 2) / LEARNING_RATIO;
 printf("max familiar = %d", max_familiar);
 	toadd -= fromCatToStudyList(toadd, HARD);
-    if (toadd) toadd -= fromCatToStudyList(min(toadd, max_familiar), FAMILIAR);
-    if (toadd) toadd -= fromCatToStudyList(min(toadd, MAX_NEW_WORDS), NEW);
-    if (toadd) toadd -= fromCatToStudyList(toadd, FAMILIAR);
+    toadd -= fromCatToStudyList(min(toadd, max_familiar), FAMILIAR);
+    toadd -= fromCatToStudyList(min(toadd, MAX_NEW_WORDS), NEW);
+    toadd -= fromCatToStudyList(toadd, FAMILIAR);
 	fromCatToStudyList(toadd, REVIEW);
     fromCatToStudyList(2, REVIEW);
 }
