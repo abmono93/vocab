@@ -286,9 +286,9 @@ void Session::categorize(string key, VocabWord* word){
 }
 
 int Session::getCategory(int score){
-    if (score < HARD_UPPERBOUND) return HARD;
-    if (score < LEARN_UPPERBOUND) return FAMILIAR;
-    if (score < MAX_SCORE) return REVIEW;
+    if (score <= HARD_UPPERBOUND) return HARD;
+    if (score <= LEARN_UPPERBOUND) return FAMILIAR;
+    if (score <= MAX_SCORE) return REVIEW;
     return LEARNED;
 }
 
