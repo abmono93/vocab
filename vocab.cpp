@@ -1,5 +1,5 @@
 #include <string>
-#include <unordered_map>
+#include <map>
 #include <vector>
 #include <iostream>
 #include <fstream>
@@ -24,7 +24,7 @@
 //Words each round
 #define WORDS_PER_ROUND 10
 #define MAX_NEW_WORDS 5
-#define LEARNING_RATIO 750
+#define LEARNING_RATIO 500
 
 #define CORRECT 1
 #define INCORRECT 0
@@ -66,7 +66,7 @@ void VocabWord::changeScore(bool correct){
 
 /*-------------------Category------------------------------*/
 
-struct Category : public unordered_map<string, VocabWord*>{
+struct Category : public map<string, VocabWord*>{
     void print(int, ostream& dest = cout);
     pair<string, VocabWord*> at_index(int);
 };
@@ -317,10 +317,10 @@ int Session::fromCatToStudyList(int to_add, int cat){
 void Session::fillStudyList(){
     Category currentList;
     int toadd = WORDS_PER_ROUND;
-    int max_familiar = pow(vocablist[FAMILIAR].size(), 2) / LEARNING_RATIO;
-printf("max familiar = %d", max_familiar);
+    int min_familiar = pow(vocablist[FAMILIAR].size(), 2) / LEARNING_RATIO;
+printf("min familiar = %d", min_familiar);
 	toadd -= fromCatToStudyList(toadd, HARD);
-    toadd -= fromCatToStudyList(min(toadd, max_familiar), FAMILIAR);
+    toadd -= fromCatToStudyList(min(toadd, min_familiar), FAMILIAR);
     toadd -= fromCatToStudyList(min(toadd, MAX_NEW_WORDS), NEW);
     toadd -= fromCatToStudyList(toadd, FAMILIAR);
 	fromCatToStudyList(toadd, REVIEW);
