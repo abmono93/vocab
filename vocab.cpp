@@ -319,7 +319,8 @@ void Session::fillStudyList(){
     Category currentList;
     int toadd = WORDS_PER_ROUND;
     int max_familiar = (int) pow(vocablist[FAMILIAR].size(), 2) / LEARNING_RATIO;
-    toadd -= fromCatToStudyList(toadd, HARD);
+printf("max familiar = %d", max_familiar);
+	toadd -= fromCatToStudyList(toadd, HARD);
     if (toadd > 0) toadd -= fromCatToStudyList(min(toadd, max_familiar), FAMILIAR);
     if (toadd > 0) toadd -= fromCatToStudyList(min(toadd, MAX_NEW_WORDS), NEW);
     fromCatToStudyList(toadd, FAMILIAR);
