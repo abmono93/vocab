@@ -6,11 +6,10 @@ int main(int argc, char *argv[]){
 	string filename = "spanish_vocab";
 	Session session(filename);
 	if (argc > 1 && string(argv[1]) == "stats"){
-		session.stats_message();
-		session.save();
+		session.showStats();
 		return 0;
 	}
-	session.round(DEFINITION);
-	session.round(TARGET_LANG);
+	session.round();
+	session.round(true);
 	return 0;
 }
