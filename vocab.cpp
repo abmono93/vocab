@@ -24,7 +24,7 @@
 //Words each round
 #define WORDS_PER_ROUND 10
 #define MAX_NEW_WORDS 5
-#define LEARNING_RATIO 350
+#define LEARNING_RATIO 1000
 
 #define CORRECT 1
 #define INCORRECT 0
@@ -56,6 +56,7 @@ VocabWord::VocabWord(string definition, int score){
 
 void VocabWord::changeScore(bool correct){
     if (correct){
+		if (score == 999) this->score = LEARN_UPPERBOUND;
         this->score = min(MAX_SCORE, score + 1);
     }else{
         if (score > LEARN_UPPERBOUND) score = LEARN_UPPERBOUND;
@@ -293,7 +294,6 @@ int Session::getCategory(int score){
 
 vector<int> generateIndices(int num){
     vector<int> indices(num);
-    //srand(time(NULL));
     for (int i = 0; i < num; i++) indices[i] = i;
     shuffle(indices.begin(), indices.end(), default_random_engine(time(NULL)));
     return indices;
@@ -305,9 +305,8 @@ int Session::fromCatToStudyList(int to_add, int cat){
     vector<int> indices = generateIndices(vocablist[cat].size());
     to_add = min(to_add, (int)vocablist[cat].size());
     for (added = 0; added < to_add; added++){
-        it = vocablist[cat].begin();
-        advance(it, indices[added]);
-        studyList[it->first] = it->second;
+        auto word = vocablist[cat].at_index(added);
+        studyList[word.first] = word.second;
     }
     for (auto word : studyList){
         vocablist[cat].erase(word.first);
@@ -318,12 +317,13 @@ int Session::fromCatToStudyList(int to_add, int cat){
 void Session::fillStudyList(){
     Category currentList;
     int toadd = WORDS_PER_ROUND;
-    int max_familiar = (int) pow(vocablist[FAMILIAR].size(), 2) / LEARNING_RATIO;
+    int max_familiar = pow(vocablist[FAMILIAR].size(), 2) / LEARNING_RATIO;
 printf("max familiar = %d", max_familiar);
 	toadd -= fromCatToStudyList(toadd, HARD);
-    if (toadd > 0) toadd -= fromCatToStudyList(min(toadd, max_familiar), FAMILIAR);
-    if (toadd > 0) toadd -= fromCatToStudyList(min(toadd, MAX_NEW_WORDS), NEW);
-    fromCatToStudyList(toadd, FAMILIAR);
+    if (toadd) toadd -= fromCatToStudyList(min(toadd, max_familiar), FAMILIAR);
+    if (toadd) toadd -= fromCatToStudyList(min(toadd, MAX_NEW_WORDS), NEW);
+    if (toadd) toadd -= fromCatToStudyList(toadd, FAMILIAR);
+	fromCatToStudyList(toadd, REVIEW);
     fromCatToStudyList(2, REVIEW);
 }
 
