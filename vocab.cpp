@@ -67,9 +67,17 @@ void VocabWord::changeScore(bool correct){
 /*-------------------Category------------------------------*/
 
 struct Category : public map<string, VocabWord*>{
+    ~Category();
     void print(int, ostream& dest = cout);
     pair<string, VocabWord*> at_index(int);
 };
+
+Category::~Category(){
+    cout << "Category of size " << this->size() << " destroyed " << endl;
+    for (auto it=this->begin(); it != this->end(); it++){
+        free(it->second);
+    } 
+}
 
 void Category::print(int categoryNum, ostream& dest){
     for (auto it=this->begin(); it != this->end(); it++){
@@ -139,8 +147,8 @@ bool VocabList::contains(string& word){
 }
 
 string VocabList::lookup(string& word){
-    for (Category category : *this){
-        if (category.count(word) != 0) return category[word]->definition;
+    for (int i = 0; i < this->size(); i++){
+        if ((*this)[i].count(word) != 0) return (*this)[i][word]->definition;
     }
     return "";
 }
@@ -312,7 +320,6 @@ int Session::fromCatToStudyList(int to_add, int cat){
 }
 
 void Session::fillStudyList(){
-    Category currentList;
     int toadd = WORDS_PER_ROUND;
     int min_familiar = pow(vocablist[FAMILIAR].size(), 2) / LEARNING_RATIO;
 printf("min familiar = %d", min_familiar);
