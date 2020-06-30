@@ -24,7 +24,7 @@
 //Words each round
 #define WORDS_PER_ROUND 10
 #define MAX_NEW_WORDS 5
-#define LEARNING_RATIO 500
+#define LEARNING_RATIO 750
 
 #define CORRECT 1
 #define INCORRECT 0
@@ -92,16 +92,15 @@ pair<string, VocabWord*> Category::at_index(int i){
 class VocabList : public vector<Category>{
     public:
         VocabList();
-        void addToList(string&, string&, int score = -1, int category = -1);
         void loadSavedList(string&);
         void loadNewWords(string&);
         void saveToFile(string&);
         void printAll();
         string lookup(string&);
-    private:
-        int categorize(int);
         bool contains(string&);
-        bool is_correct(string&, string&);
+    private:
+        void addToList(string&, string&, int score = -1, int category = -1);
+        int categorize(int);
         string getnext(string&, string*);
 };
 
@@ -113,7 +112,6 @@ void VocabList::addToList(string& word, string& definition, int score, int categ
 
     if (category == -1){
         string current = this->lookup(word);
-        //if (this->contains(word)){
         if (current != ""){
             if (current.compare(definition) != 0){
                 cout << "Note: multiple definitions found for " << word << ":" << endl;
@@ -133,7 +131,6 @@ void VocabList::addToList(string& word, string& definition, int score, int categ
         cat = category;
     }
     if (cat < this->size()) (*this)[cat][word] = vw;
-
 }
 
 bool VocabList::contains(string& word){
@@ -305,11 +302,11 @@ int Session::fromCatToStudyList(int to_add, int cat){
     vector<int> indices = generateIndices(vocablist[cat].size());
     to_add = min(to_add, (int)vocablist[cat].size());
     for (added = 0; added < to_add; added++){
-        auto word = vocablist[cat].at_index(added);
+        auto word = vocablist[cat].at_index(indices[added]);
         studyList[word.first] = word.second;
     }
     for (auto word : studyList){
-        vocablist[cat].erase(word.first);
+        if (vocablist[cat].count(word.first)) vocablist[cat].erase(word.first);
     }
     return added;
 }

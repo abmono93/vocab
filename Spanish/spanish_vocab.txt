@@ -3586,10 +3586,7 @@ trunk (box)
 recién casado
 newly wed
 
-cofre
-chest (container)
-
-cofrecito
+el cofrecito
 casket
 
 la pieza
