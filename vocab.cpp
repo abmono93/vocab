@@ -75,7 +75,7 @@ struct Category : public map<string, VocabWord*>{
 Category::~Category(){
     cout << "Category of size " << this->size() << " destroyed " << endl;
     for (auto it=this->begin(); it != this->end(); it++){
-        free(it->second);
+        delete it->second;
     } 
 }
 
