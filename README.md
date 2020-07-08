@@ -4,7 +4,7 @@ Study aid for memorizing vocab words
 compilation:
 
 	cd <directory>
-	g++ main.cpp -o vocab
+	g++ main.cpp -o vocab -std=c++11
 
 usage:
 
