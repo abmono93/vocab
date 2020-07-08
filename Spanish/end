@@ -1,4 +1,6 @@
 ./vocab stats >> record
+./vocab stats
 printf "no score: " >> record
+printf "no score: "
 egrep 999 .spanish_vocab.voc -c >> record
-cat record
+egrep 999 .spanish_vocab.voc -c

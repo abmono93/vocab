@@ -845,7 +845,7 @@ promulgar
 to enact
 
 intentar 
-to try
+to try, attempt
 
 el edificio 
 building
@@ -952,8 +952,8 @@ to realize that
 largo plazo 
 long term
 
-lidiar 
-to deal with
+lidiar
+to deal with, cope
 
 tanto 
 so much
@@ -1069,8 +1069,8 @@ to save
 así que 
 therefore
 
-tratar 
-to try
+tratar de
+to try to
 
 por más que 
 no matter how much
@@ -3611,7 +3611,7 @@ templado
 hardened, tempered
 
 la vertiente
-slope; strand
+strand, aspect; slope
 
 nublado
 cloudy
@@ -3630,3 +3630,9 @@ to procure; to try
 
 el ámbar
 amber (noun)
+
+tratar a
+to treat (someone a certain way)
+
+tratar (con)
+to deal with, handle
