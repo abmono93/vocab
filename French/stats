@@ -1,14 +1,13 @@
 echo "--------------------------------"
-printf "new words: "
-egrep '::1' .french_vocab.voc -c
-printf "in progress: "
-egrep '::0|::2' .french_vocab.voc -c
-echo ""
 printf "no score: "
 egrep 999 .french_vocab.voc -c
-printf "to review: "
-egrep '12|13|14' .french_vocab.voc -c
-printf "learnt: "
+printf "score=12: "
+grep 12 .french_vocab.voc -c
+printf "score=13: "
+grep 13 .french_vocab.voc -c
+printf "score=14: "
+grep 14 .french_vocab.voc -c
+printf "score=15: "
 grep 15 .french_vocab.voc -c
 echo "--------------------------------"
 

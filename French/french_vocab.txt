@@ -121,7 +121,7 @@ to move aside
 le fardeau 
 burden
 
-s'étreindre 
+étreindre 
 to hug
 
 redouter 
@@ -536,7 +536,7 @@ la morve
 snot
 
 la remise 
-delivery, discount
+delivery; discount
 
 le chêne 
 oak
@@ -860,7 +860,7 @@ tendu
 tense
 
 tendre à
-to tend to
+to tend to; to seek to
 
 tendre
 tender, sweet
@@ -1316,7 +1316,7 @@ fulgurant
 dazzling
 
 rendre compte
-to report
+to realize; to report
 
 creuser
 to dig
@@ -1940,7 +1940,7 @@ l'oie (f.)
 goose
 
 retentir
-to sound
+to sound (e.g. the alarm)
 
 la mare
 pond
@@ -2006,7 +2006,10 @@ l'étui (m.)
 case, cover
 
 se piquer
-to shoot up; to prick
+to shoot up
+
+piquer
+to prick
 
 le cil
 eyelash
@@ -2101,7 +2104,7 @@ stoop
 les feux follets
 wisps
 
-la nuqe
+la nuque
 nape (back of the neck)
 
 le tabier
@@ -2501,7 +2504,7 @@ le collet
 collar
 
 rapprocher
-to bring closer, reconcile
+to bring closer; to reconcile
 
 la hache
 axe
@@ -2680,7 +2683,7 @@ to deselect, untick
 le potage
 soup
 
-desserer
+desserrer
 to loosen, release
 
 chiffonner
@@ -2720,7 +2723,7 @@ le serin
 canary
 
 relever
-to address (a problem); to be under
+to lift; to relieve; to spice
 
 la guirlande
 wreath
@@ -3142,8 +3145,8 @@ to rise up
 escarpé
 steep, craggy
 
-cascade
-cascade; stunt; waterfall
+la cascade
+cascade; stunt
 
 mou (molle)
 soft; sluggish
@@ -3179,7 +3182,7 @@ la pesanteur
 gravity
 
 en vouloir
-to blame, resent
+to blame
 
 le carton
 cardboard; box
@@ -3284,7 +3287,7 @@ l'ortie (f.)
 nettle
 
 le volet
-pane; element
+pane (also figuratively as component)
 
 clos
 sealed
@@ -3438,3 +3441,9 @@ calf (leg)
 
 l'arête (f.)
 edge; bridge (e.g. of a nose)
+
+s'en vouloir
+to feel sorry
+
+la coque
+shell; hull

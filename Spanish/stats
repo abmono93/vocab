@@ -1,9 +1,4 @@
 echo "--------------------------------"
-printf "new words: "
-egrep '::1' .spanish_vocab.voc -c
-printf "in progress: "
-egrep '::0|::2' .spanish_vocab.voc -c
-echo ""
 printf "no score: "
 egrep 999 .spanish_vocab.voc -c
 printf "score=12: "

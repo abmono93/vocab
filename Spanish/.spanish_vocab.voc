@@ -1,39 +1,91 @@
-colgar||to hang up||2|1
-afirmar||to assert||11|2
-atrás||back, behind||11|2
-cebar||to bait||10|2
-conmovido||moved, touched||10|2
-degollar||to slit the throat||11|2
-el alboroto||fuss||9|2
-el baúl||trunk (box)||9|2
-el calabazo||gourd||11|2
-el espinazo||backbone||10|2
-el hombro||shoulder||9|2
-el musgo||moss||11|2
-el ricino||castor (bean)||9|2
-el tapón||stopper, plug (alo bottle cap)||11|2
-el titular||headline||10|2
-fastidiado||peeved; broken||10|2
+dichoso||happy||7|1
+la bacinilla||potty||8|1
+liviano||lightweight||8|1
+acuoso||watery||9|2
+ajustado||adjusted; tight||11|2
+al revés||the other way around||10|2
+amarillento||yellowish||10|2
+amparar||to protect, shelter||10|2
+apaciguar||to appease||11|2
+aplastar||to crush||10|2
+apretujar||to squeeze||10|2
+arrancar||to boot up; to rip off||10|2
+asistir||to attend||11|2
+asustar||to frighten||11|2
+atrancado||stuck||11|2
+blando||mushy||11|2
+continuar||to continue||11|2
+derribar||to bring down||11|2
+desde luego||certainly||9|2
+el circo||circus||9|2
+el costal||sack||11|2
+el crisol||crucible||10|2
+el desmonte||dismount; land clearing||11|2
+el distraimiento||abstraction||9|2
+el escalofrío||chill, shiver||9|2
+el gozo||joy||9|2
+el lagarto||lizard||10|2
+el mazacote||lump, blob||10|2
+el mercachifle||huckster||9|2
+el montaraz||ranger||10|2
+el muslo||thigh||11|2
+el naipe||playing card||9|2
+el pedazo||piece, chunk||9|2
+el pormenor||detail||11|2
+el pozo||well, pit||10|2
+el reguero||trail (e.g. of breadcrumbs)||9|2
+el témpano||iceberg||10|2
+el vuelo||flight||9|2
+empañar||to tarnish||9|2
+encantado||delighted||9|2
+engastar||to set, mount||10|2
+engendrar||to engender, produce||10|2
+entrañar||to entail||11|2
+entusiasmado con||excited about||11|2
+estremecer||to shudder||9|2
 húmedo||damp||10|2
-la acta||record (minutes)||10|2
-la hornilla||burner||11|2
-la intemperie||the elements||11|2
-la lástima||pity||10|2
-la maquila||assembly factory||11|2
-la piltrafa||scrap||9|2
-la vertiente||strand, aspect; slope||10|2
-ponerse||to become; to put on||10|2
-precipitarse||to rush||9|2
-recoger||to pick up||10|2
-reventar||to burst||10|2
-salvaje||wild||11|2
-tenue||dim||9|2
-terminante||strict; final||9|2
-tratar (con)||to deal with, handle||11|2
-tratar a||to treat (someone a certain way)||11|2
-velar||to watch||9|2
-áspero||rough||11|2
-a falta de||for lack of||12|3
+imprevisto||unforseen||9|2
+intempestivo||untimely||10|2
+la axila||armpit||11|2
+la brasa||ember; coal||9|2
+la burla||mockery||9|2
+la escapatoria||escape; loophole||9|2
+la estera||mat||10|2
+la fiera||beast||9|2
+la herramienta||tool||9|2
+la insolación||sunstroke||9|2
+la lagartija||gecko||9|2
+la languidez||languor||10|2
+la llama||flame||11|2
+la lombriz||worm||9|2
+la lona||canvas||11|2
+la mara||crowd, gang||11|2
+la paila||pot||11|2
+la paja||straw||10|2
+la porquería||crap||9|2
+la probeta||test tube||9|2
+la pócima||potion||11|2
+la valentía||courage||9|2
+las encías||gums||9|2
+las entrañas||bowels||9|2
+las peripecias||adventures||9|2
+machacar||to grind (food)||11|2
+minuciosamente||thoroughly||10|2
+padecer||to suffer||9|2
+predisponer a||to predispose||11|2
+reposado||rested||11|2
+rescatar||to rescue||10|2
+rondando la casa||hanging around the house||9|2
+sentir||to be sorry||11|2
+silbar||to whistle||9|2
+temerario||reckless||11|2
+trastornar||to disrupt||10|2
+truculento||gruesome||11|2
+vetado||banned||11|2
+volador||flying||9|2
+zarandear||to shake||10|2
+zurumbático||stunned||10|2
+a falta de||for lack of||13|3
 a pesar de||despite||14|3
 a solas||alone||13|3
 a través de||through, across||12|3
@@ -41,45 +93,47 @@ abastecer||to supply||14|3
 abastecerse||to stock up||12|3
 abrazar||to hug, embrace||12|3
 abrigar||to keep warm||12|3
-abrir||to open||12|3
+abrir||to open||14|3
 abrumar||to overwhelm||12|3
-absorto||absorbed||12|3
-abuchear||to jeer||12|3
+absorto||absorbed||13|3
+abuchear||to jeer||13|3
+aburrido||boring||12|3
 acabar||to finish||999|3
 acampar||to go camping||13|3
-aceitado||oiled||12|3
+aceitado||oiled||13|3
 acercar||to bring near||12|3
 acoger||to take in||12|3
 acorazado||armored||12|3
-acordar||to agree||13|3
+acordar||to agree||14|3
 acordarse||to remember||12|3
 acostarse||to go to bed||999|3
 adelante||ahead||999|3
-además||in addition||999|3
+además||in addition||13|3
 adentrarse en||to go into||999|3
 adiestrar||to train||12|3
 adivinar||to guess||12|3
 adquirir||to acquire, purchase||12|3
-adquisitivo||purchasing||12|3
+adquisitivo||purchasing||13|3
 afeitarse||to shave||12|3
+afirmar||to assert||12|3
 afuera||outside||12|3
 agacharse||to bend down||12|3
 agarrar||to grab||12|3
 agobiante||stifling||12|3
 agotado||exhausted||12|3
 agregar||to add to||12|3
-aguantar||to put up with||12|3
+aguantar||to put up with||13|3
 aguerrido||veteran, hardened||999|3
 ahorrar||to save||12|3
 ahí||there||14|3
 ajeno||alien||13|3
 al cabo de||at the end of||12|3
-al rojo vivo||red hot||13|3
 alborotado||rowdy||12|3
 alcanzar||to reach||999|3
-alegrar||to cheer||12|3
+alegrar||to cheer||13|3
+alegre||cheerful||12|3
 almorzar||to have lunch||12|3
-alocado||crazy||12|3
+alocado||crazy||13|3
 alterar||to alter; to disturb||12|3
 alterarse||to get upset||12|3
 alucinante||amazing, thrilling||12|3
@@ -98,43 +152,41 @@ apagar||to turn off||12|3
 apartar||to turn away; to set aside||12|3
 apañar||to fix; to rig||12|3
 apenas||barely||13|3
-aplastar||to crush||12|3
 aplazar||to postpone||12|3
 apoyar||to support (emotionally)||12|3
 aprender||to learn||999|3
 apretado||tight, cramped||12|3
 aprovechar||to take advantage||999|3
-apuntar||to point; to aim||999|3
+apuntar||to point; to aim||12|3
 aquellos||those||12|3
-ardiente||fiery||12|3
+ardiente||burning||12|3
 armar||to assemble||12|3
-arrancar||to boot up; to rip off||12|3
 arrastrar||to drag||12|3
 arreglar||to fix||12|3
 arrojar||to throw, toss||12|3
 arrugar||to wrinkle||12|3
 asaltar||to assault; to raid||12|3
 asar||to roast||12|3
-asistir||to attend||12|3
-asomar||to poke out||12|3
-asomarse||to lean out||12|3
+asomar||to poke out||13|3
+asomarse||to lean out||13|3
 asombrar||to amaze||12|3
 asombrarse||to wonder||12|3
 asombroso||amazing||12|3
 asustado||scared||12|3
-asustar||to frighten||12|3
-así||this way||13|3
+así||this way||14|3
 así que||therefore||12|3
 atender||to help||12|3
 aterrizar||to land||12|3
+atolondrado||scatterbrained||12|3
 atravesar||to cross||12|3
 atreverse a||to dare to||12|3
-atrofiar||to degrade||13|3
-atrofiarse||to waste away||999|3
+atrofiar||to degrade||12|3
+atrofiarse||to waste away||12|3
+atrás||back, behind||12|3
 aturdido||stunned; dazed||12|3
 aturdidor||stunning||12|3
 atónito||astonished||12|3
-aun||even||12|3
+aun||even||13|3
 aunque||although||12|3
 averiguar||to find out; to check||13|3
 azaroso||random||12|3
@@ -142,26 +194,25 @@ añorar||to long for something||12|3
 añorar a||to long for someone||12|3
 aún||still||12|3
 aún así||even so||12|3
-bailar||to dance||12|3
+bailar||to dance||13|3
 bajar||to go down||999|3
-barrer||to sweep||13|3
+barrer||to sweep||14|3
 bastante||enough; rather||13|3
 bastar||to suffice||12|3
 beber||to drink||13|3
 bendito||blessed||13|3
 blandir||to wield||12|3
-blando||mushy||12|3
 bordar||to embroider||12|3
 borrar||to erase||13|3
 borroso||blurry||12|3
 burlar||to get past||12|3
 burlarse||to mock||12|3
 caber||to fit into||12|3
-caer||to fall (object or person)||13|3
+caer||to fall (object or person)||14|3
 caer en saco roto||to fall on deaf ears||12|3
 caerse||to fall (person)||999|3
 callado||quiet||12|3
-callarse||to shut up||12|3
+callarse||to shut up||14|3
 caminar||to walk||13|3
 cantar||to sing||14|3
 capaz||capable||13|3
@@ -172,19 +223,21 @@ cargar||to load||999|3
 caro||expensive||12|3
 casar||to marry||12|3
 casarse||to get married||13|3
-castaño||brown||12|3
+castaño||brown||13|3
 cazar||to hunt||12|3
+cebar||to bait||12|3
 cegar||to blind||13|3
 cepillarse||to brush oneself||999|3
 cerrar||to close||12|3
 chorrear||to spurt||12|3
 chévere||awesome||12|3
-científico||scientific||13|3
+científico||scientific||12|3
 clavar||to nail||12|3
 cobrar||to charge||999|3
 cocer||to cook, boil||12|3
 cocinar||to cook||12|3
 coger||to catch, grab||999|3
+colgar||to hang up||12|3
 colocado||high, stoned||12|3
 colocar||to place||12|3
 colorido||colorful||14|3
@@ -198,76 +251,77 @@ compuesto por||composed of||14|3
 concebir||to conceive||13|3
 conducir||to drive||999|3
 confesar||to confess||999|3
-conformarse||to conform||12|3
+conformarse||to conform||13|3
 conformarse con||to settle for||12|3
 confundir||to confuse||13|3
+conmovido||moved, touched||12|3
 conocer||to know someone||14|3
 conseguir||to get||13|3
 consigo||with them||999|3
-contar||to tell; to count||999|3
+contar||to tell; to count||14|3
 contar con||to count on||12|3
 contar muchas cosas de||to say a lot about||13|3
 contener||to contain||12|3
 contestar||to answer||12|3
-continuar||to continue||999|3
-controlar||to control; to monitor||12|3
+contiguo||contiguous||12|3
+controlar||to control; to monitor||13|3
 convertir||to turn (someone/something) into||12|3
 convertirse||to become||12|3
-corpulento||portly||12|3
+corpulento||portly||13|3
 correr||to run||12|3
 corresponder||to correspond; to reciprocate||12|3
-coser||to sew||12|3
+coser||to sew||13|3
 costar||to cost||12|3
 crecer||to grow; to grow up||12|3
-creer||to believe||12|3
+creer||to believe||13|3
 criar||to raise, breed||12|3
 crujir||to creak||12|3
 cruzar||to cross||12|3
 cuadrar||to square||13|3
-cubrir||to cover||13|3
-cuidar||to take care of||12|3
+cubrir||to cover||14|3
+cuidar||to take care of||13|3
 cumplir||to fulfill||12|3
 custodiar||to safeguard||12|3
 cuyo||whose||13|3
 cuídate||take care (of yourself)||12|3
-cuídense||take care (of yourselves)||999|3
+cuídense||take care (of yourselves)||13|3
 cómo así||how come?||999|3
 cómodamente||comfortably||12|3
 cómodo||comfortable||12|3
-dando vueltas||hanging around||12|3
+dando vueltas||hanging around||14|3
 dar||to give||13|3
 dar a conocer||to make known||12|3
 dar a luz||to give birth||12|3
 de ahí||hence||12|3
-de estribor||starboard||12|3
-de medio lado||on the side||12|3
+de estribor||starboard||13|3
+de medio lado||on the side||13|3
 de modo que||in order to; so that||999|3
 de pronto||suddenly||12|3
 de tal modo||in such a way||12|3
 de todas formas||in any case||12|3
 de un golpe||at once||12|3
-de vez en cuando||once in a while||12|3
+de vez en cuando||once in a while||13|3
 deber||to owe; should||12|3
 decir||to say||13|3
-defender||to defend||12|3
+defender||to defend||13|3
+degollar||to slit the throat||12|3
 dejar||to leave behind||12|3
 dejar de||to stop doing (something)||13|3
 dejar que||to let||12|3
-delante||in front||12|3
+delante||in front||13|3
 delinquir||to break the law||999|3
 demasiado||unreasonable; too much||12|3
 demorado||delayed||13|3
 demorar||to take time||999|3
-demostrar||to demonstrate||12|3
+demostrar||to demonstrate||13|3
 dentro||inside||12|3
 dentro de poco||before long||12|3
 denunciar||to denounce; to report||12|3
 derretir||to melt||12|3
-derribar||to bring down||12|3
 derrumbar||to tear down||12|3
 derrumbarse||to collapse||12|3
 desaforado||unbridled||12|3
-desaparecer||to disappear||12|3
+desaparecer||to disappear||13|3
 desarollar||to develop, grow||13|3
 desarraigar||to uproot||13|3
 desarrapado||ragged||12|3
@@ -279,6 +333,7 @@ descomunal||huge||12|3
 descuidado||careless||12|3
 descuidar||to get distracted; to neglect||12|3
 desempacar||to unpack||12|3
+desempolvar||to dust||12|3
 desenclavar||to dislodge||12|3
 desentrañar||to unravel||12|3
 desgastado||worn||12|3
@@ -290,18 +345,19 @@ desmontar||to dismantle||12|3
 desordenado||messy||12|3
 despedazar||to break apart||12|3
 despedir||to fire, dismiss||12|3
-despedirse||to say goodbye||13|3
+despedirse||to say goodbye||12|3
 despertarse||to wake up||13|3
 desprendir||to detach||12|3
 después||after||999|3
 destapar||to uncover||12|3
-destrozar||to destroy||13|3
+destrozar||to destroy||14|3
 desvestirse||to undress||13|3
 detener a||to stop, arrest||999|3
 determinado||determined; specific||12|3
 detrás||behind||12|3
 devolver||to give back||13|3
 dibujar||to draw||13|3
+dicharachero||witty||13|3
 dirigir||to direct||999|3
 disponer de||to dispose of||12|3
 dispuesto||willing; prepared||12|3
@@ -309,25 +365,28 @@ distinguir||to distinguish||12|3
 distribuir||to distribute||13|3
 donde sea||anywhere, wherever||13|3
 dormir||to sleep||14|3
-dotar||to provide, equip||12|3
+dotar||to provide, equip||13|3
 echar||to throw||12|3
-echarse||to lie down||12|3
+echarse||to lie down||13|3
 ejemplar||exemplary||12|3
 ejercer||to exercise||14|3
 el Chipre||Cyprus||13|3
-el abrigo||coat||999|3
+el abrigo||coat||12|3
 el acierto||success; wisdom||12|3
 el aguacero||downpour||999|3
 el alambique||still (distilling)||12|3
 el albergue||hostel; shelter||12|3
+el alboroto||fuss||12|3
 el alborozo||exhilaration||12|3
 el alcance||scope, reach||12|3
+el algodón||cotton||12|3
 el aliento||encouragement; breath||12|3
 el almizcle||musk||12|3
 el alquitrán||tar||12|3
 el alrededor||immediate area||999|3
 el amanecer||dawn||12|3
 el ambiente||environment||12|3
+el amoníaco||ammonia||12|3
 el anafe||portable stove||13|3
 el anillo||ring||12|3
 el ansia||craving||12|3
@@ -345,27 +404,31 @@ el azote||scourge||12|3
 el azufre||sulfur||12|3
 el azulejo||bluebird||12|3
 el balde||pail||12|3
-el barco||ship||13|3
-el barro||mud, clay||13|3
+el barco||ship||14|3
+el barro||mud, clay||12|3
 el bastidor||frame||12|3
-el bisabuelo||great-grandfather||12|3
+el baúl||trunk (box)||12|3
+el bisabuelo||great-grandfather||14|3
 el bocazas (la bocazas)||bigmouth||12|3
 el bolsillo||pocket||12|3
-el bombero||firefighter||12|3
+el bombero||firefighter||13|3
 el borde||edge, side||12|3
 el botón||button||13|3
-el cabo||cape||12|3
+el bozo||upper lip (slang)||12|3
+el bullicio||bustle||12|3
+el cabo||cape||13|3
 el caimán||alligator||12|3
 el cajón||drawer||13|3
+el calabazo||gourd||12|3
 el caldero||cauldron||12|3
 el caldo||broth||12|3
-el campo||countryside; field||12|3
+el campo||countryside; field||13|3
 el carnicero||butcher||12|3
-el carril||lane||999|3
+el carril||lane||12|3
 el cartón||cardboard||999|3
 el casamiento||marriage; wedding||999|3
 el castaño||chestnut tree||12|3
-el catalejo||spyglass||12|3
+el catalejo||spyglass||14|3
 el cañonazo||cannon||12|3
 el cerdo||pig||12|3
 el chaleco||vest||999|3
@@ -373,13 +436,14 @@ el charco||puddle||12|3
 el chicharrón||pork rind||14|3
 el chivo||goat||12|3
 el científico||scientist||12|3
+el claro||clearing (e.g. in the woods)||12|3
 el clavo||nail||12|3
 el cochinito||piglet||12|3
 el cofre||chest||12|3
 el cofrecito||casket||12|3
 el cohete||rocket||12|3
 el cojín||cushion||12|3
-el colador||strainer||12|3
+el colador||strainer||14|3
 el comedor||dining room||12|3
 el comercio||storefront||999|3
 el concurso||contest||12|3
@@ -393,23 +457,24 @@ el costillar||rack; ribcage||12|3
 el crepúsculo||twilight||12|3
 el cuchillo||knife||12|3
 el cuello||neck||12|3
-el cupo||space available||13|3
+el cupo||space available||14|3
 el dedo||finger||12|3
-el departamento||apartment; department||13|3
+el departamento||apartment; department||12|3
 el deporte||sport||12|3
 el desahogo||relief||12|3
-el desmonte||dismount; land clearing||12|3
+el desamparo||distress||12|3
+el desnivel||unevenness||12|3
 el disturbio||riot||12|3
 el dominio||domain; domination||12|3
 el duelo||mourning||12|3
-el dueño||owner; landlord||12|3
+el dueño||owner; landlord||13|3
 el edad||age||12|3
 el edificio||building||13|3
-el ejemplar||copy; specimen||12|3
+el ejemplar||copy; specimen||13|3
 el ejército||military||12|3
 el embudo||funnel||12|3
 el emplasto||plaster||12|3
-el emprendedor||entrepreneur||12|3
+el emprendedor||entrepreneur||13|3
 el empujón||nudge, boost||12|3
 el encanto||charm||12|3
 el encono||bitterness||12|3
@@ -417,29 +482,32 @@ el endurecimiento||hardening||13|3
 el enemigo||enemy||13|3
 el engendro||creature||12|3
 el enlace||connection||12|3
-el entretenimiento||entertainment||12|3
-el escalofrío||chill, shiver||12|3
+el entretenimiento||entertainment||13|3
+el escondrijo||cache||12|3
 el escorbuto||scurvy||14|3
 el esfuerzo||effort||999|3
 el eslabón||link||12|3
+el espanto||horror||12|3
 el espejo||mirror; reflection||999|3
-el estado de derecho||rule of law||13|3
+el espinazo||backbone||12|3
 el estampido||boom||12|3
 el estiércol||manure||12|3
+el estremecimiento||thrill; shiver||12|3
 el fierro||iron||12|3
 el fogón||stove||999|3
-el fondo||fund; back||12|3
+el fondo||fund; back||13|3
 el fracaso||failure||12|3
 el frasco||bottle, vial||12|3
 el frente||front, face||12|3
 el funcionario||government official||13|3
-el fundamento||basis||999|3
+el fundamento||basis||12|3
 el gabinete||office||12|3
 el gallo||rooster||999|3
 el gitano||gypsy||13|3
 el globo terráqueo||the globe||12|3
 el golpe de estado||coup||999|3
 el gorrión||sparrow||12|3
+el gozne||hinge||12|3
 el grillo||cricket||12|3
 el género humano||mankind||12|3
 el hallazgo||finding||12|3
@@ -447,17 +515,21 @@ el hechizo||spell||12|3
 el hecho||fact; event||999|3
 el helecho||fern||12|3
 el hierro||iron||12|3
-el hilo||thread||999|3
+el hilo||thread||12|3
 el hisopo||swab||12|3
+el hombro||shoulder||12|3
 el hormigo||ant||13|3
 el hueco||hole, gap||13|3
+el hueso||bone||12|3
+el humo||smoke||12|3
 el idioma||language||14|3
 el imán||magnet||12|3
 el jarabe||syrup||12|3
 el juguete||toy||12|3
 el juicio||trial||12|3
-el júbilo||jubilation||12|3
-el lado||side||999|3
+el júbilo||jubilation||13|3
+el lado||side||13|3
+el largo rato||long time||12|3
 el lecho||bed, riverbed||12|3
 el lector||reader||12|3
 el lingote||ingot (bar of gold, steel etc.)||12|3
@@ -465,39 +537,41 @@ el lirio||lilly||12|3
 el llanto||crying||12|3
 el loro||parrot||12|3
 el lujo||luxury||12|3
-el lápiz labial||lipstick||14|3
 el lío||mess||12|3
 el malabarista||juggler||12|3
 el malestar||discomfort||12|3
 el manto||cloak||12|3
-el miedo||fear||13|3
-el montaraz||ranger||12|3
+el mesón||inn||12|3
+el miedo||fear||14|3
 el morral||backpack||13|3
 el motivo||cause, reason||999|3
 el muchedumbre||crowd||12|3
-el mulo||mule||14|3
+el mulo||mule||12|3
+el musgo||moss||13|3
 el naufragio||shipwreck||12|3
 el negocio||business||12|3
-el nieto||grandson||14|3
+el nieto||grandson||12|3
 el novato||rookie||12|3
+el náufrago||castaway||12|3
 el olor||smell||12|3
 el ombligo||belly button||12|3
 el pago||payment||12|3
 el paisaje||landscape, scenery||12|3
 el palmo||hand (measurement)||12|3
-el palo||stick; golf club||999|3
-el pantano||swamp||12|3
+el palo||stick; golf club||13|3
+el pantano||swamp; reservoir||12|3
 el pared||wall (internal)||13|3
 el pariente (la pariente)||relative||12|3
 el parqueo||parking lot||12|3
 el patio||courtyard; patio||13|3
-el patrón||pattern; boss||13|3
+el patrón||pattern; boss||14|3
 el pavor||dread||12|3
 el pañal||diaper||999|3
 el peaje||toll booth||999|3
 el pecado||sin||13|3
 el pecho||chest||999|3
 el peine||comb||12|3
+el pellejo||hide (pelt)||12|3
 el pelotón||squad||12|3
 el pelotón de fusilamiento||firing squad||12|3
 el pensamiento||thought||12|3
@@ -512,24 +586,26 @@ el pito||whistle||12|3
 el pleito||dispute||12|3
 el pliego||sheet, list of specifications||12|3
 el plátano||banana; plantain||12|3
-el pozo||well, pit||12|3
 el precio||price||12|3
-el problema||problem||13|3
+el problema||problem||14|3
 el puente||bridge||12|3
 el puesto||position||13|3
 el puño||fist||12|3
-el páramo||wasteland||999|3
+el páramo||wasteland||12|3
 el párrafo||paragraph||12|3
-el pífano||fife||12|3
+el pífano||fife||13|3
+el quejido||groan||12|3
 el raspón||scratch||12|3
 el rastro||trace (track, trail)||12|3
 el recreo||recess||12|3
 el recurso||resource||12|3
-el refugio||shelter||12|3
+el refugio||shelter||13|3
 el regalo||present||12|3
 el reino||kingdom||12|3
 el remordimiento||remorse||12|3
+el ricino||castor (bean)||12|3
 el rizo||curl, loop||12|3
+el riñón||kidney||12|3
 el rocío||dew||12|3
 el rostro||face (more intimate than cara)||12|3
 el ruido||noise||12|3
@@ -539,39 +615,43 @@ el rábano||radish||14|3
 el saltimbanqui||acrobat, showman||12|3
 el sarampión||measles||999|3
 el sendero||path||13|3
-el sopor||slumber||12|3
+el seno||breast||12|3
+el sopor||slumber||13|3
 el sortilegio||spell, fortune-telling||12|3
 el suelo||soil, ground||12|3
 el sándalo||sandalwood||14|3
 el tamaño||size||13|3
 el tambor||drum||12|3
+el tapón||stopper, plug (alo bottle cap)||12|3
 el tatarabuelo||great-great-grandfather||12|3
 el tataranieto||great-great-grandson||12|3
-el techo||roof; ceiling||999|3
+el techo||roof; ceiling||12|3
 el tema||subject||12|3
 el terciopelo||velvet||12|3
 el terremoto||earthquake||12|3
 el terreno baldío||wasteland; vacant lot||12|3
 el testigo (la testigo)||witness||13|3
 el tirabuzón||corkscrew||12|3
+el titular||headline||12|3
 el tobillo||ankle||12|3
-el toque de rebato||clarion call||12|3
+el toque de rebato||clarion call||13|3
 el tornillo||bolt||12|3
 el trueno||thunderclap||999|3
-el turpial||blackbird (turpial)||12|3
-el témpano||iceberg||12|3
+el turpial||blackbird (turpial)||13|3
 el vaivén||swaying||12|3
 el velamen||airfoil||12|3
 el velero||sailboat||12|3
+el vello||(body) hair||12|3
 el venado||deer||12|3
 el verdín||scum||12|3
 el viaje||trip||13|3
 el vicio||vice||13|3
-el vidrio||glass||12|3
+el vidrio||glass||13|3
 el vientre||belly; womb||12|3
 el vínculo||link, relationship||12|3
 el zarpazo||swipe||12|3
-el ámbar||amber (noun)||12|3
+el zumbido||buzz||12|3
+el ámbar||amber (noun)||13|3
 el ámbito||area; field||12|3
 el ímpetu||impetus, momentum||12|3
 el índice||index, rate||999|3
@@ -579,7 +659,6 @@ el ñame||yam||12|3
 el óxido||rust||13|3
 embriagarse||to get drunk||12|3
 embullado||excited (rare)||12|3
-empañar||to tarnish||12|3
 empedrar||to pave||12|3
 empeorar||to worsen||999|3
 empezar||to start||999|3
@@ -587,56 +666,56 @@ empeñar||to pawn||12|3
 empeñarse en||to strive to||12|3
 emprender||to undertake||12|3
 en aquel tiempo||at that time||12|3
-en cambio||instead; on the other hand||13|3
+en cambio||instead; on the other hand||12|3
 en fin||anyway; in short||12|3
 en torno a||around, about||999|3
 en vez de||instead of||13|3
 encalar||to whitewash||12|3
-encantado||delighted||12|3
 encapuchado||hooded||999|3
 encargarse||to be in charge||999|3
 encendido||lit up||12|3
+encerrar||to enclose||12|3
 encima de||on top of||12|3
+encinta||pregnant||12|3
 encontrar||to find; to meet||12|3
 enfadarse con||to get mad at||12|3
-engastar||to set, mount||12|3
-engendrar||to engender, produce||12|3
 englobar||to encompass||12|3
 enredar||to tangle||12|3
 ensanchar||to widen||12|3
 enseguida||right away||12|3
+ensimismado||self-absorbed; lost in thought||12|3
 ensordecedor||deafening||12|3
 entender||to understand||13|3
 enterar||to inform||999|3
 enterarse de||to find out about||12|3
 enterrar||to bury||12|3
 entintar||to ink||12|3
-entre sí||with each other||12|3
+entre sí||with each other||13|3
 entregar||to hand over, deliver||12|3
 envejecer||to grow old||12|3
 enviado por||sent by||12|3
 enviar||to send||12|3
 envolver||to wrap||999|3
-es que||the thing is||999|3
+es que||the thing is||12|3
 escoger||to choose||12|3
 escribir||to write||13|3
-escuchar||to listen||999|3
+escuchar||to listen||13|3
 escuálido||squalid; scrawny||12|3
 eso sí||of course||12|3
 espantar||to scare||12|3
 espantarse||to panic||12|3
-espeso||thick||12|3
+espeso||thick||13|3
 espumoso||sparkling; frothy||12|3
-establecer||to establish||13|3
+establecer||to establish||14|3
 estallar||to explode||12|3
 estancar||to hold back||999|3
 estar||to be (temporary)||999|3
 estragado||devastated||12|3
 estragar||to ruin||12|3
 estrecho||narrow, tight||999|3
-estremecer||to shudder||12|3
 exigir||to require||12|3
 expedir||to issue||12|3
+experimentar||to experience; to experiment||12|3
 explayado||spread||12|3
 explayar||to expound||12|3
 explicativo||explanatory||12|3
@@ -645,9 +724,10 @@ extraviarse||to get lost||12|3
 extrañar||to miss (someone/something)||12|3
 extraño||strange||13|3
 faltar||to miss, skip||12|3
+fastidiado||peeved; broken||12|3
 fastidiar||to annoy; to tease||12|3
 febrile||feverish||12|3
-fiar||to confide; to trust||12|3
+fiar||to confide; to trust||13|3
 fiera||fierce||12|3
 fingir||to pretend||999|3
 firmar||to sign||12|3
@@ -666,6 +746,7 @@ fundir||to melt, fuze||13|3
 galopear||to gallop||999|3
 gastar||to spend||12|3
 golpear||to hit||12|3
+gozar||to enjoy||12|3
 gritar||to shout||12|3
 grueso||thick, coarse||12|3
 guiar||to guide||999|3
@@ -674,11 +755,10 @@ hablar||to talk, speak||999|3
 hacer||to do; to make||999|3
 hacer caso a||to listen to||12|3
 hacer daño||to harm||12|3
-hacia||toward||999|3
+hacia||toward||13|3
 hallar||to find||12|3
-hasta||until; even||999|3
-hasta el momento||so far||13|3
-hechizar||to bewitch||12|3
+hasta el momento||so far||14|3
+hechizar||to bewitch||13|3
 hermético||airtight||12|3
 hervir||to boil||12|3
 hinchar||to swell||12|3
@@ -698,46 +778,51 @@ imponente||imposing||12|3
 incluso||even, including||14|3
 indigente||needy||13|3
 infundir||to instill||999|3
-inmediatamente||immediately||12|3
+inmediatamente||immediately||14|3
 inmiscuirse||to interfere||13|3
 innegable||undeniable||14|3
 inquebrantable||unwavering||12|3
 insalvable||insurmountable||12|3
 insensible||insensitive||12|3
+insondable||unfathomable||12|3
 insólito||unusual, extraordinary||12|3
 intentar||to try, attempt||999|3
 inusitado||unusual||999|3
+invernal||wintry||12|3
 inverosímil||implausible||12|3
-invertir||to invest||14|3
 ir||to go||12|3
 irse||to leave||13|3
 jamás||never||12|3
 jerárquico||heirarchical||999|3
 joder||to piss off (vulgar)||999|3
 jugar||to play||13|3
-juntar||to put together||12|3
+juntar||to put together||13|3
 justo||fair||13|3
 la abeja||bee||12|3
 la acera||sidewalk||12|3
 la acogida||reception||999|3
+la acta||record (minutes)||12|3
 la aguja||needle||12|3
 la ala||wing||12|3
 la alba||dawn||13|3
 la albahaca||large chest||12|3
+la aldaba||knocker; hasp||12|3
 la aldea||village||12|3
-la amapola||poppy||12|3
+la alma||soul||12|3
+la amapola||poppy||13|3
 la amargura||bitterness||12|3
-la amistad||friendship||14|3
+la amistad||friendship||12|3
 la apuesta||bet||12|3
 la arboladura||rigging; mast||12|3
 la arena||sand||999|3
 la armadura||armor||12|3
 la bandera||flag||12|3
+la baraja||deck (of cards)||12|3
 la berenjena||eggplant||12|3
+la bisagra||joint; hinge||12|3
 la brújula||compass||12|3
 la bullaranga||racket||12|3
-la burbuja||bubble||12|3
-la burla||mockery||12|3
+la burbuja||bubble||13|3
 la cabecera||header; head||12|3
 la cacería||hunt||13|3
 la cadena||chain||12|3
@@ -747,19 +832,19 @@ la cara||face||13|3
 la caridad||charity||999|3
 la carpa||tent||999|3
 la carretera||highway||13|3
-la cascote||rubble||12|3
+la cascote||rubble||13|3
 la castidad||chastity||12|3
 la cazuela||casserole; pan||12|3
 la cañabrava||reed||12|3
 la ceniza||ash||12|3
 la cera||wax||13|3
-la cerca||fence||12|3
+la cerca||fence||13|3
 la cereza||cherry||13|3
 la chamusquina||searing||12|3
 la cinta||ribbon, tape||12|3
 la ciénaga||swamp||12|3
 la clarividencia||clairvoyance||12|3
-la cobre||brass||12|3
+la cobre||brass||13|3
 la cola||tail||12|3
 la colonia||colony; neighborhood||999|3
 la coraza||shell||12|3
@@ -773,49 +858,48 @@ la cuesta||slope||12|3
 la culebra||snake||12|3
 la cédula de identidad||ID card||12|3
 la dentadura||set of teeth||12|3
-la denuncia||police report||999|3
+la denuncia||police report||12|3
 la depuración||purification||12|3
 la deriva||drift||12|3
 la descendencia||offspring||13|3
 la diligencia||errand||12|3
 la dolencia||ailment||12|3
-la duna||dune||12|3
+la duna||dune||13|3
 la empresa||company||12|3
 la escena||scene||14|3
 la escobilla||brush||12|3
-la espalda||back||13|3
+la espalda||back||14|3
 la estribación||foothill||12|3
 la evasiva||evasion||13|3
 la falta||lack of||999|3
-la feria||fair||12|3
-la fiera||beast||12|3
+la feria||fair (noun)||12|3
 la fila||line||999|3
-la firmeza||firmness||12|3
+la firmeza||firmness||13|3
 la frase||sentence, phrase||12|3
-la fuente||source||13|3
-la fábrica||factory||12|3
+la fuente||source||12|3
+la fábrica||factory||13|3
 la gallina||hen||12|3
 la ganadería||livestock||12|3
 la garganta||throat||12|3
 la gaviota||seagull||13|3
 la gorra||baseball cap||13|3
-la grabadora||recorder||999|3
+la grabadora||recorder||13|3
 la guacamaya||macaw||13|3
 la guayaba||guava||12|3
 la hacha||hatchet||12|3
 la hebilla||buckle||12|3
 la herencia||inheritance||12|3
 la herida||injury||12|3
-la hermosa||beauty||13|3
-la herramienta||tool||12|3
+la hermosa||beauty||14|3
 la honda||sling||12|3
-la honradez||honesty||12|3
+la honradez||honesty||13|3
 la hormiguita||doodlebug||12|3
+la hornilla||burner||12|3
 la huerta||garden||12|3
 la humedad||humidity||12|3
-la ida||leg (of a journey)||12|3
+la ida||leg (of a journey)||13|3
 la imaginación||imagination||12|3
-la insolación||sunstroke||12|3
+la intemperie||the elements||12|3
 la inventiva||inventiveness||14|3
 la jarcia||rigging||12|3
 la jaula||cage||12|3
@@ -826,33 +910,31 @@ la lección||lesson||12|3
 la leña||firewood||12|3
 la licuadora||blender||999|3
 la ligereza||lightness||12|3
-la llama||flame||999|3
 la llanura||plain||12|3
 la locura||madness||12|3
-la lona||canvas||12|3
 la lupa||magnifying glass||12|3
+la lástima||pity||13|3
 la madera||wood||12|3
 la maleta||suitcase||999|3
 la manteca||butter||12|3
-la mara||crowd, gang||999|3
+la maquila||assembly factory||12|3
 la maraña||tangle||12|3
 la mariposa||butterfly||12|3
-la medida||measurement (also measure as a noun)||12|3
+la medida||measurement (also measure as a noun)||13|3
 la mejilla||cheek||12|3
 la mercancía||merchandise||12|3
 la meta||goal||12|3
-la morena||brunette||12|3
+la morena||brunette||14|3
 la moto||motorcycle||14|3
 la muestra||sample||12|3
 la nata||cream||12|3
-la novelería||novelty||13|3
-la olla||pot||12|3
+la novelería||novelty||12|3
+la olla||pot||13|3
 la orilla||shore||14|3
 la orquídea||orchid||13|3
-la paila||pot||12|3
-la paja||straw||12|3
 la palma||palm tree||12|3
 la palmera||palm tree||13|3
+la paloma||dove||12|3
 la pandereta||tambourine||12|3
 la pandilla||gang||13|3
 la pena||sorrow||999|3
@@ -863,63 +945,67 @@ la peste||plague||12|3
 la picadura||sting||13|3
 la piedad||mercy||12|3
 la piedra||stone||13|3
-la pierna||leg||12|3
+la pierna||leg||14|3
 la pieza||piece||12|3
+la piltrafa||scrap||13|3
 la pitaya||dragonfruit||12|3
 la plastilina||play dough||999|3
 la pollera||skirt (South America)||12|3
 la pregaria||prayer||12|3
-la preocupación||concern||999|3
-la privación||deprivation||13|3
-la probeta||test tube||13|3
-la quemadura||burn||12|3
+la preocupación||concern||13|3
+la privación||deprivation||12|3
+la quemadura||burn||13|3
 la rabia||anger||12|3
 la raspadura||scrape||12|3
 la raza||race, breed||13|3
 la resonancia||resonance||13|3
 la ribera||riverside||12|3
-la riqueza||wealth||999|3
+la riqueza||wealth||12|3
+la risa||laughter||13|3
 la sabiduría||wisdom, knowledge||13|3
 la sala||living room||12|3
-la selva||rainforest||12|3
+la selva||rainforest||13|3
 la silla||chair||999|3
 la solicitud||request||999|3
 la sonaja||rattle||12|3
-la sospecha||hunch||14|3
+la sospecha||hunch||13|3
 la sudadera||sweatshirt||12|3
 la suerte||good luck||13|3
 la supervivencia||survival||999|3
-la taza||cup||13|3
 la tenaz||tenacity||12|3
+la ternura||tenderness||12|3
 la tinaja||jar||12|3
 la toma de decisiones||decision-making||12|3
-la tontería||nonsense||999|3
+la tontería||nonsense||12|3
 la tormenta||thunderstorm||13|3
+la tos||cough||12|3
 la trampa||trap||12|3
 la vela||sail||12|3
 la veleidad||fickleness||12|3
 la ventaja||advantage||12|3
 la vergüenza||shame||12|3
+la vertiente||strand, aspect; slope||12|3
+la vigilia||vigil; wakefulness||12|3
 la voluntad||will (noun)||12|3
 la vuelta||lap; return||13|3
-largo plazo||long term||14|3
-las encías||gums||12|3
+largo plazo||long term||12|3
 las gafas||glasses||12|3
 las pertenencias||belongings||13|3
 las sienes||temples||12|3
-las tenazas||pliers||12|3
+las tenazas||pliers||13|3
+las tinieblas||darkness||12|3
 las trochas||trails||13|3
 las varices||varicose veins||12|3
-lavar||to wash||14|3
 lavarse||to wash oneself||999|3
-leer||to read||12|3
+leer||to read||13|3
 lejano||distant||12|3
 lejos||far away||12|3
+levantar||to lift, raise||12|3
 lidiar||to deal with, cope||12|3
 ligeramente||slightly||12|3
 limpiar||to clean||13|3
 llamarse||to be named||12|3
-llegar||to arrive||12|3
+llegar||to arrive||13|3
 llegarse||to go over||13|3
 llenar||to fill||13|3
 lleno||full||999|3
@@ -927,39 +1013,39 @@ llevar||to wear; to carry||999|3
 llevar palabra||to call the shots (informal)||999|3
 llevarse||to carry away||13|3
 llorar||to cry||999|3
-llover||to rain||13|3
-lo que sea||whatever||999|3
+llover||to rain||12|3
+lo que sea||whatever||12|3
 lograr||to achieve||12|3
 los besos||kisses||13|3
 los demás (las demás)||the rest of||12|3
 los enseres||equipment||12|3
-los médanos||dunes||13|3
+los huestes||hosts (i.e. armies)||12|3
+los médanos||dunes||14|3
 los propios||their own; themselves||12|3
-los seres||beings||14|3
 los timbales||timpani (percussion instrument)||12|3
-luego||later||999|3
+luego||later||13|3
 lúgubre||grim||12|3
 maldecir||to curse||12|3
 mandar||to order; to send||999|3
 manejar||to drive; to operate (a machine)||12|3
-mantener||to maintain||12|3
+mantener||to maintain||13|3
 marchitar||to wither||999|3
 matar||to kill||13|3
-mayor||greater||13|3
-medir||to measure||999|3
+mayor||greater||12|3
+medir||to measure||14|3
 menuda||petite||12|3
 menudo||often||12|3
 mercer||to deserve||999|3
 meridional||southern||12|3
 meterse||to get high||12|3
-mientras||while||12|3
+mientras||while||13|3
 mirar||to look at||999|3
 mojarse||to get wet||999|3
-montar||to get on; to set up||12|3
+montar||to get on; to set up||13|3
 morado||purple||12|3
 morir||to die||12|3
-morir desangrado||to bleed to death||12|3
-mostrar||to show||999|3
+morir desangrado||to bleed to death||13|3
+mostrar||to show||13|3
 mudarse||to move (houses)||999|3
 multitudinario||mass (adjective)||12|3
 más bien||rather, actually||12|3
@@ -974,14 +1060,13 @@ no tenía por qué||you shouldn't have||12|3
 notar||to note, notice||14|3
 notarse||to be noticeable||13|3
 novedoso||novel||12|3
-nublado||cloudy||13|3
-o sea||that is to say||12|3
+nublado||cloudy||12|3
+o sea||that is to say||14|3
 obedecer||to obey||13|3
 ofrecer||to offer||12|3
 olfatear||to sniff||12|3
-olvidar||to forget||14|3
-oscuro||dark||999|3
-oír||to hear||999|3
+oscuro||dark||12|3
+oír||to hear||13|3
 para ese entonces||by that time||13|3
 para la mudanza||for the move (e.g. houses)||12|3
 para que||so that||12|3
@@ -991,39 +1076,41 @@ parir||to give birth||12|3
 partirse||to split||12|3
 pasmado||stunned||12|3
 pasmar||to astonish||12|3
-pastorear a||to shepherd||12|3
-patrullar||to patrol||13|3
+pastorear a||to shepherd||13|3
+patrullar||to patrol||14|3
 pedir||to ask for||999|3
-pedregoso||stony||13|3
+pedregoso||stony||14|3
 pegar||to hit; to stick||12|3
-peinarse||to comb one's hair||13|3
+peinarse||to comb one's hair||12|3
 pelear||to fight||12|3
-peludo||hairy||12|3
+peludo||hairy||13|3
 pendiente||pending||12|3
-pendiente de||eye on||12|3
+pendiente de||eye on||13|3
 penoso||painful||12|3
 pensar||to think||14|3
 perder||to lose||13|3
 perecer||to perish||12|3
 permanecer||to remain, stay (long term)||12|3
-perplejo||perplexed||12|3
+perplejo||perplexed||13|3
 perseguir||to pursue||12|3
+perseverar en||to keep on doing||12|3
 pesado||heavy; annoying||12|3
-pestilente||pestilent, stinking||13|3
+pestilente||pestilent, stinking||14|3
 pisotear||to trample||12|3
 plantear||to pose (raise, propose)||12|3
 pleno||full, total||13|3
-poder||to be able to||999|3
-poderoso||powerful||999|3
+poder||to be able to||13|3
+poderoso||powerful||13|3
 polvoriento||dusty||12|3
 poner||to put||999|3
+ponerse||to become; to put on||12|3
 por ahí||that way (direction); about that much||12|3
 por fin||finally||13|3
-por medio de||by means of||13|3
-por más que||no matter how much||13|3
+por medio de||by means of||14|3
+por más que||no matter how much||14|3
 portentoso||wondrous||12|3
-postizo||fake||12|3
-predisponer a||to predispose||12|3
+postizo||fake||13|3
+precipitarse||to rush||12|3
 preferir||to prefer||999|3
 pregonar||to trumpet||12|3
 prender fuego||to set fire||12|3
@@ -1036,53 +1123,55 @@ procurar||to procure; to try||12|3
 producir||to produce||12|3
 profundo||deep, profound||12|3
 prometer||to promise||12|3
-promulgar||to enact||13|3
+promulgar||to enact||14|3
 propicio||favorable||12|3
 proteger||to protect||12|3
 pudrir||to rot||12|3
 puede ser||it could be||13|3
 puesto que||since, because||12|3
-pulido||polished||13|3
+pulido||polished||12|3
 pura subida||entirely uphill||12|3
 quebrantar||to break (figuratively)||12|3
 quedando mal||looking bad||12|3
 quedar||to be located||12|3
-quedarse||to remain, stay||999|3
+quedarse||to remain, stay||12|3
 quejarse||to complain||12|3
-quemar||to burn||13|3
+quemar||to burn||14|3
 querer||to want; to love||999|3
 quisiera||I'd like||12|3
 quitarse||to take off||12|3
-quizá||perhaps||12|3
+quizá||perhaps||13|3
 rapado||shaved||12|3
 rebajar||to lower (prices, lose weight)||13|3
 rechazar||to reject||13|3
-recibir||to receive||13|3
+recibir||to receive||14|3
 recitar||to recite||12|3
 recién casado||newly wed||12|3
-reclutar||to recruit; to draft||13|3
+reclutar||to recruit; to draft||12|3
+recoger||to pick up||12|3
 reconocer||to recognize||12|3
 recordar||to remember, remind||12|3
 recorrer||to visit; to go around||12|3
 redondo||round||12|3
-referir||to refer||12|3
+referir||to refer||13|3
 regalar||to gift||12|3
 regarse||to shower||999|3
 regresar||to return||12|3
 regularizarse||to become legal||999|3
-rehusar||to refuse (less common)||12|3
+rehusar||to refuse (less common)||13|3
 remendar||to patch up||12|3
 remontar||to trace; to go back||12|3
 rendirse||to give up, surrender||999|3
 repartir||to distribute (also to deal cards)||999|3
+repercutir||to impact||12|3
 repetir||to repeat||12|3
-resolver||to solve; to resolve||12|3
 resulta que||it turns out||14|3
 retozar||to frolic||12|3
 retraído||withdrawn||14|3
 reunir a||to bring together||12|3
-reunirse||to meet up||12|3
+reunirse||to meet up||14|3
 revelar||to reveal, disclose||13|3
+reventar||to burst||12|3
 rezar||to pray||12|3
 reír||to laugh||13|3
 robar||to steal||999|3
@@ -1091,16 +1180,18 @@ rodear||to surround||12|3
 rojizo||reddish||12|3
 romper||to break||12|3
 roto||broken||12|3
+ruidoso||noisy||12|3
 rumiar||to brood||12|3
-saber||to know||12|3
+saber||to know||13|3
 sabia||wise||12|3
 sacar||to take out||12|3
 sacar cuentas||to do the math||12|3
 saludable||healthful||12|3
+salvaje||wild||12|3
 sanar||to heal||12|3
 saquear||to loot||12|3
 satisfacer||to satisfy||999|3
-se ve||it seems||12|3
+se ve||it seems||13|3
 secarse||to dry oneself off||12|3
 secundar||to support, go along with||12|3
 seguido||often; continued||12|3
@@ -1110,15 +1201,14 @@ según||according to||999|3
 sembrado||sown||12|3
 sembrar||to sow||14|3
 sentarse||to sit down||12|3
-sentir||to be sorry||999|3
 sentirse||to feel||12|3
 ser||to be (permanent)||14|3
 servir||to serve||12|3
 servirse||to make use of||12|3
-señalar||to point out||12|3
+señalar||to point out||13|3
 sigiloso||stealthy||12|3
 silvestre||wild (sylvan)||13|3
-sin embargo||however||12|3
+sin embargo||however||13|3
 sin hacer caso||without noticing||12|3
 sin importar||regardless||12|3
 sincero||honest||12|3
@@ -1127,58 +1217,59 @@ sobrar||to be left over||12|3
 sobreponerse a||to overcome||12|3
 soldar||to weld||12|3
 soleado||sunny||13|3
-soler||to usually do something||999|3
+soler||to usually do something||12|3
 soltar||to let go||12|3
 someterse||to submit to||12|3
 sonreír||to smile||12|3
 sonrojar||to make blush||12|3
-sonrojarse||to blush||14|3
-soñar||to dream||13|3
-su imagen y semajanza||his own image||12|3
+soñar||to dream||14|3
+su imagen y semajanza||his own image||13|3
 su mismo||its own (his own/ her own)||12|3
 subir||to go up||999|3
 suceder||to happen||999|3
 sucio||dirty||12|3
-sumergir||to submerge||12|3
+sumergir||to submerge||13|3
 superar||to overcome, exceed||12|3
-suponerse||to imagine; to suppose||13|3
+suponerse||to imagine; to suppose||12|3
 sustituir||to replace||12|3
 susurrar||to whisper||12|3
 sí mismo||itself (himself/ herself)||12|3
 tal||such||13|3
 tal vez||maybe||12|3
 tampoco||neither||999|3
+tantear||to try; to probe||12|3
 tanto||so much||13|3
 tapar||to plug (also to cover up figuratively)||12|3
-temblar||to shake||12|3
+temblar||to shake, tremble||12|3
 temer||to fear||12|3
-temerario||reckless||12|3
 templado||hardened, tempered||12|3
-temprano||early||12|3
+temprano||early||13|3
 tener||to have||13|3
 tener que hacer||to have to do||14|3
-tener sentido||to make sense||12|3
+tener sentido||to make sense||13|3
+tenue||dim||12|3
+terminante||strict; final||12|3
 tibio||lukewarm||12|3
 tierno||tender||12|3
 torcer||to twist||999|3
-traducir||to translate||12|3
+traducir||to translate||13|3
 traer||to bring||13|3
-trasladar||to move (usu. geographic)||12|3
 trasladar a||to relocate, transfer||12|3
-tratar de||to try to||14|3
+tratar (con)||to deal with, handle||12|3
+tratar a||to treat (someone a certain way)||12|3
+tratar de||to try to||12|3
 travieso||naughty||12|3
-trazar||to trace, draw||12|3
+trazar||to trace, draw||13|3
 tropezar||to stumble||12|3
-truculento||gruesome||12|3
-un centenar||a hundred (not literal)||12|3
+un centenar||a hundred (not literal)||14|3
 un millar||a thousand (not literal)||12|3
-un montón||a lot||14|3
 una y otra vez||again and again||12|3
-vaciar||to empty||13|3
+vaciar||to empty||12|3
 vacio||empty||12|3
 vacunar||to vaccinate||12|3
 valiente||brave||12|3
 vedado||forbidden||12|3
+velar||to watch||12|3
 velarse||to be ensured||12|3
 vencer||to defeat||999|3
 vender||to sell||999|3
@@ -1187,8 +1278,7 @@ ver||to see||12|3
 vergonzoso||shameful||14|3
 vestir||to dress||12|3
 vestirse||to get dressed||999|3
-vetado||banned||999|3
-vigente||valid, updated||999|3
+vigente||valid, updated||13|3
 vigilar||to monitor||13|3
 vincular||to link, tie||13|3
 vivir||to live||13|3
@@ -1198,13 +1288,28 @@ voluntarioso||willing||12|3
 volver||to go back||12|3
 volverse||to turn||999|3
 vuelvo en seguida||I'll be right back||12|3
+vulnerar||to infringe||12|3
 ya||already||14|3
 ya sea||either||13|3
+áspero||rough||12|3
+al rojo vivo||red hot||15|4
 buscar||to search||15|4
 darse cuenta de que||to realize that||15|4
+el estado de derecho||rule of law||15|4
+el lápiz labial||lipstick||15|4
 el marido||husband||15|4
 el terráqueo||earthling||15|4
+hasta||until; even||15|4
+invertir||to invest||15|4
 la ametralladora||machine gun||15|4
 la parada||bus stop||15|4
 la prueba terminante||conclusive proof||15|4
+la taza||cup||15|4
+lavar||to wash||15|4
+los seres||beings||15|4
 mediante||using||15|4
+olvidar||to forget||15|4
+resolver||to solve; to resolve||15|4
+sonrojarse||to blush||15|4
+trasladar||to move (usu. geographic)||15|4
+un montón||a lot||15|4

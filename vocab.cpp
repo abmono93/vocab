@@ -19,13 +19,13 @@
 #define DEFAULT_SCORE 8
 #define HARD_UPPERBOUND 8
 #define LEARN_UPPERBOUND 11
-#define MAX_SCORE 14
+#define MAX_SCORE 15
 
 //Words each round
 #define WORDS_PER_ROUND 10
-#define MAX_NEW_WORDS 5
+#define MAX_NEW_WORDS 3
 #define MIN_REVIEW_WORDS 2
-#define LEARNING_RATIO 750
+#define LEARNING_RATIO 1000
 
 #define CORRECT 1
 #define INCORRECT 0
@@ -56,8 +56,10 @@ VocabWord::VocabWord(string definition, int score){
 
 void VocabWord::changeScore(bool correct){
 	if (score == 999) this->score = LEARN_UPPERBOUND + 1;
-    if (correct) this->score = min(MAX_SCORE, score + 1);
-    else{
+    if (correct) {
+        this->score = min(MAX_SCORE, score + 1);
+        if (this->score == MAX_SCORE) cout << "Word learned!" << endl;
+    }else{
         if (score > LEARN_UPPERBOUND) score = LEARN_UPPERBOUND;
         this->score = max(0, score - 1);
     }
@@ -299,6 +301,7 @@ void Session::save(){
 void Session::fillStudyList(){
     int toadd = WORDS_PER_ROUND;
     int min_familiar = pow(vocablist[FAMILIAR].size(), 2) / LEARNING_RATIO;
+    //cout << "min familiar = " << min_familiar << endl;
 	toadd -= fromCatToStudyList(toadd, HARD);
     toadd -= fromCatToStudyList(min(toadd, min_familiar), FAMILIAR);
     toadd -= fromCatToStudyList(min(toadd, MAX_NEW_WORDS), NEW);
@@ -418,7 +421,7 @@ void Session::categorize(string key, VocabWord* word){
 int Session::getCategory(int score){
     if (score <= HARD_UPPERBOUND) return HARD;
     if (score <= LEARN_UPPERBOUND) return FAMILIAR;
-    if (score <= MAX_SCORE) return REVIEW;
+    if (score < MAX_SCORE) return REVIEW;
     return LEARNED;
 }
 

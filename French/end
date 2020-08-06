@@ -1,2 +1,6 @@
 ./vocab stats >> record
-cat record
+./vocab stats
+printf "no score: " >> record
+printf "no score: "
+egrep 999 .french_vocab.voc -c >> record
+egrep 999 .french_vocab.voc -c

@@ -2027,7 +2027,7 @@ dentro de poco
 before long
 
 ardiente
-fiery
+burning
 
 asombroso
 amazing
@@ -2087,7 +2087,7 @@ extraviar
 to misplace
 
 el pantano
-swamp
+swamp; reservoir
 
 desmesurado
 excessive
@@ -2213,7 +2213,7 @@ la cabecera
 header; head
 
 temblar
-to shake
+to shake, tremble
 
 el encono
 bitterness
@@ -3203,7 +3203,7 @@ insólito
 unusual, extraordinary
 
 la feria
-fair
+fair (noun)
 
 tropezar
 to stumble
@@ -3636,3 +3636,325 @@ to treat (someone a certain way)
 
 tratar (con)
 to deal with, handle
+
+los huestes
+hosts (i.e. armies)
+
+el náufrago
+castaway
+
+la escapatoria
+escape; loophole
+
+levantar
+to lift, raise
+
+ruidoso
+noisy
+
+el claro
+clearing (e.g. in the woods)
+
+la bisagra
+joint; hinge
+
+la aldaba
+knocker; hasp
+
+invernal
+wintry
+
+perseverar en
+to keep on doing
+
+entusiasmado con
+excited about
+
+desempolvar
+to dust
+
+el bozo
+upper lip (slang)
+
+el vello
+(body) hair
+
+experimentar
+to experience; to experiment
+
+encinta
+pregnant
+
+la alma
+soul
+
+alegre
+cheerful
+
+la baraja
+deck (of cards)
+
+la risa
+laughter
+
+el reguero
+trail (e.g. of breadcrumbs)
+
+repercutir
+to impact
+
+el naipe
+playing card
+
+encerrar
+to enclose
+
+contiguo
+contiguous
+
+el mesón
+inn
+
+aburrido
+boring
+
+el hueso
+bone
+
+el humo
+smoke
+
+la axila
+armpit
+
+el pellejo
+hide (pelt)
+
+el espanto
+horror
+
+la vigilia
+vigil; wakefulness
+
+intempestivo
+untimely
+
+el estremecimiento
+thrill; shiver
+
+reposado
+rested
+
+la tos
+cough
+
+el zumbido
+buzz
+
+el bullicio
+bustle
+
+atrancado
+stuck
+
+ajustado
+adjusted; tight
+
+el gozne
+hinge
+
+el quejido
+groan
+
+las entrañas
+bowels
+
+entrañar
+to entail
+
+las tinieblas
+darkness
+
+el desnivel
+unevenness
+
+el largo rato
+long time
+
+el desamparo
+distress
+
+tantear
+to try; to probe
+
+zarandear
+to shake
+
+el costal
+sack
+
+al revés
+the other way around
+
+insondable
+unfathomable
+
+sobrar
+to be left over
+
+el amoníaco
+ammonia
+
+el riñón
+kidney
+
+atolondrado
+scatterbrained
+
+el muslo
+thigh
+
+el seno
+breast
+
+la ternura
+tenderness
+
+trastornar
+to disrupt
+
+gozar
+to enjoy
+
+dicharachero
+witty
+
+la paloma
+dove
+
+ensimismado
+self-absorbed; lost in thought
+
+vulnerar
+to infringe
+
+apretujar
+to squeeze
+
+el crisol
+crucible
+
+rescatar
+to rescue
+
+amarillento
+yellowish
+
+el mazacote
+lump, blob
+
+el algodón
+cotton
+
+el escondrijo
+cache
+
+apaciguar
+to appease
+
+la porquería
+crap
+
+la valentía
+courage
+
+las peripecias
+adventures
+
+el gozo
+joy
+
+la estera
+mat
+
+la brasa
+ember; coal
+
+padecer
+to suffer
+
+zurumbático
+stunned
+
+la lombriz
+worm
+
+la pócima
+potion
+
+machacar
+to grind (food)
+
+imprevisto
+unforseen
+
+la bacinilla
+potty
+
+el distraimiento
+abstraction
+
+la languidez
+languor
+
+el pormenor
+detail
+
+minuciosamente
+thoroughly
+
+liviano
+lightweight
+
+acuoso
+watery
+
+la lagartija
+gecko
+
+el lagarto
+lizard
+
+rondando la casa
+hanging around the house
+
+silbar
+to whistle
+
+el mercachifle
+huckster
+
+el circo
+circus
+
+volador
+flying
+
+el pedazo
+piece, chunk
+
+el vuelo
+flight
+
+el vuelo
+flight
+
+amparar
+to protect, shelter
+
+dichoso
+happy
+
+desde luego
+certainly
+

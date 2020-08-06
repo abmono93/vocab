@@ -8,7 +8,6 @@ compilation:
 
 usage:
 
-	To do a round of studying:
 	cd <directory>
 	./vocab [stats]
 
