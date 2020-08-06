@@ -5,7 +5,6 @@ becqueter||to peck||8|0
 blafard||pale||8|0
 bruire||to rustle||8|0
 caramboler||to collide||8|0
-clos||sealed||8|0
 croquer||to crunch||8|0
 défiler||to scroll; to parade||8|0
 effeuiller||to pick the leaves off||8|0
@@ -14,7 +13,6 @@ filer||to spin; to tail (i.e. follow); to slip away (coloq.)||8|0
 friser||to curl||8|0
 japper||to yelp||8|0
 l'abat-jour (m.)||lampshade||8|0
-l'arête (f.)||edge; bridge (e.g. of a nose)||8|0
 l'attelage (m.)||hitch||8|0
 l'estraide (f.)||platform, podium||8|0
 l'ogive (f.)||warhead||8|0
@@ -27,7 +25,6 @@ la coque||shell; hull||8|0
 la craquelure||cracking||8|0
 la culotte||pants||8|0
 la gravure||engraving||8|0
-la jarretière||garter (holds up stockings)||8|0
 la malle||trunk||8|0
 la manchette||headline; cuff||8|0
 la marguerite||daisy||8|0
@@ -44,7 +41,6 @@ la rafale||gust||8|0
 la ravenelle||wild radish||8|0
 la reliure||binding||8|0
 la rouille||rust||8|0
-la récolte||harvest, yield||8|0
 la touffe||tuft||8|0
 la tresse||braid||8|0
 le briquet||lighter||8|0
@@ -61,7 +57,6 @@ le lampion||lantern||8|0
 le levron||greyhound||8|0
 le lévrier||greyhound||8|0
 le mollet||calf (leg)||8|0
-le méandre||meandering||8|0
 le radis||radish||8|0
 le saut-de-loup||ditch||8|0
 le vallon||dale||8|0
@@ -84,36 +79,37 @@ vanter||to boast||8|0
 vanté||praised||8|0
 éblouir||to dazzle||8|0
 émerveiller||to amaze||8|0
-craquer||to crunch||6|1
-frémir||to shudder||8|1
+décontenancer||to unnerve||8|1
+l'arête (f.)||edge; bridge (e.g. of a nose)||7|1
+la jarretière||garter (holds up stockings)||8|1
+la récolte||harvest, yield||7|1
+le quinquet||oil lamp||7|1
 affreusement||dreadfully||10|2
-arracher à||to wrest from||11|2
 arrondir||to round||11|2
-briller||to shine||10|2
+briller||to shine||11|2
 brouiller||to scramble, blur||10|2
 buriner||to engrave, chisel||11|2
 cligner||to blink||9|2
+clos||sealed||9|2
 convenir de||to agree on||10|2
-convenir à||to be suitable for||11|2
+convenir à||to be suitable for||10|2
+craquer||to crack||9|2
 crevé||tired, flat||10|2
 de même que||along with||11|2
 desserrer||to loosen, release||11|2
-dissimuler||to conceal||11|2
 douillet||cosy||10|2
-défaillant||failing||11|2
 délier||to untie||9|2
-engourdir||to numb||11|2
+désemparé||helpless||11|2
 escarpé||steep, craggy||9|2
 fourbe||deceitful||9|2
+frémir||to shudder||9|2
 grouiller||to hurry; to swarm||9|2
-importuner||to disturb, bother||11|2
 l'attelle (f.)||splint||11|2
-l'aumônière||alms-purse||10|2
+l'aumônière||alms-purse||11|2
 l'empeigne (f.)||upper (of a shoe)||9|2
+l'oseille||sorrel; money (slang)||11|2
 l'écart (m.)||gap||10|2
-l'éclat (m.)||shine; shard||11|2
-l'écorchure (f.)||abraision||10|2
-l'équipage||crew||11|2
+l'écorchure (f.)||abraision||11|2
 la bonneterie||hosiery||11|2
 la cime||mountaintop||10|2
 la cloison||partition||9|2
@@ -127,33 +123,29 @@ la pantoufle||slipper||9|2
 la parure||adornment||9|2
 la peigne||comb||11|2
 la remise||delivery; discount||9|2
-la tache||stain||11|2
-la toile||canvas; web||11|2
-le barreau||bar (on a window)||10|2
+le barreau||bar (on a window)||11|2
 le bouton de fleur||flower bud||10|2
 le brancard||stretcher||9|2
-le chapelet||rosary||11|2
 le chardon||thistle||10|2
 le chignon||bun||11|2
 le coquelicot||poppy||10|2
 le coquillage||shell||10|2
-le flambeau||torch||11|2
 le giron||bosom; lap||10|2
 le merisier||cherrywood||10|2
+le méandre||meandering||9|2
 le pansement||bandage||10|2
 le pari||bet||10|2
 le peignoir||bathrobe||10|2
 le poulain||foal||11|2
-le quinquet||oil lamp||9|2
 le rince-bouche||mouthwash||9|2
-le stupéfiant||narcotic||11|2
+le riotelet||wren; kinglet||9|2
 le sursaut||burst||9|2
-le tablier||apron||10|2
+le tablier||apron||11|2
 le verrou||latch, lock||11|2
 or||however||11|2
 outrepasser||to override||11|2
 parer de||to deck out||11|2
-poudreux||powdery||9|2
+poudreux||powdery||10|2
 relever||to lift; to relieve; to spice||11|2
 rouiller||to rust||9|2
 s'efforcer||to strive||11|2
@@ -163,7 +155,8 @@ se renverser||to tip over||11|2
 se tortiller||to squirm||11|2
 se traîner||to crawl||10|2
 svelte||trim||9|2
-tenir à||to care for; to keep to||9|2
+taire||to silence||9|2
+tenir à||to care for; to keep to||10|2
 tiède||lukewarm||11|2
 tourbillonner||to whirl||10|2
 éparpiller||to scatter||11|2
@@ -195,6 +188,7 @@ appareiller||to sail||13|3
 apprêter||to get ready; to prepare (food)||12|3
 arborer||to wear, display||12|3
 arracher||to rip, rip out||13|3
+arracher à||to wrest from||12|3
 arroser||to water, sprinkle||12|3
 assoupis||drowsy||12|3
 astucieux||clever||12|3
@@ -285,6 +279,7 @@ destiné à||intended to||12|3
 discourir||to elaborate||12|3
 disposer||to arrange||12|3
 disposer de||to have available||12|3
+dissimuler||to conceal||12|3
 dithyrambique||gushing (dithyrambic)||12|3
 dorloter||to pamper||12|3
 débarasser||to get rid of||14|3
@@ -292,9 +287,9 @@ débiter||to charge||12|3
 décacheter||to unseal||12|3
 déchiqueter||to shred||13|3
 décocher||to deselect, untick||13|3
-décontenancer||to unnerve||12|3
 découper||to cut up (or out)||12|3
 dédaigner||to disdain, scorn||12|3
+défaillant||failing||12|3
 déferler||to unfurl||12|3
 défier||to challenge, defy, distrust||13|3
 défoncer||to smash||12|3
@@ -313,7 +308,6 @@ dépourvu||devoid||12|3
 dépérir||to waste away||12|3
 dépêcher||to hurry; to send (dispatch)||12|3
 dérober||to snatch||12|3
-désemparé||helpless||12|3
 désobligeant||derogatory||12|3
 désuète||obsolete||13|3
 dételer||to uncouple, unhitch||12|3
@@ -333,6 +327,7 @@ encadrer||to frame||13|3
 endosser||to endorse; to shoulder||12|3
 enduire||to coat, smear||12|3
 engendrer||to generate||14|3
+engourdir||to numb||12|3
 enjoué||cheerful||14|3
 entamer||to begin (carreer, dialouge, etc.)||12|3
 entasser||to pile up; to cram||12|3
@@ -388,6 +383,7 @@ huer||to jeer||12|3
 hurler||to scream||12|3
 hérisser||to bristle||13|3
 impitoyable||ruthless||12|3
+importuner||to disturb, bother||12|3
 incommensurable||immeasurable||12|3
 indélébile||permanent||12|3
 insensé||insane||12|3
@@ -449,7 +445,6 @@ l'oreiller (m.)||pillow||12|3
 l'orgueil (m.)||pride||13|3
 l'ornière (m.)||rut||13|3
 l'ortie (f.)||nettle||12|3
-l'oseille||sorrel; money (slang)||14|3
 l'ouïe||hearing||12|3
 l'écaille (f.)||scale||12|3
 l'écale (f.)||hull||12|3
@@ -459,6 +454,7 @@ l'échelle||ladder, scale||13|3
 l'écheveau (m.)||skein||12|3
 l'échéance (f.)||deadline||12|3
 l'éclair||flash, lightning||12|3
+l'éclat (m.)||shine; shard||12|3
 l'écorce (m.)||bark (of a tree)||12|3
 l'écu||shield (medieval)||12|3
 l'écurie (f.)||stable||12|3
@@ -469,6 +465,7 @@ l'élan||momentum||14|3
 l'émail (m.)||enamel||12|3
 l'éperon (m.)||spur||12|3
 l'épingle (f.)||hairpin||12|3
+l'équipage||crew||12|3
 l'étincelle||spark||999|3
 l'étoffe||material, fabric||12|3
 l'étui (m.)||case, cover||12|3
@@ -541,7 +538,7 @@ la foire||fair||13|3
 la fonte||cast-iron||12|3
 la fougue||spirit, passion||12|3
 la fricassée de poulet||chicken fricassee||12|3
-la gaillardise||bawdy remark||12|3
+la gaillardise||bawdy remark||13|3
 la garde à vue||police custody||12|3
 la garenne||rabbit burrows (warren)||12|3
 la gaudriole||debauchery||12|3
@@ -578,7 +575,7 @@ la marée||tide||12|3
 la matraque||billy club||12|3
 la miette||crumb||12|3
 la mine||mine; look (on your face)||12|3
-la missive||important letter||12|3
+la missive||important letter||13|3
 la mitrailleuse||machine gun||13|3
 la moire||rippled silk (moire)||12|3
 la moisson||harvest||13|3
@@ -599,7 +596,6 @@ la nourrice||wet nurse (also nanny)||12|3
 la nuque||nape (back of the neck)||12|3
 la paresse||laziness||12|3
 la paroi||wall (not of a building)||12|3
-la partance||departure||14|3
 la patte||leg, paw||12|3
 la paupière||eyelid||12|3
 la pelle||shovel||12|3
@@ -639,9 +635,11 @@ la solde||pay; balance||12|3
 la sollenité||solemnity; feast||12|3
 la sottise||foolishness||12|3
 la soutache||braid (uncommon)||12|3
+la tache||stain||12|3
 la taupe||mole||12|3
 la tempe||temple (head)||12|3
 la tentative||attempt||13|3
+la toile||canvas; web||12|3
 la toison||fleece||12|3
 la tonnelle||arbor||12|3
 la toque||fur hat||13|3
@@ -683,7 +681,7 @@ le bréviaire||breviary (prayer book)||12|3
 le butin||loot, plunder||12|3
 le bénitier||stoup (holy water bowl)||12|3
 le béton||concrete||13|3
-le bêlement||bleating||12|3
+le bêlement||bleating||13|3
 le bûcher||pyre||12|3
 le cadran solaire||sundial||12|3
 le caillou||pebble||12|3
@@ -696,6 +694,7 @@ le chambranle||architrave (door frame)||14|3
 le chantage||blackmail||12|3
 le chantier||construction site||12|3
 le chantre||cantor, bard||14|3
+le chapelet||rosary||12|3
 le char||tank; chariot||12|3
 le chiffon||cloth, rag||12|3
 le châle||shawl||12|3
@@ -745,6 +744,7 @@ le fichu||scarf||12|3
 le fil||wire, thread||12|3
 le filet||net; thread||12|3
 le fla-fla||big show||12|3
+le flambeau||torch||12|3
 le fonctionnaire||official, officer||12|3
 le fonds||fund||12|3
 le fouet||whip||12|3
@@ -792,7 +792,6 @@ le mobilier||furnishings||12|3
 le mors||bit (horse)||12|3
 le moucheron||gnat||12|3
 le ménage||household; housekeeping||12|3
-le ménétrier||fiddler||14|3
 le nerf de bœuf||blackjack; jerky; bullwhip||13|3
 le nid||nest||12|3
 le néon blanc||fluorescent tube||12|3
@@ -829,7 +828,6 @@ le quincaillier||hardware store (or hardware dealer)||13|3
 le quolibet||quip||12|3
 le rang||row, rank||12|3
 le reproche||criticism||12|3
-le riotelet||wren; kinglet||12|3
 le roseau||reed||12|3
 le rossignol||nightingale||12|3
 le ruban||tape, ribbon||12|3
@@ -851,6 +849,7 @@ le sol||ground, floor||13|3
 le sot||fool||12|3
 le soufflet||bellow||12|3
 le stuc||stucco||14|3
+le stupéfiant||narcotic||12|3
 le tabier||apron||12|3
 le talus||embankment||12|3
 le tapissier||upholsterer; tapestry-maker||12|3
@@ -944,7 +943,7 @@ prendre d'assaut||to storm (e.g. a beach)||13|3
 prendre en otage||to take hostage||14|3
 prendre le large||to set sail||14|3
 preux||valiant||999|3
-privé de||deprived of||12|3
+privé de||deprived of||13|3
 prodiguer||to lavish||12|3
 profane||unholy||12|3
 propice||favorable||13|3
@@ -1057,7 +1056,6 @@ supportable||bearable; sustainable||12|3
 surveiller||to monitor||12|3
 survenir||to occur||12|3
 sévir||to deal with severely||12|3
-taire||to silence||12|3
 tant||so much||12|3
 tant bien que mal||as best as one can||12|3
 tant que||as long as||12|3
@@ -1134,10 +1132,12 @@ l'abîme (m.)||abyss||15|4
 l'exutoire||outlet||15|4
 l'églantier (m.)||wild rose||15|4
 la demeure||residence||15|4
+la partance||departure||15|4
 la pudeur||modesty||15|4
 la tournure||turn (of events)||15|4
 le carton anthropométrique||mugshot sign||15|4
 le commis voyageur||travelling salesman||15|4
+le ménétrier||fiddler||15|4
 les couilles||balls (slang)||15|4
 miser sur||to count on||15|4
 méprisable||despicable||15|4
