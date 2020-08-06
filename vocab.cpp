@@ -109,9 +109,19 @@ class VocabList : public vector<Category>{
         void addToList(string&, string&, int score = -1, int category = -1);
     private:
         string getnext(string&, string*);
+        void redefine(string&, string&);
 };
 
 VocabList::VocabList() : vector<Category>(5){}
+
+void VocabList::redefine(string& word, string& definition){
+    for (int i = 0; i < this->size(); i++){
+        if ((*this)[i].count(word) != 0) {
+            (*this)[i][word]->definition = definition;
+            return;
+        }
+    }
+}
 
 void VocabList::addToList(string& word, string& definition, int score, int category){
     VocabWord *vw;
@@ -120,10 +130,7 @@ void VocabList::addToList(string& word, string& definition, int score, int categ
     if (category == -1){
         string current = this->lookup(word);
         if (current != ""){
-            if (current.compare(definition) != 0){
-                cout << "Note: multiple definitions found for " << word << ":" << endl;
-                cout << '\t' << this->lookup(word) << " || " << definition << endl;
-            }
+            if (current.compare(definition) != 0) redefine(word, definition);
             return;
         }
         vw = new VocabWord(definition, DEFAULT_SCORE);
