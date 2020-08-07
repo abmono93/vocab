@@ -100,8 +100,8 @@ pair<string, VocabWord*> Category::at_index(int i){
 class VocabList : public vector<Category>{
     public:
         VocabList();
-        void loadSavedList(string&);
-        void loadNewWords(string&);
+        void loadSavedScores(string&);
+        void loadWords(string&);
         void saveToFile(string&);
         void printAll();
         string lookup(string&);
@@ -130,18 +130,18 @@ void VocabList::addToList(string& word, string& definition, int score, int categ
     if (category == -1){
         string current = this->lookup(word);
         if (current != ""){
+            cout << "Note: Two copies found for " << word << "- ";
+            cout << current << " | " << definition << endl;
+            cout << "\t Using second definition " << definition << endl;
             if (current.compare(definition) != 0) redefine(word, definition);
             return;
         }
         vw = new VocabWord(definition, DEFAULT_SCORE);
         cat = NEW;
     }else{
-        if (this->contains(word)){
-            cout << "Note: two copies of " << word;
-            cout <<  " were saved. Discarding second copy." << endl;
-            return;
-        }
-        vw = new VocabWord(definition, score);
+        vw = (*this)[NEW][word];
+        (*this)[NEW].erase(word);
+        vw->score = score;
         cat = category;
     }
     if (cat < this->size()) (*this)[cat][word] = vw;
@@ -171,7 +171,7 @@ string VocabList::getnext(string& line, string* newstr){
     }
 }
 
-void VocabList::loadSavedList(string& filename){
+void VocabList::loadSavedScores(string& filename){
     string line, word, definition, score_str;
     ifstream inputfile('.' + filename + ".voc");
     if (inputfile.is_open()){
@@ -179,12 +179,16 @@ void VocabList::loadSavedList(string& filename){
             line = getnext(line, &word);
             line = getnext(line, &definition);
             line = getnext(line, &score_str);
-            addToList(word, definition, stoi(score_str), stoi(line));
+            if ((*this)[NEW].count(word) != 0){
+                addToList(word, definition, stoi(score_str), stoi(line));\
+            }else{
+                cout << "Deleting word - " <<  word << ": " << definition << endl;
+            }
         }
     } 
 }
 
-void VocabList::loadNewWords(string& filename){
+void VocabList::loadWords(string& filename){
     string line, word, definition;
     ifstream inputfile(filename + ".txt");
 
@@ -254,8 +258,8 @@ class Session{
 
 Session::Session(string filename){
     this->filename = filename;
-    vocablist.loadSavedList(filename);
-    vocablist.loadNewWords(filename);
+    vocablist.loadWords(filename);
+    vocablist.loadSavedScores(filename);
 }
 
 void Session::round(bool reverse = false){

@@ -1321,6 +1321,9 @@ to realize; to report
 creuser
 to dig
 
+creuse
+hollow
+
 le serment
 oath
 
@@ -1545,15 +1548,6 @@ fur hat
 
 la tournure
 turn (of events)
-
-passablement
-quite
-
-la dot
-dowry
-
-la bonneterie
-hosiery
 
 passablement
 quite
@@ -2014,7 +2008,7 @@ to prick
 le cil
 eyelash
 
-l'hardiesse (f.)
+la hardiesse
 boldness
 
 le pansement
@@ -2081,7 +2075,10 @@ fureter
 to snoop around
 
 se redresser
-to recover; to stand up
+to recover
+
+redresser
+to straighten
 
 par-dessus
 over
@@ -2110,7 +2107,7 @@ nape (back of the neck)
 le tabier
 apron
 
-l'hanch (f.)
+la hanche (f.)
 hip
 
 le dégel
@@ -2236,7 +2233,7 @@ stilt
 atteler
 to tackle (a job); to hitch up
 
-l'haridelle
+la haridelle
 nag
 
 conjurer
@@ -2245,7 +2242,7 @@ to ward off (e.g. a spirit)
 l'hypothèque (f.)
 mortgage
 
-l'harnais (m.)
+le harnais
 harness
 
 s'évanouir
