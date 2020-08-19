@@ -103,7 +103,10 @@ dew
 soulager 
 to soothe
 
-s'attenuer 
+s'atténuer 
+to lessen
+
+atténuer
 to mitigate
 
 veiller 
@@ -410,7 +413,7 @@ entreprendre
 to undertake
 
 tenir à 
-to care for; to keep to
+to care about; to stick to
 
 l'onguent 
 ointment
@@ -860,9 +863,12 @@ tendu
 tense
 
 tendre à
-to tend to; to seek to
+to tend to
 
-tendre
+tendre (verb)
+to extend; to tense (e.g. a rope)
+
+tendre (adjective)
 tender, sweet
 
 à savoir
@@ -1321,9 +1327,6 @@ to realize; to report
 creuser
 to dig
 
-creuse
-hollow
-
 le serment
 oath
 
@@ -1655,7 +1658,7 @@ babillarde
 babbling
 
 épars
-sparse, scattered
+scattered
 
 la chaussée
 pavement
@@ -2107,7 +2110,7 @@ nape (back of the neck)
 le tabier
 apron
 
-la hanche (f.)
+la hanche
 hip
 
 le dégel
@@ -2268,9 +2271,6 @@ worm
 
 le brin
 strand
-
-la miette
-crumb
 
 se secouer
 to shake it off
@@ -2696,7 +2696,7 @@ le panier
 shopping cart
 
 la dentelle
-lacework
+lace
 
 la mine
 mine; look (on your face)
@@ -2732,7 +2732,7 @@ bordé par
 surrounded by
 
 le galon
-braid
+braid (clothing or furniture)
 
 le chambranle
 architrave (door frame)
@@ -3028,7 +3028,7 @@ to shudder
 la gravure
 engraving
 
-balustrade
+la balustrade
 balustrade (rail)
 
 l'aumônier
@@ -3178,9 +3178,6 @@ to scroll; to parade
 la pesanteur
 gravity
 
-en vouloir
-to blame
-
 le carton
 cardboard; box
 
@@ -3236,7 +3233,7 @@ l'empeigne (f.)
 upper (of a shoe)
 
 filer
-to spin; to tail (i.e. follow); to slip away (coloq.)
+to spin; to tail (i.e. follow)
 
 la braise
 ember
@@ -3258,9 +3255,6 @@ game warden
 
 la levrette
 doggy style
-
-le levron
-greyhound
 
 poudreux
 powdery
@@ -3310,17 +3304,20 @@ poppy
 la toile
 canvas; web
 
-l'estraide (f.)
+l'estrade (f.)
 platform, podium
 
 la tresse
-braid
+braid (smaller)
+
+la natte
+braid (bigger)
 
 la prunelle
 sloe (blackthorn fruit)
 
 la prunelle de mes yeux
-the apple of my eyes
+the apple of my eye
 
 la calèche
 horse-drawn carriage
@@ -3440,7 +3437,7 @@ l'arête (f.)
 edge; bridge (e.g. of a nose)
 
 s'en vouloir
-to feel sorry
+to blame
 
 la coque
 shell; hull

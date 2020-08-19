@@ -1,6 +1,5 @@
-dichoso||happy||7|1
-la bacinilla||potty||8|1
-liviano||lightweight||8|1
+dichoso||happy||8|1
+empañar||to tarnish||8|1
 acuoso||watery||9|2
 ajustado||adjusted; tight||11|2
 al revés||the other way around||10|2
@@ -8,14 +7,16 @@ amarillento||yellowish||10|2
 amparar||to protect, shelter||10|2
 apaciguar||to appease||11|2
 aplastar||to crush||10|2
-apretujar||to squeeze||10|2
+apretujar||to squeeze||9|2
 arrancar||to boot up; to rip off||10|2
 asistir||to attend||11|2
 asustar||to frighten||11|2
 atrancado||stuck||11|2
+añorar a||to long for someone||10|2
 blando||mushy||11|2
+cepillarse||to brush oneself||10|2
 continuar||to continue||11|2
-derribar||to bring down||11|2
+derribar||to bring down||10|2
 desde luego||certainly||9|2
 el circo||circus||9|2
 el costal||sack||11|2
@@ -24,7 +25,7 @@ el desmonte||dismount; land clearing||11|2
 el distraimiento||abstraction||9|2
 el escalofrío||chill, shiver||9|2
 el gozo||joy||9|2
-el lagarto||lizard||10|2
+el lagarto||lizard||9|2
 el mazacote||lump, blob||10|2
 el mercachifle||huckster||9|2
 el montaraz||ranger||10|2
@@ -36,17 +37,17 @@ el pozo||well, pit||10|2
 el reguero||trail (e.g. of breadcrumbs)||9|2
 el témpano||iceberg||10|2
 el vuelo||flight||9|2
-empañar||to tarnish||9|2
 encantado||delighted||9|2
 engastar||to set, mount||10|2
 engendrar||to engender, produce||10|2
 entrañar||to entail||11|2
 entusiasmado con||excited about||11|2
 estremecer||to shudder||9|2
-húmedo||damp||10|2
+húmedo||damp||11|2
 imprevisto||unforseen||9|2
 intempestivo||untimely||10|2
-la axila||armpit||11|2
+la axila||armpit||10|2
+la bacinilla||potty||9|2
 la brasa||ember; coal||9|2
 la burla||mockery||9|2
 la escapatoria||escape; loophole||9|2
@@ -62,6 +63,7 @@ la lona||canvas||11|2
 la mara||crowd, gang||11|2
 la paila||pot||11|2
 la paja||straw||10|2
+la picadura||sting||11|2
 la porquería||crap||9|2
 la probeta||test tube||9|2
 la pócima||potion||11|2
@@ -69,8 +71,9 @@ la valentía||courage||9|2
 las encías||gums||9|2
 las entrañas||bowels||9|2
 las peripecias||adventures||9|2
-machacar||to grind (food)||11|2
-minuciosamente||thoroughly||10|2
+liviano||lightweight||9|2
+machacar||to grind (food)||10|2
+minuciosamente||thoroughly||11|2
 padecer||to suffer||9|2
 predisponer a||to predispose||11|2
 reposado||rested||11|2
@@ -191,7 +194,6 @@ aunque||although||12|3
 averiguar||to find out; to check||13|3
 azaroso||random||12|3
 añorar||to long for something||12|3
-añorar a||to long for someone||12|3
 aún||still||12|3
 aún así||even so||12|3
 bailar||to dance||13|3
@@ -227,7 +229,6 @@ castaño||brown||13|3
 cazar||to hunt||12|3
 cebar||to bait||12|3
 cegar||to blind||13|3
-cepillarse||to brush oneself||999|3
 cerrar||to close||12|3
 chorrear||to spurt||12|3
 chévere||awesome||12|3
@@ -808,7 +809,7 @@ la alba||dawn||13|3
 la albahaca||large chest||12|3
 la aldaba||knocker; hasp||12|3
 la aldea||village||12|3
-la alma||soul||12|3
+la alma||soul||13|3
 la amapola||poppy||13|3
 la amargura||bitterness||12|3
 la amistad||friendship||12|3
@@ -942,7 +943,6 @@ la penca||stalk (of a plant)||12|3
 la pertenencia||membership||12|3
 la pesadilla||nightmare||13|3
 la peste||plague||12|3
-la picadura||sting||13|3
 la piedad||mercy||12|3
 la piedra||stone||13|3
 la pierna||leg||14|3
@@ -1053,7 +1053,6 @@ nadar||to swim||13|3
 nadie||no one||12|3
 navegar||to sail||999|3
 negar||to deny||12|3
-negarse||to refuse||12|3
 negarse a||to refuse to do||12|3
 ni siquiera||not even||12|3
 no tenía por qué||you shouldn't have||12|3

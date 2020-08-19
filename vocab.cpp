@@ -179,11 +179,8 @@ void VocabList::loadSavedScores(string& filename){
             line = getnext(line, &word);
             line = getnext(line, &definition);
             line = getnext(line, &score_str);
-            if ((*this)[NEW].count(word) != 0){
-                addToList(word, definition, stoi(score_str), stoi(line));\
-            }else{
-                cout << "Deleting word - " <<  word << ": " << definition << endl;
-            }
+            if ((*this)[NEW].count(word)) addToList(word, definition, stoi(score_str), stoi(line));
+            else cout << "Deleting word - " <<  word << ": " << definition << endl;
         }
     } 
 }
@@ -275,6 +272,7 @@ void Session::showStats(){
 	int new_size = vocablist[NEW].size();
 	int learning_size = vocablist[FAMILIAR].size();
 	int review_size = vocablist[REVIEW].size();
+	int learned_size = vocablist[LEARNED].size();
 
 	int unlearned_size = hard_size + new_size + learning_size;
 	cout << unlearned_size << " word";
@@ -302,6 +300,10 @@ void Session::showStats(){
 	cout << review_size  << " word";
 	if (review_size != 1) cout << "s";
 	cout << " to review"  << endl;
+
+    cout << learned_size  << " word";
+	if (learned_size != 1) cout << "s";
+	cout << " learned"  << endl;
 	cout << "--------------------------------" << endl;
 }
 

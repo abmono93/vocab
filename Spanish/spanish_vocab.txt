@@ -2764,9 +2764,6 @@ to postpone
 la guacamaya
 macaw
 
-áspero
-rough
-
 el almizcle
 musk
 
@@ -2938,9 +2935,6 @@ to relocate, transfer
 la hormiguita
 doodlebug
 
-predisponer a
-to predispose
-
 la veleidad
 fickleness
 
@@ -3021,12 +3015,6 @@ sunny
 
 desarraigar
 to uproot
-
-absorto
-absorbed
-
-hondo
-deep
 
 en vez de
 instead of
@@ -3799,9 +3787,6 @@ the other way around
 insondable
 unfathomable
 
-sobrar
-to be left over
-
 el amoníaco
 ammonia
 
@@ -3942,9 +3927,6 @@ flying
 
 el pedazo
 piece, chunk
-
-el vuelo
-flight
 
 el vuelo
 flight
