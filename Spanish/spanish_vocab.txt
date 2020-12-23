@@ -193,7 +193,7 @@ dirty
 la moto 
 motorcycle
 
-vacio 
+vacío
 empty
 
 inmiscuirse 
@@ -302,7 +302,7 @@ pegar
 to hit; to stick
 
 jerárquico 
-heirarchical
+hierarchical
 
 la tontería 
 nonsense
@@ -832,7 +832,7 @@ to usually do something
 extraño 
 strange
 
-desarollar 
+desarrollar 
 to develop, grow
 
 el tamaño 
@@ -1255,7 +1255,7 @@ sidewalk
 el comercio 
 storefront
 
-el hormigo 
+la hormiga
 ant
 
 el techo 
@@ -1474,7 +1474,7 @@ to have to do
 la falta 
 lack of
 
-amenzar 
+amenazar 
 to threaten
 
 volverse 
@@ -1859,7 +1859,7 @@ el caldero
 cauldron
 
 la paila
-pot
+paila (S. Am. earthenware plate/bowl)
 
 las tenazas
 pliers
@@ -2437,7 +2437,7 @@ inheritance
 el chicharrón
 pork rind
 
-desprendir
+desprender
 to detach
 
 carbonizado
@@ -2512,7 +2512,7 @@ upbringing
 puesto que
 since, because
 
-su imagen y semajanza
+su imagen y semejanza
 his own image
 
 la sala
@@ -2801,7 +2801,7 @@ destrozar
 to destroy
 
 el lirio
-lilly
+lily
 
 el pesadumbre
 sorrow
@@ -3518,7 +3518,7 @@ cegar
 to blind
 
 el tapón
-stopper, plug (alo bottle cap)
+stopper, plug (also bottle cap)
 
 la lástima
 pity
@@ -3869,9 +3869,12 @@ padecer
 to suffer
 
 zurumbático
-stunned
+stunned (colloquial)
 
 la lombriz
+earthworm
+
+el gusano
 worm
 
 la pócima
@@ -3881,7 +3884,7 @@ machacar
 to grind (food)
 
 imprevisto
-unforseen
+unforeseen
 
 la bacinilla
 potty
@@ -3940,3 +3943,53 @@ happy
 desde luego
 certainly
 
+la risotada
+cackle
+
+extraviado
+misplaced
+
+la búsqueda
+search
+
+veloz
+swift
+
+las sobrecamas
+bedcovers
+
+el abalorio
+bead
+
+la víbora
+viper
+
+el cómplice
+accomplice
+
+deambular
+to wander
+
+fijar
+to set (e.g. time, price)
+
+trémulo
+trembling
+
+el corpiño
+bodice
+
+el encaje
+lace; fit
+
+el almidón
+starch
+
+el alambrado
+wiring
+
+la rana
+frog
+
+delgado
+thin
