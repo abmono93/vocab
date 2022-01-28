@@ -3,10 +3,10 @@
 using namespace std;
 
 int main(int argc, char *argv[]){
-	string filename = "spanish_vocab";
-	Session session(filename);
+	Session session("spanish_vocab");
 	if (argc > 1 && string(argv[1]) == "stats"){
 		session.showStats();
+		session.save();
 		return 0;
 	}
 	session.round();

@@ -1,4 +1,12 @@
 echo "--------------------------------"
+printf "score=8: "
+grep 8 .french_vocab.voc -c
+printf "score=9: "
+grep \|9\| .french_vocab.voc -c
+printf "score=10: "
+grep 10 .french_vocab.voc -c
+printf "score=11: "
+grep 11 .french_vocab.voc -c
 printf "no score: "
 egrep 999 .french_vocab.voc -c
 printf "score=12: "

@@ -19,7 +19,7 @@ demanding
 le fauve 
 wildcat; a tan
 
-fixer 
+fixer
 to stare
 
 la proie 
@@ -112,8 +112,8 @@ to mitigate
 veiller 
 to watch over
 
-la randonée 
-a walk
+la randonnée 
+hike; hiking
 
 s'incliner devant 
 to bow to
@@ -157,7 +157,7 @@ construction site
 méprisable 
 despicable
 
-débarasser 
+débarrasser 
 to get rid of
 
 le châtiment 
@@ -229,7 +229,7 @@ out of self interest
 éprouver 
 to feel, experience
 
-reconaissant 
+reconnaissant 
 grateful
 
 exiger 
@@ -745,7 +745,7 @@ death; demise
 fourbe
 deceitful
 
-auprés de
+auprès de
 among
 
 la clémence
@@ -997,7 +997,7 @@ flash, lightning
 la crue
 flood
 
-crue
+cru
 raw
 
 la crue éclair
@@ -1333,7 +1333,7 @@ oath
 le sbire
 henchman
 
-le riotelet
+le roitelet
 wren; kinglet
 
 appareiller
@@ -1489,7 +1489,7 @@ crossbar
 le fil
 wire, thread
 
-le visière
+la visière
 visor
 
 éclater
@@ -1583,7 +1583,7 @@ le commis
 clerk
 
 le commis voyageur
-travelling salesman
+traveling salesman
 
 la barrique
 barrel
@@ -1838,7 +1838,7 @@ la serrure
 keyhole
 
 la houppe
-tuft
+quiff (bit of hair)
 
 l'oreiller (m.)
 pillow
@@ -1890,9 +1890,6 @@ gap
 
 dessus
 above
-
-le râtelier
-rack
 
 le fumier
 manure
@@ -1952,7 +1949,7 @@ la pelle
 shovel
 
 la pincette
-forecep
+forcep
 
 le soufflet
 bellow
@@ -2107,7 +2104,7 @@ wisps
 la nuque
 nape (back of the neck)
 
-le tabier
+le tablier
 apron
 
 la hanche
@@ -2183,7 +2180,7 @@ le châle
 shawl
 
 l'omoplate (.f)
-scalpula
+scapula
 
 gainer
 to sheathe
@@ -2194,7 +2191,7 @@ ankle
 le ruban
 tape, ribbon
 
-intrecroiser
+entrecroiser
 to interlace
 
 la bru
@@ -2216,7 +2213,7 @@ la marée
 tide
 
 le mobilier
-furnishings
+the furniture
 
 les nippes (f.)
 raggedy clothes
@@ -2327,7 +2324,7 @@ fichu
 ruined
 
 emplir
-to fill (litterary)
+to fill (literary)
 
 trinquer
 to drink to that
@@ -2465,7 +2462,7 @@ la pèlerine
 woman's cape (pelerine)
 
 le fichu
-scarf
+scarf (uncommon)
 
 l'épingle (f.)
 hairpin
@@ -2494,7 +2491,7 @@ to uncouple, unhitch
 retrousser
 to roll up
 
-la sollenité
+la solennité
 solemnity; feast
 
 le collet
@@ -2627,7 +2624,7 @@ la grange
 barn
 
 entamer
-to begin (carreer, dialouge, etc.)
+to begin (career, dialogue, etc.)
 
 la pouce
 thumb
@@ -2767,7 +2764,7 @@ cellar, pantry
 le garde-magasin
 storekeeper
 
-la feraille
+la ferraille
 scrap metal
 
 le tonneau
@@ -2825,7 +2822,7 @@ l'émail (m.)
 enamel
 
 le foulard
-headscarf
+scarf, headscarf
 
 la patte
 leg, paw
@@ -2939,7 +2936,7 @@ le cuivre
 copper
 
 accomplir un vœu
-to fullfill a vow
+to fulfill a vow
 
 sonore
 audible
@@ -2970,9 +2967,6 @@ needle
 
 la cachette
 hiding place, stash
-
-le tablier
-apron
 
 le postillon
 coachman
@@ -3086,7 +3080,7 @@ trembloter
 to jiggle
 
 l'écorchure (f.)
-abraision
+abrasion
 
 le cygne
 swan
@@ -3368,7 +3362,7 @@ lors de
 throughout
 
 la bouture
-clipping (e.g. grass, newspapwer)
+clipping (e.g. grass, newspaper)
 
 outrepasser
 to override
@@ -3441,3 +3435,200 @@ to blame
 
 la coque
 shell; hull
+
+la causeuse
+loveseat
+
+les cheveux châtains
+chestnut hair
+
+la guipure
+guipure (type of lace)
+
+le dossier
+folder; back of a chair
+
+mat
+dull, flat (color or surface)
+
+le homard
+lobster
+
+la corbeille
+basket; trashcan
+
+la caille
+quail
+
+le jabot
+ruffle
+
+éraillé
+worn, frayed
+
+bégayer
+to stutter, stammer
+
+la grenade
+grenade; pomegranate
+
+enroulé
+wound
+
+de long en large
+the length and breadth
+
+bombé
+curved, domed
+
+luire
+to glow
+
+la tige
+stem; rod
+
+factice
+artificial
+
+la ritournelle
+jingle (ritornello)
+
+le cor
+horn
+
+se pousser
+to make way
+
+le parquet
+floor; the prosecution
+
+l'évantail
+range; fan
+
+s'agiter
+to shake, agitate
+
+le flacon
+bottle, vial
+
+la garniture
+filling (e.g. pie); topping (e.g. pizza)
+
+tordu
+twisted, bent
+
+la grappe
+bunch
+
+le myosotis
+forget-me-not
+
+renfrogné
+sullen
+
+le rameau
+branch
+
+frôler
+to brush
+
+le teint
+skin tone
+
+journellement
+daily
+
+assouvir
+to assuage
+
+le maniement
+handling
+
+le pilier
+pillar
+
+le fossé
+gap
+
+engraisser
+to fatten
+
+refluer
+to ebb
+
+bourbeux
+muddy (less common)
+
+écrémer
+to skim
+
+net
+clear-cut; net (e.g. salary)
+
+dénaturer
+to denature, distort
+
+le canapé
+couch
+
+mousseline
+muslin
+
+valser
+to waltz
+
+mouler
+to mold, cast
+
+le tabouret
+stool
+
+cambré
+arched
+
+la rampe
+ramp; railing
+
+éveillé
+wide awake
+
+se blottir
+to snuggle
+
+la bannette
+bunk
+
+la serre
+greenhouse
+
+le râtelier
+hay rack
+
+la sellerie
+saddlery, tack room
+
+l'étrier (m.)
+stirrup
+
+tremper
+to soak
+
+l'écume (f.)
+foam, scum
+
+ficeler
+to tie, fasten
+
+la portière
+car door
+
+la carrosse
+coach
+
+la trouvaille
+a find
+
+s'emporter
+to lose one's temper
+
+
