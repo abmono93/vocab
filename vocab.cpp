@@ -22,15 +22,17 @@
 #define MAX_SCORE 15
 
 //Words each round
-#define WORDS_PER_ROUND 10
+#define WORDS_PER_ROUND 11
 #define MAX_NEW_WORDS 3
-#define MIN_REVIEW_WORDS 2
+#define MIN_REVIEW_WORDS 1
 #define LEARNING_RATIO 1000
 
 #define CORRECT 1
 #define INCORRECT 0
 
 using namespace std;
+
+namespace util {
 
 void strip_spaces(string& str){
 	int double_spaces;
@@ -39,6 +41,41 @@ void strip_spaces(string& str){
 	while ((double_spaces = str.find("  ")) >= 0) str.erase(double_spaces, 1);
 }
 
+string getnext(string& line, string* newstr){
+    int delim = line.find("||");
+    if (delim >= 0){
+            *newstr = line.substr(0, delim);
+            return line.substr(delim + 2);
+    }else{
+        delim = line.find('|');
+        *newstr = line.substr(0, delim);
+        return line.substr(delim + 1);
+    }
+}
+
+vector<int> generate_random_indices(int num){
+    vector<int> indices(num);
+
+    for (int i = 0; i < num; i++) indices[i] = i;
+    shuffle(indices.begin(), indices.end(), default_random_engine(time(NULL)));
+
+    return indices;
+}
+
+vector<string> tokenize(string separated, char by){
+    vector<string> ans;
+    string next_word;
+    stringstream tokens(separated);
+
+    while(getline(tokens, next_word, by)){
+        strip_spaces(next_word);
+        ans.push_back(next_word);
+    }
+
+    return ans;
+}
+
+} // namespace util
 
 /*-------------------VocabWord------------------------------*/
 
@@ -103,13 +140,12 @@ class VocabList : public vector<Category>{
         void loadSavedScores(string&);
         void loadWords(string&);
         void saveToFile(string&);
-        void printAll();
+    private:
         string lookup(string&);
+        void redefine(string&, string&);
+        void printAll();
         bool contains(string&);
         void addToList(string&, string&, int score = -1, int category = -1);
-    private:
-        string getnext(string&, string*);
-        void redefine(string&, string&);
 };
 
 VocabList::VocabList() : vector<Category>(5){}
@@ -159,26 +195,14 @@ string VocabList::lookup(string& word){
     return "";
 }
 
-string VocabList::getnext(string& line, string* newstr){
-    int delim = line.find("||");
-    if (delim >= 0){
-            *newstr = line.substr(0, delim);
-            return line.substr(delim + 2);
-    }else{
-        delim = line.find('|');
-        *newstr = line.substr(0, delim);
-        return line.substr(delim + 1);
-    }
-}
-
 void VocabList::loadSavedScores(string& filename){
     string line, word, definition, score_str;
     ifstream inputfile('.' + filename + ".voc");
     if (inputfile.is_open()){
         while(getline(inputfile, line)){
-            line = getnext(line, &word);
-            line = getnext(line, &definition);
-            line = getnext(line, &score_str);
+            line = util::getnext(line, &word);
+            line = util::getnext(line, &definition);
+            line = util::getnext(line, &score_str);
             if ((*this)[NEW].count(word)) addToList(word, definition, stoi(score_str), stoi(line));
             else cout << "Deleting word - " <<  word << ": " << definition << endl;
         }
@@ -192,7 +216,7 @@ void VocabList::loadWords(string& filename){
     if (inputfile.is_open()){
         while(getline(inputfile, line)){
             if (line.size()){
-                strip_spaces(line);
+                util::strip_spaces(line);
                 if (word.size() == 0) word = line;
                 else definition = line;
             }else{
@@ -238,18 +262,17 @@ class Session{
         string filename;
         VocabList vocablist;
         Category studyList;
+        bool reverse;
 
         void fillStudyList();
         void categorize(string, VocabWord*);
-        void quiz(bool);
+        void quiz();
         int fromCatToStudyList(int, int);
         int getCategory(int);
-        bool grade(pair<string, VocabWord*>&, string&, bool);
+        bool grade(pair<string, VocabWord*>&, string&);
         bool isCorrect(string&, string&);
         bool compareSemicolonSplit(int, string&, string&);
         bool compareCommaSplit(int, string&, string&);
-        vector<string> tokenize(string , char);
-        vector<int> generate_random_indices(int);
         bool is_same_list(vector<string>&,vector<string>&);
 };
 
@@ -259,10 +282,11 @@ Session::Session(string filename){
     vocablist.loadSavedScores(filename);
 }
 
-void Session::round(bool reverse = false){
+void Session::round(bool ask_definition = false){
+    reverse = ask_definition;
     showStats();
     fillStudyList();
-    quiz(reverse);
+    quiz();
     save();
 }
 
@@ -323,10 +347,10 @@ void Session::fillStudyList(){
 }
 
 int Session::fromCatToStudyList(int to_add, int cat){
+    int added;
     pair<string, VocabWord*> word;
     Category::iterator it;
-    int added = 0;
-    vector<int> indices = generate_random_indices(vocablist[cat].size());
+    vector<int> indices = util::generate_random_indices(vocablist[cat].size());
 
     to_add = min(to_add, (int)vocablist[cat].size());
     for (added = 0; added < to_add; added++){
@@ -340,11 +364,11 @@ int Session::fromCatToStudyList(int to_add, int cat){
     return added;
 }
 
-void Session::quiz(bool reverse){
+void Session::quiz(){
     string response;
     pair<string, VocabWord*> word;
     vector<pair<string, VocabWord*> > to_delete;
-    vector<int> indices = generate_random_indices(studyList.size());
+    vector<int> indices = util::generate_random_indices(studyList.size());
     bool correct = false;
 
     cout << endl;
@@ -353,7 +377,7 @@ void Session::quiz(bool reverse){
         cout << i + 1  << ") ";
         cout << (reverse ? word.second->definition : word.first) << ": ";
         getline(cin, response);
-        correct = grade(word, response, reverse);
+        correct = grade(word, response);
         if (correct) to_delete.push_back(word);
     }
     for (pair<string, VocabWord*> word : to_delete){
@@ -362,11 +386,11 @@ void Session::quiz(bool reverse){
     }
     if (studyList.size()){
         cout << studyList.size() << " to try again:" << endl;
-        quiz(reverse);
+        quiz();
     }
 }
 
-bool Session::grade(pair<string, VocabWord*>& word, string& response, bool reverse){
+bool Session::grade(pair<string, VocabWord*>& word, string& response){
     string choice;
     string answer = reverse ? word.first : word.second->definition;
 
@@ -388,13 +412,14 @@ bool Session::grade(pair<string, VocabWord*>& word, string& response, bool rever
 }
 
 bool Session::isCorrect(string& response, string& answer){
+    util::strip_spaces(response);
     if (response.compare(answer) == 0) return true;
     string also_accepted = answer;
 
-    int open_paren = answer.find("(");
+    int open_paren = also_accepted.find("(");
 	if (open_paren > -1){
-		also_accepted.erase(open_paren, answer.find(")") - open_paren + 1);
-        strip_spaces(also_accepted);
+		also_accepted.erase(open_paren, also_accepted.find(")") - open_paren + 1);
+        util::strip_spaces(also_accepted);
 		if (isCorrect(response, also_accepted)){
 			cout << answer << endl;
 			return true;
@@ -411,8 +436,8 @@ bool Session::isCorrect(string& response, string& answer){
 }
 
 bool Session::compareSemicolonSplit(int num_semicolons, string& response, string& answer){
-    vector<string> answers = tokenize(answer, ';');
-    vector<string> responses = tokenize(response, ';');
+    vector<string> answers = util::tokenize(answer, ';');
+    vector<string> responses = util::tokenize(response, ';');
 
     return is_same_list(answers, responses);
 }
@@ -420,8 +445,8 @@ bool Session::compareSemicolonSplit(int num_semicolons, string& response, string
 bool Session::compareCommaSplit(int num_commas, string& response, string& answer){
     if (response.rfind("to ", 2) == 0) response.erase(0, 3);
     if (answer.rfind("to ", 2) == 0) answer.erase(0, 3);
-    vector<string> answers = tokenize(answer, ',');
-    vector<string> responses = tokenize(response, ',');
+    vector<string> answers = util::tokenize(answer, ',');
+    vector<string> responses = util::tokenize(response, ',');
 
     return is_same_list(answers, responses);
 }
@@ -436,26 +461,6 @@ int Session::getCategory(int score){
     if (score <= LEARN_UPPERBOUND) return FAMILIAR;
     if (score < MAX_SCORE) return REVIEW;
     return LEARNED;
-}
-
-vector<int> Session::generate_random_indices(int num){
-    vector<int> indices(num);
-    for (int i = 0; i < num; i++) indices[i] = i;
-    shuffle(indices.begin(), indices.end(), default_random_engine(time(NULL)));
-    return indices;
-}
-
-vector<string> Session::tokenize(string separated, char by){
-    vector<string> ans;
-    string next_word;
-    stringstream tokens(separated);
-
-    while(getline(tokens, next_word, by)){
-        strip_spaces(next_word);
-        ans.push_back(next_word);
-    }
-
-    return ans;
 }
 
 bool Session::is_same_list(vector<string>& l1,vector<string>& l2){
