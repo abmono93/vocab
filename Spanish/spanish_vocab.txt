@@ -1,3 +1,141 @@
+el cabello
+hair
+
+rogar
+to beg
+
+el buey
+ox
+
+sin aspavientos
+without fuss
+
+lacio
+limp
+
+pardo
+brown; brownish
+
+apresurar
+to speed up
+
+el acontecimiento
+event
+
+el encierro
+confinement
+
+el soplo
+breath
+
+la cerradura
+lock
+
+el fulgor
+radiance
+
+el sobrino
+nephew
+
+el cuñado
+brother-in-law
+
+amarrar
+to tie
+
+el césped
+grass, lawn
+
+sacudir
+to shake
+
+el polvo
+dust
+
+el mimbre
+wicker
+
+enrarecido
+rarefied
+
+el armario
+cabinet
+
+la desdicha
+unhappiness
+
+acosar
+to harass
+
+la ausencia
+absence
+
+el desperdicio
+waste
+
+apagado
+turned off; dull
+
+la carretilla
+forklift; trolley
+
+¡ojalá!
+hopefully!
+
+alejarse
+to move away from
+
+ronco
+hoarse
+
+amamantar
+to nurse (a baby)
+
+en pos de
+in pursuit of
+
+el crujido
+crack
+
+en vilo
+on edge
+
+desbaratar
+to disrupt
+
+el manantial
+spring; spa
+
+el fichero
+file
+
+el sudor
+sweat
+
+el lodo
+mud, sludge
+
+demorar
+to delay
+
+la caricia
+caress
+
+estirar
+to stretch
+
+la farándula
+show business
+
+los dados
+dice
+
+la partida
+departure; game
+
+el circo
+circus
+
 delgado
 thin
 
@@ -66,9 +204,6 @@ piece, chunk
 
 volador
 flying
-
-el circo
-circus
 
 el mercachifle
 huckster
@@ -1973,7 +2108,7 @@ el alcance
 scope, reach
 
 asomar
-to poke out
+to peep
 
 asomarse
 to lean out
@@ -2877,9 +3012,6 @@ to bring near
 
 recoger
 to pick up
-
-demorar
-to take time
 
 pura subida
 entirely uphill
