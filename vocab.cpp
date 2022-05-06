@@ -252,6 +252,15 @@ void VocabList::saveToFile(string& filename){
 
 /*-------------------Session------------------------------*/
 
+struct Result : public pair<bool, bool>{
+    Result(bool, bool);
+};
+
+Result::Result(bool answer_correct, bool answer_exact){
+    this->first = answer_correct;
+    this->second = answer_exact;
+};
+
 class Session{
     public:
         Session(string);
@@ -270,10 +279,12 @@ class Session{
         int fromCatToStudyList(int, int);
         int getCategory(int);
         bool grade(pair<string, VocabWord*>&, string&);
-        bool isCorrect(string&, string&);
+        Result isCorrect(string&, string&);
         bool compareSemicolonSplit(int, string&, string&);
         bool compareCommaSplit(int, string&, string&);
         bool is_same_list(vector<string>&,vector<string>&);
+        bool are_all_in_list(vector<string>&,vector<string>&);
+        bool response_in_answers(string&,vector<string>&);
 };
 
 Session::Session(string filename){
@@ -394,8 +405,9 @@ bool Session::grade(pair<string, VocabWord*>& word, string& response){
     string choice;
     string answer = reverse ? word.first : word.second->definition;
 
-    if (!isCorrect(response, answer)){
-        cout << (reverse ? word.first : word.second->definition) << endl;
+    Result result = isCorrect(response, answer);
+    if (!result.first){
+        cout << answer << endl;
         cout << "\"O\" to override ";
         getline(cin, choice);
         if (choice.compare("O")) {
@@ -404,6 +416,8 @@ bool Session::grade(pair<string, VocabWord*>& word, string& response){
             return false;
         }
     }
+
+    if (!result.second) cout << answer << endl;
     cout << "Correct!" << endl;
     word.second->changeScore(CORRECT);
     cout << endl;
@@ -411,35 +425,42 @@ bool Session::grade(pair<string, VocabWord*>& word, string& response){
     return true;
 }
 
-bool Session::isCorrect(string& response, string& answer){
+Result Session::isCorrect(string& response, string& answer){
+    bool correct = false;
+    bool exact = false;
     util::strip_spaces(response);
-    if (response.compare(answer) == 0) return true;
-    string also_accepted = answer;
+    if (response.compare(answer) == 0) {
+        correct = true;
+        exact = true;
+    }
+    if (!correct){
+        string also_accepted = answer;
+        int open_paren = also_accepted.find("(");
+        if (open_paren > -1){
+            also_accepted.erase(open_paren, also_accepted.find(")") - open_paren + 1);
+            util::strip_spaces(also_accepted);
+            correct = isCorrect(response, also_accepted).first;
+        }
 
-    int open_paren = also_accepted.find("(");
-	if (open_paren > -1){
-		also_accepted.erase(open_paren, also_accepted.find(")") - open_paren + 1);
-        util::strip_spaces(also_accepted);
-		if (isCorrect(response, also_accepted)){
-			cout << answer << endl;
-			return true;
-		}
-	}
+        if (!correct){
+            int semicolons = count(answer.begin(), answer.end(), ';');
+            if (semicolons) correct = compareSemicolonSplit(semicolons, response, also_accepted);
 
-    int semicolons = count(response.begin(), response.end(), ';');
-    if (semicolons)  return compareSemicolonSplit(semicolons, response, also_accepted);
+            if (!correct && !semicolons){
+                int commas = count(answer.begin(), answer.end(), ',');
+                if (commas) correct = compareCommaSplit(commas, response, also_accepted);
+            }
+        }
+    }
 
-    int commas = count(response.begin(), response.end(), ',');
-    if (commas) return compareCommaSplit(commas, response, also_accepted);
-
-    return false;
+    return Result(correct, exact);
 }
 
 bool Session::compareSemicolonSplit(int num_semicolons, string& response, string& answer){
     vector<string> answers = util::tokenize(answer, ';');
     vector<string> responses = util::tokenize(response, ';');
 
-    return is_same_list(answers, responses);
+    return is_same_list(responses, answers);
 }
 
 bool Session::compareCommaSplit(int num_commas, string& response, string& answer){
@@ -448,7 +469,8 @@ bool Session::compareCommaSplit(int num_commas, string& response, string& answer
     vector<string> answers = util::tokenize(answer, ',');
     vector<string> responses = util::tokenize(response, ',');
 
-    return is_same_list(answers, responses);
+    if (responses.size() == 0) return false;
+    return are_all_in_list(responses, answers);
 }
 
 void Session::categorize(string key, VocabWord* word){
@@ -463,6 +485,31 @@ int Session::getCategory(int score){
     return LEARNED;
 }
 
+bool Session::response_in_answers(string& next_response,vector<string>& answers){
+
+    for (string next_answer : answers){
+        if (isCorrect(next_response, next_answer).first){
+            return true;
+        }
+    }
+
+    return false;
+}
+
+bool Session::are_all_in_list(vector<string>& responses,vector<string>& answers){
+    string next_response;
+	stack<string, vector<string> > temp_stack(responses);
+    bool next_response_in_list;
+
+    while (temp_stack.size()){
+        next_response = temp_stack.top();
+        temp_stack.pop();
+        if (!response_in_answers(next_response, answers)) return false;
+    }
+
+	return true;
+}
+
 bool Session::is_same_list(vector<string>& l1,vector<string>& l2){
     string str;
 	stack<string, vector<string> > temp_stack(l1);
@@ -473,7 +520,7 @@ bool Session::is_same_list(vector<string>& l1,vector<string>& l2){
         str = temp_stack.top();
         temp_stack.pop();
         for (string str2 : l2){
-            if (isCorrect(str, str2)){
+            if (isCorrect(str, str2).first){
                 matches++;
                 break;
             }
