@@ -1,3 +1,195 @@
+reprender
+to reprimand
+
+amargo
+bitter
+
+el hígado
+liver
+
+el becerro
+calf (baby cow)
+
+rebelde
+rebellious
+
+el raquitismo
+rickets
+
+ayunar
+to fast
+
+trasponer (algo)
+to transpose (something)
+
+untar
+to smear
+
+derrotar
+to defeat
+
+la astucia
+astuteness
+
+el rincón
+corner, nook
+
+el cal
+lime
+
+salvo
+except for
+
+apartado
+removed, remote
+
+la uña
+fingernail
+
+el cementerio
+cemetery
+
+sepultar
+to bury (a person)
+
+estorbar
+to hinder
+
+el cacareo
+crowing, clucking
+
+la clueca
+mother hen
+
+la muñeca
+wrist
+
+el colmillo
+tusk; fang
+
+el cobre
+copper
+
+sordomudo
+deaf and dumb
+
+chuparse los dedos
+finger-licking
+
+teñido
+dyed
+
+desconchado
+peeling, flaky
+
+el moño
+bun
+
+el traje
+suit
+
+el mecedor
+swing
+
+la mecedora
+rocking chair
+
+el talego
+duffle bag
+
+cariñoso
+caring
+
+el huérfano
+orphan
+
+el remitente
+sender
+
+la sisa
+armhole
+
+la manta
+blanket
+
+el forastero
+outsider
+
+la dulzura
+sweetness
+
+la flauta
+flute
+
+labrado
+carved
+
+el almendro
+almond
+
+el pez
+fish
+
+los peces
+fishes
+
+ensartado
+threaded
+
+la platería
+silverware
+
+escueto
+concise, succinct
+
+la argolla
+ring, hoop
+
+el collar
+necklace
+
+el cimiento
+foundation (of a house)
+
+el azar
+chance
+
+el trotamundos
+globetrotter
+
+la faz
+face (e.g. of a coin, building)
+
+el taller
+workshop
+
+descansar
+to rest
+
+pisar
+to tread
+
+de mala gana
+reluctantly
+
+encomendar
+to entrust
+
+la terquedad
+stubbornness
+
+el retoño
+offspring
+
+ocultar
+to hide
+
+los trajines
+hustle and bustle
+
+prometedor
+promising
+
 el cabello
 hair
 
@@ -1161,9 +1353,6 @@ to get upset
 
 alterar
 to alter; to disturb
-
-la amargura
-bitterness
 
 secundar
 to support, go along with
