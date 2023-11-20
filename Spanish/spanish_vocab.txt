@@ -1,3 +1,480 @@
+la bocina
+horn
+
+el botiquín
+(first-aid) kit
+
+los primeros auxilios
+first aid
+
+ensayar
+to test; to rehearse
+
+los grilletes
+shackles
+
+la trituradora
+shredder
+
+regar
+to water; to irrigate
+
+cursi
+corny, cheesy
+
+ahogarse
+to drown, suffocate
+
+el caracol
+snail, conch
+
+el chándal
+tracksuit
+
+arrepentirse
+to repent, regret
+
+el pastor
+shepherd; clergyman
+
+la fama
+fame
+
+afilado
+sharpened
+
+la puñalada
+stab (i.e. a stab in the back)
+
+la noche en vela
+sleepless night
+
+la calabaza
+pumpkin
+
+el capricho
+whim
+
+el terreno
+terrain; field
+
+prendarse de
+to fall in love with, be captivated
+
+enamorarse
+to fall in love
+
+traicionero
+treacherous
+
+la esclava
+bangle, bracelet
+
+el esclavo
+slave
+
+el prócer
+national hero
+
+la escala
+scale; layover
+
+arder
+to burn up
+
+pasar de vuelta
+to go overboard
+
+la nuez
+walnut
+
+la tuerca
+nut
+
+el pavo real
+peacock
+
+la cerilla
+earwax; matchstick
+
+el caramelo
+candy
+
+la tela
+fabric
+
+las tijeras
+scissors
+
+el malecón
+boardwalk, pier
+
+el agua
+water
+
+la flor
+flower
+
+el girasol
+sunflower
+
+el corte de hongo
+bowl cut
+
+el tazón
+bowl; mug
+
+el arbusto
+bush
+
+la mora
+blackberry
+
+el ahijado
+godson
+
+la bomba
+pump; bomb
+
+se lo pasan pipa
+to have a great time (idiom)
+
+la canasta
+basket
+
+doblar la ropa
+to fold clothes
+
+el humedal
+wetland
+
+pensar en
+to think of
+
+empatar
+to tie (a game)
+
+arañar
+to scratch (less common)
+
+la sequía
+drought
+
+la ave de rapiña
+bird of prey
+
+pasear el perro
+to walk the dog
+
+trabajar desde casa
+to work from home
+
+la investigación
+research; investigation
+
+contratar
+to hire
+
+la manija
+handle, lever
+
+fracasar
+to fail
+
+echar de menos
+to miss
+
+la eliminatoria
+playoff
+
+la revancha
+revenge; rematch
+
+disculparse con
+to apologize to
+
+enloquecer
+to drive crazy
+
+adentro
+inside
+
+eructar
+to burp
+
+la reunión
+meeting
+
+aliviado
+relieved
+
+el veterinario
+veterinarian
+
+rascar
+to scratch
+
+se llevan unos con otros
+they get along
+
+la raza de perro
+dog breed
+
+la mosca
+fly
+
+la granja
+farm
+
+cosechar
+to harvest
+
+las suculentas
+succulents
+
+el abono
+compost
+
+engañar
+to mislead
+
+añadir
+to add
+
+retrasarse
+to be late
+
+tumbar
+to take down
+
+girar
+to turn
+
+alzar
+to revolt
+
+aconsejar
+to advise
+
+atracar
+to mug
+
+desmayarse
+to faint
+
+girar en torno
+to revolve around
+
+celoso
+jealous
+
+sin prisa
+unhurriedly
+
+renunciar
+to give up
+
+el patio delantero
+front yard
+
+dimitir
+to resign
+
+el ajedrez
+chess
+
+enseñar en
+to teach at
+
+el chiste
+joke
+
+el apuro
+a rush
+
+amasar
+to knead
+
+el animador
+animator; presenter
+
+la carrera
+career; race
+
+el partido
+match; (political) party
+
+cansado
+tired
+
+el maní
+peanut
+
+sencillo
+simple
+
+pretender
+to pretend; to intend
+
+cortar
+to cut
+
+el tenedor
+fork
+
+el faro
+lighthouse
+
+la decepción
+disappointment
+
+la carita feliz
+happy face
+
+el vecindario
+neighborhood, vicinity
+
+el préstamo
+loan
+
+en cola
+in line, queued
+
+decepcionante
+disappointing
+
+remover
+to stir; to remove
+
+me caí de la bicicleta
+I fell off my bike
+
+quedar atrapado
+to get caught
+
+pronto
+fast; soon
+
+alquilar
+to rent
+
+la espada
+sword
+
+la habitación
+bedroom
+
+se porta bien
+(s)he behaves well
+
+los familiares
+relatives
+
+jubilado
+retired
+
+la parilla
+grill
+
+la barbacoa
+barbecue
+
+la cafetería
+café; cafeteria
+
+lo que tenga ganas
+whatever you feel like
+
+el arándano
+blueberry
+
+el higo
+fig
+
+el granado
+pomegranate
+
+sensible
+sensitive
+
+el tejido
+tissue
+
+levantar pesas
+to lift weights
+
+la reseña
+review
+
+el senderismo
+hiking
+
+la caminata
+hike
+
+el nudo
+knot
+
+la temporada
+season
+
+la Vía Láctea
+the Milky Way
+
+la marmota
+marmot
+
+el paracaídas
+parachute
+
+la aleta
+fin
+
+no se caen bien
+they don't like each other
+
+el cuy
+guinea pig (Lat. Am.)
+
+el odio
+hate
+
+la boda
+wedding
+
+sin fines de lucro
+non-profit
+
+la hoja
+leaf
+
+enojado
+angry
+
+surtir efecto
+to kick in
+
+surtir
+to furnish, stock, equip
+
+por casualidad
+by chance
+
+atribulado
+beleaguered
+
+la pataleta
+tantrum, fuss
+
+enrevesado
+convoluted
+
+el mordisco
+bite, nibble
+
+el escupitajo
+loogie
+
 reprender
 to reprimand
 
@@ -179,7 +656,7 @@ la terquedad
 stubbornness
 
 el retoño
-offspring
+offspring; offshoot
 
 ocultar
 to hide
@@ -206,7 +683,7 @@ lacio
 limp
 
 pardo
-brown; brownish
+brown, brownish
 
 apresurar
 to speed up
@@ -1223,7 +1700,7 @@ absorto
 absorbed
 
 demasiado
-unreasonable; too much
+too much
 
 ajeno
 alien
@@ -1457,7 +1934,7 @@ el velamen
 airfoil
 
 la vela
-sail
+sail; candle
 
 escuálido
 squalid; scrawny
@@ -1604,7 +2081,7 @@ emprender
 to undertake
 
 desistir
-to give up
+to give up; to withdraw
 
 el cabo
 cape
@@ -2384,7 +2861,7 @@ ensanchar
 to widen
 
 contar con
-to count on
+to count on, rely on
 
 el chivo
 goat
@@ -2837,7 +3314,7 @@ en fin
 anyway; in short
 
 volverse
-to turn
+to become, grow
 
 amenazar
 to threaten
@@ -2942,7 +3419,7 @@ ya sea
 either
 
 el casamiento
-marriage; wedding
+marriage
 
 la acta
 record (minutes)
@@ -3164,7 +3641,7 @@ cubrir
 to cover
 
 capaz
-capable
+capable; able
 
 ni siquiera
 not even
@@ -4166,7 +4643,7 @@ el paisaje
 landscape, scenery
 
 extrañar
-to miss (someone/something)
+to miss (someone/something); to surprise
 
 huevonear
 to laze around (Lat. Amer.)
