@@ -1,3 +1,4 @@
+#include <unistd.h>
 #include <string>
 #include <map>
 #include <vector>
@@ -9,25 +10,25 @@
 #include <random>
 
 //Category indices
-#define NEW 0
-#define HARD 1
+#define NEW      0
+#define HARD     1
 #define FAMILIAR 2
-#define REVIEW 3
-#define LEARNED 4
+#define REVIEW   3
+#define LEARNED  4
 
 //Score boundaries
-#define DEFAULT_SCORE 8
-#define HARD_UPPERBOUND 8
+#define DEFAULT_SCORE    8
+#define HARD_UPPERBOUND  8
 #define LEARN_UPPERBOUND 11
-#define MAX_SCORE 15
+#define MAX_SCORE        15
 
 //Words each round
-#define WORDS_PER_ROUND 11
-#define MAX_NEW_WORDS 3
+#define WORDS_PER_ROUND  25
+#define MAX_NEW_WORDS    3
 #define MIN_REVIEW_WORDS 1
-#define LEARNING_RATIO 1000
+#define LEARNING_RATIO   1000
 
-#define CORRECT 1
+#define CORRECT   1
 #define INCORRECT 0
 
 using namespace std;
@@ -252,13 +253,15 @@ void VocabList::saveToFile(string& filename){
 
 /*-------------------Session------------------------------*/
 
-struct Result : public pair<bool, bool>{
+struct Result{
     Result(bool, bool);
+    bool is_correct;
+    bool is_exact;
 };
 
-Result::Result(bool answer_correct, bool answer_exact){
-    this->first = answer_correct;
-    this->second = answer_exact;
+Result::Result(bool is_correct, bool is_exact){
+    this->is_correct = is_correct;
+    this->is_exact = is_exact;
 };
 
 class Session{
@@ -279,7 +282,7 @@ class Session{
         int fromCatToStudyList(int, int);
         int getCategory(int);
         bool grade(pair<string, VocabWord*>&, string&);
-        Result isCorrect(string&, string&);
+        Result evaluateAnswer(string&, string&);
         bool compareSemicolonSplit(int, string&, string&);
         bool compareCommaSplit(int, string&, string&);
         bool is_same_list(vector<string>&,vector<string>&);
@@ -405,8 +408,8 @@ bool Session::grade(pair<string, VocabWord*>& word, string& response){
     string choice;
     string answer = reverse ? word.first : word.second->definition;
 
-    Result result = isCorrect(response, answer);
-    if (!result.first){
+    Result result = evaluateAnswer(response, answer);
+    if (!result.is_correct){
         cout << answer << endl;
         cout << "\"O\" to override ";
         getline(cin, choice);
@@ -417,7 +420,7 @@ bool Session::grade(pair<string, VocabWord*>& word, string& response){
         }
     }
 
-    if (!result.second) cout << answer << endl;
+    if (result.is_correct && !result.is_exact) cout << answer << endl;
     cout << "Correct!" << endl;
     word.second->changeScore(CORRECT);
     cout << endl;
@@ -425,7 +428,7 @@ bool Session::grade(pair<string, VocabWord*>& word, string& response){
     return true;
 }
 
-Result Session::isCorrect(string& response, string& answer){
+Result Session::evaluateAnswer(string& response, string& answer){
     bool correct = false;
     bool exact = false;
     util::strip_spaces(response);
@@ -439,7 +442,7 @@ Result Session::isCorrect(string& response, string& answer){
         if (open_paren > -1){
             also_accepted.erase(open_paren, also_accepted.find(")") - open_paren + 1);
             util::strip_spaces(also_accepted);
-            correct = isCorrect(response, also_accepted).first;
+            correct = evaluateAnswer(response, also_accepted).is_correct;
         }
 
         if (!correct){
@@ -488,7 +491,7 @@ int Session::getCategory(int score){
 bool Session::response_in_answers(string& next_response,vector<string>& answers){
 
     for (string next_answer : answers){
-        if (isCorrect(next_response, next_answer).first){
+        if (evaluateAnswer(next_response, next_answer).is_correct){
             return true;
         }
     }
@@ -520,7 +523,7 @@ bool Session::is_same_list(vector<string>& l1,vector<string>& l2){
         str = temp_stack.top();
         temp_stack.pop();
         for (string str2 : l2){
-            if (isCorrect(str, str2).first){
+            if (evaluateAnswer(str, str2).is_correct){
                 matches++;
                 break;
             }
