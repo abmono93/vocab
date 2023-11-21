@@ -23,7 +23,7 @@
 #define MAX_SCORE        15
 
 //Words each round
-#define WORDS_PER_ROUND  25
+#define WORDS_PER_ROUND  15
 #define MAX_NEW_WORDS    3
 #define MIN_REVIEW_WORDS 1
 #define LEARNING_RATIO   1000
@@ -141,7 +141,9 @@ class VocabList : public vector<Category>{
         void loadSavedScores(string&);
         void loadWords(string&);
         void saveToFile(string&);
+        pair<string, VocabWord*> nextNewWord();
     private:
+        map<string, int> newOrder;
         string lookup(string&);
         void redefine(string&, string&);
         void printAll();
@@ -175,11 +177,13 @@ void VocabList::addToList(string& word, string& definition, int score, int categ
         }
         vw = new VocabWord(definition, DEFAULT_SCORE);
         cat = NEW;
+        newOrder[word] = newOrder.size();
     }else{
         vw = (*this)[NEW][word];
         (*this)[NEW].erase(word);
         vw->score = score;
         cat = category;
+        if (cat != NEW) newOrder.erase(word);
     }
     if (cat < this->size()) (*this)[cat][word] = vw;
 }
@@ -199,6 +203,7 @@ string VocabList::lookup(string& word){
 void VocabList::loadSavedScores(string& filename){
     string line, word, definition, score_str;
     ifstream inputfile('.' + filename + ".voc");
+
     if (inputfile.is_open()){
         while(getline(inputfile, line)){
             line = util::getnext(line, &word);
@@ -233,6 +238,24 @@ void VocabList::loadWords(string& filename){
     }else{
         cout << "No file named " << filename << ".txt found\n" << endl;
     }
+}
+
+pair<string, VocabWord*> VocabList::nextNewWord(){
+    int order = 0;
+    int max_order = 0;
+    pair<string, VocabWord*> newest_word;
+
+    for (auto new_word : (*this)[NEW]){
+        order = newOrder[new_word.first];
+        if (order > max_order){
+            newest_word = new_word;
+            max_order = order;
+        }
+    }
+    this->newOrder.erase(newest_word.first);
+    (*this)[NEW].erase(newest_word.first);
+
+    return newest_word;
 }
 
 void VocabList::printAll(){
@@ -280,6 +303,7 @@ class Session{
         void categorize(string, VocabWord*);
         void quiz();
         int fromCatToStudyList(int, int, bool randomize=true);
+        int addNewWords(int);
         int getCategory(int);
         bool grade(pair<string, VocabWord*>&, string&);
         Result evaluateAnswer(string&, string&);
@@ -354,7 +378,7 @@ void Session::fillStudyList(){
     int min_familiar = pow(vocablist[FAMILIAR].size(), 2) / LEARNING_RATIO;
 	toadd -= fromCatToStudyList(toadd, HARD);
     toadd -= fromCatToStudyList(min(toadd, min_familiar), FAMILIAR);
-    toadd -= fromCatToStudyList(min(toadd, MAX_NEW_WORDS), NEW, false); // Don't randomize
+    toadd -= addNewWords(min(toadd, MAX_NEW_WORDS));
     toadd -= fromCatToStudyList(toadd, FAMILIAR);
 	fromCatToStudyList(toadd + MIN_REVIEW_WORDS, REVIEW);
 }
@@ -362,7 +386,6 @@ void Session::fillStudyList(){
 int Session::fromCatToStudyList(int to_add, int cat, bool randomize){
     int added;
     pair<string, VocabWord*> word;
-    Category::iterator it;
     int num_items = vocablist[cat].size();
     vector<int> indices = util::generate_indices(num_items, randomize);
 
@@ -373,6 +396,20 @@ int Session::fromCatToStudyList(int to_add, int cat, bool randomize){
     }
     for (auto word : studyList){
         if (vocablist[cat].count(word.first)) vocablist[cat].erase(word.first);
+    }
+
+    return added;
+}
+
+int Session::addNewWords(int to_add){
+    int added = 0;
+    pair<string, VocabWord*> word;
+
+    to_add = min(to_add, (int)vocablist[NEW].size());
+    while (added < to_add){
+        word = vocablist.nextNewWord();
+        studyList[word.first] = word.second;
+        added++;
     }
 
     return added;
