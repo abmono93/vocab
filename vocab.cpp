@@ -54,11 +54,11 @@ string getnext(string& line, string* newstr){
     }
 }
 
-vector<int> generate_indices(int num, bool randomize){
+vector<int> generate_random_indices(int num){
     vector<int> indices(num);
 
     for (int i = 0; i < num; i++) indices[i] = i;
-    if (randomize) shuffle(indices.begin(), indices.end(), default_random_engine(time(NULL)));
+    shuffle(indices.begin(), indices.end(), default_random_engine(time(NULL)));
 
     return indices;
 }
@@ -302,7 +302,7 @@ class Session{
         void fillStudyList();
         void categorize(string, VocabWord*);
         void quiz();
-        int fromCatToStudyList(int, int, bool randomize=true);
+        int fromCatToStudyList(int, int);
         int addNewWords(int);
         int getCategory(int);
         bool grade(pair<string, VocabWord*>&, string&);
@@ -376,6 +376,7 @@ void Session::save(){
 void Session::fillStudyList(){
     int toadd = WORDS_PER_ROUND;
     int min_familiar = pow(vocablist[FAMILIAR].size(), 2) / LEARNING_RATIO;
+    //cout << "min familiar = " << min_familiar << endl;
 	toadd -= fromCatToStudyList(toadd, HARD);
     toadd -= fromCatToStudyList(min(toadd, min_familiar), FAMILIAR);
     toadd -= addNewWords(min(toadd, MAX_NEW_WORDS));
@@ -383,13 +384,12 @@ void Session::fillStudyList(){
 	fromCatToStudyList(toadd + MIN_REVIEW_WORDS, REVIEW);
 }
 
-int Session::fromCatToStudyList(int to_add, int cat, bool randomize){
+int Session::fromCatToStudyList(int to_add, int cat){
     int added;
     pair<string, VocabWord*> word;
-    int num_items = vocablist[cat].size();
-    vector<int> indices = util::generate_indices(num_items, randomize);
+    vector<int> indices = util::generate_random_indices(vocablist[cat].size());
 
-    to_add = min(to_add, num_items);
+    to_add = min(to_add, (int)vocablist[cat].size());
     for (added = 0; added < to_add; added++){
         word = vocablist[cat].at_index(indices[added]);
         studyList[word.first] = word.second;
@@ -419,14 +419,14 @@ void Session::quiz(){
     string response;
     pair<string, VocabWord*> word;
     vector<pair<string, VocabWord*> > to_delete;
-    vector<int> indices = util::generate_indices(studyList.size(), true);
+    vector<int> indices = util::generate_random_indices(studyList.size());
     bool correct = false;
 
     cout << endl;
     for (int i = 0; i < indices.size(); i++){
         word = studyList.at_index(indices[i]);
         cout << i + 1  << ") ";
-        cout << (reverse ? word.second->definition : word.first) << endl;
+        cout << (reverse ? word.second->definition : word.first) << ": ";
         getline(cin, response);
         correct = grade(word, response);
         if (correct) to_delete.push_back(word);
