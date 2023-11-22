@@ -314,7 +314,7 @@ class Session{
         void fillStudyList();
         void categorize(string, VocabWord*);
         void quiz();
-        int fromCatToStudyList(int, int);
+        int addWordsToStudyList(int, int);
         int addNewWords(int);
         int getCategory(int);
         bool grade(pair<string, VocabWord*>&, string&);
@@ -386,16 +386,16 @@ void Session::save(){
 }
 
 void Session::fillStudyList(){
-    int toadd = WORDS_PER_ROUND;
+    int toadd = WORDS_PER_ROUND - MIN_REVIEW_WORDS;
     int min_familiar = pow(vocablist[FAMILIAR].size(), 2) / LEARNING_RATIO;
-	toadd -= fromCatToStudyList(toadd, HARD);
-    toadd -= fromCatToStudyList(min(toadd, min_familiar), FAMILIAR);
-    toadd -= fromCatToStudyList(min(toadd, MAX_NEW_WORDS), NEW);
-    toadd -= fromCatToStudyList(toadd, FAMILIAR);
-	fromCatToStudyList(toadd + MIN_REVIEW_WORDS, REVIEW);
+    toadd -= addWordsToStudyList(toadd, HARD);
+    toadd -= addWordsToStudyList(min(toadd, min_familiar), FAMILIAR);
+    toadd -= addWordsToStudyList(min(toadd, MAX_NEW_WORDS), NEW);
+    toadd -= addWordsToStudyList(toadd, FAMILIAR);
+    addWordsToStudyList(toadd + MIN_REVIEW_WORDS, REVIEW);
 }
 
-int Session::fromCatToStudyList(int to_add, int cat){
+int Session::addWordsToStudyList(int to_add, int cat){
     int added = 0;
     pair<string, VocabWord*> word;
 
