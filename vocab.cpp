@@ -81,12 +81,19 @@ vector<string> tokenize(string separated, char by){
 /*-------------------VocabWord------------------------------*/
 
 struct VocabWord{
+        VocabWord();
         VocabWord(string, int, int);
         string definition;
         int score;
         int order;
         void changeScore(bool);
 };
+
+VocabWord::VocabWord(){
+    this->definition = "";
+    this->score = -1;
+    this->order = -1;
+}
 
 VocabWord::VocabWord(string definition, int score, int order){
     this->definition = definition;
@@ -143,7 +150,7 @@ class VocabList : public vector<Category>{
         void loadSavedScores(string&);
         void loadWords(string&);
         void saveToFile(string&);
-        pair<string, VocabWord*> nextNewWord();
+        pair<string, VocabWord*> nextWord(int, bool);
     private:
         int num_words;
         string lookup(string&);
@@ -242,21 +249,25 @@ void VocabList::loadWords(string& filename){
     }
 }
 
-pair<string, VocabWord*> VocabList::nextNewWord(){
-    int order = 0;
-    int max_order = 0;
-    pair<string, VocabWord*> newest_word;
+pair<string, VocabWord*> VocabList::nextWord(int from_category, bool in_order){
+    int random_index = 0;
+    Category* category = &(*this)[from_category];
+    pair<string, VocabWord*> next_word("", new VocabWord());
 
-    for (auto new_word : (*this)[NEW]){
-        order = new_word.second->order;
-        if (order > max_order){
-            newest_word = new_word;
-            max_order = order;
+    if (in_order){
+        for (auto new_word : *category){
+            if (new_word.second->order > next_word.second->order){
+                next_word = new_word;
+            }
         }
+    }else{
+        srand(time(NULL));
+        random_index = rand() % category->size();
+        next_word = category->at_index(random_index);
     }
-    (*this)[NEW].erase(newest_word.first);
+    category->erase(next_word.first);
 
-    return newest_word;
+    return next_word;
 }
 
 void VocabList::printAll(){
@@ -377,38 +388,20 @@ void Session::save(){
 void Session::fillStudyList(){
     int toadd = WORDS_PER_ROUND;
     int min_familiar = pow(vocablist[FAMILIAR].size(), 2) / LEARNING_RATIO;
-    //cout << "min familiar = " << min_familiar << endl;
 	toadd -= fromCatToStudyList(toadd, HARD);
     toadd -= fromCatToStudyList(min(toadd, min_familiar), FAMILIAR);
-    toadd -= addNewWords(min(toadd, MAX_NEW_WORDS));
+    toadd -= fromCatToStudyList(min(toadd, MAX_NEW_WORDS), NEW);
     toadd -= fromCatToStudyList(toadd, FAMILIAR);
 	fromCatToStudyList(toadd + MIN_REVIEW_WORDS, REVIEW);
 }
 
 int Session::fromCatToStudyList(int to_add, int cat){
-    int added;
-    pair<string, VocabWord*> word;
-    vector<int> indices = util::generate_random_indices(vocablist[cat].size());
-
-    to_add = min(to_add, (int)vocablist[cat].size());
-    for (added = 0; added < to_add; added++){
-        word = vocablist[cat].at_index(indices[added]);
-        studyList[word.first] = word.second;
-    }
-    for (auto word : studyList){
-        if (vocablist[cat].count(word.first)) vocablist[cat].erase(word.first);
-    }
-
-    return added;
-}
-
-int Session::addNewWords(int to_add){
     int added = 0;
     pair<string, VocabWord*> word;
 
-    to_add = min(to_add, (int)vocablist[NEW].size());
+    to_add = min(to_add, (int)vocablist[cat].size());
     while (added < to_add){
-        word = vocablist.nextNewWord();
+        word = vocablist.nextWord(cat, cat==NEW);
         studyList[word.first] = word.second;
         added++;
     }
