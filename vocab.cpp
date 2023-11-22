@@ -81,15 +81,17 @@ vector<string> tokenize(string separated, char by){
 /*-------------------VocabWord------------------------------*/
 
 struct VocabWord{
-        VocabWord(string, int);
+        VocabWord(string, int, int);
         string definition;
         int score;
+        int order;
         void changeScore(bool);
 };
 
-VocabWord::VocabWord(string definition, int score){
+VocabWord::VocabWord(string definition, int score, int order){
     this->definition = definition;
     this->score = score;
+    this->order = order;
 }
 
 void VocabWord::changeScore(bool correct){
@@ -143,7 +145,7 @@ class VocabList : public vector<Category>{
         void saveToFile(string&);
         pair<string, VocabWord*> nextNewWord();
     private:
-        map<string, int> newOrder;
+        int num_words;
         string lookup(string&);
         void redefine(string&, string&);
         void printAll();
@@ -151,7 +153,9 @@ class VocabList : public vector<Category>{
         void addToList(string&, string&, int score = -1, int category = -1);
 };
 
-VocabList::VocabList() : vector<Category>(5){}
+VocabList::VocabList() : vector<Category>(5){
+    num_words = 0;
+}
 
 void VocabList::redefine(string& word, string& definition){
     for (int i = 0; i < this->size(); i++){
@@ -175,15 +179,13 @@ void VocabList::addToList(string& word, string& definition, int score, int categ
             if (current.compare(definition) != 0) redefine(word, definition);
             return;
         }
-        vw = new VocabWord(definition, DEFAULT_SCORE);
+        vw = new VocabWord(definition, DEFAULT_SCORE, num_words++);
         cat = NEW;
-        newOrder[word] = newOrder.size();
     }else{
         vw = (*this)[NEW][word];
         (*this)[NEW].erase(word);
         vw->score = score;
         cat = category;
-        if (cat != NEW) newOrder.erase(word);
     }
     if (cat < this->size()) (*this)[cat][word] = vw;
 }
@@ -246,13 +248,12 @@ pair<string, VocabWord*> VocabList::nextNewWord(){
     pair<string, VocabWord*> newest_word;
 
     for (auto new_word : (*this)[NEW]){
-        order = newOrder[new_word.first];
+        order = new_word.second->order;
         if (order > max_order){
             newest_word = new_word;
             max_order = order;
         }
     }
-    this->newOrder.erase(newest_word.first);
     (*this)[NEW].erase(newest_word.first);
 
     return newest_word;
