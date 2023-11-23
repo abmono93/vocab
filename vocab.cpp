@@ -37,6 +37,7 @@ namespace util {
 
 void strip_spaces(string& str){
 	int double_spaces;
+
 	while (isspace(str[str.size() - 1])) str.erase(str.end() - 1);
 	while (isspace(str[0])) str.erase(str.begin());
 	while ((double_spaces = str.find("  ")) >= 0) str.erase(double_spaces, 1);
@@ -44,6 +45,7 @@ void strip_spaces(string& str){
 
 string getnext(string& line, string* newstr){
     int delim = line.find("||");
+
     if (delim >= 0){
             *newstr = line.substr(0, delim);
             return line.substr(delim + 2);
@@ -117,7 +119,8 @@ void VocabWord::changeScore(bool correct){
 struct Category : public map<string, VocabWord*>{
     ~Category();
     void print(int, ostream& dest = cout);
-    pair<string, VocabWord*> at_index(int);
+    pair<string, VocabWord*> wordAtIndex(int);
+    pair<string, VocabWord*> oldestWord();
 };
 
 Category::~Category(){
@@ -136,10 +139,22 @@ void Category::print(int categoryNum, ostream& dest){
     }
 }
 
-pair<string, VocabWord*> Category::at_index(int i){
+pair<string, VocabWord*> Category::wordAtIndex(int i){
     Category::iterator it = this->begin();
+
     advance(it, i);
+
     return *it;
+}
+
+pair<string, VocabWord*> Category::oldestWord(){
+    pair<string, VocabWord*> oldest_word("", new VocabWord());
+
+    for (auto word=this->begin(); word != this->end(); word++){
+        if (word->second->order > oldest_word.second->order) oldest_word = *word;
+    }
+
+    return oldest_word;
 }
 
 /*-------------------VocabList------------------------------*/
@@ -150,7 +165,7 @@ class VocabList : public vector<Category>{
         void loadSavedScores(string&);
         void loadWords(string&);
         void saveToFile(string&);
-        pair<string, VocabWord*> nextWord(int, bool);
+        pair<string, VocabWord*> popNextWord(int, bool);
     private:
         int num_words;
         string lookup(string&);
@@ -249,21 +264,15 @@ void VocabList::loadWords(string& filename){
     }
 }
 
-pair<string, VocabWord*> VocabList::nextWord(int from_category, bool in_order){
-    int random_index = 0;
+pair<string, VocabWord*> VocabList::popNextWord(int from_category, bool in_order){
     Category* category = &(*this)[from_category];
-    pair<string, VocabWord*> next_word("", new VocabWord());
+    pair<string, VocabWord*> next_word;
 
     if (in_order){
-        for (auto new_word : *category){
-            if (new_word.second->order > next_word.second->order){
-                next_word = new_word;
-            }
-        }
+        next_word = category->oldestWord();
     }else{
         srand(time(NULL));
-        random_index = rand() % category->size();
-        next_word = category->at_index(random_index);
+        next_word = category->wordAtIndex(rand() % category->size());
     }
     category->erase(next_word.first);
 
@@ -307,15 +316,14 @@ class Session{
         void save();
     private:
         string filename;
-        VocabList vocablist;
-        Category studyList;
+        VocabList vocab_list;
+        Category study_list;
         bool reverse;
 
         void fillStudyList();
         void categorize(string, VocabWord*);
         void quiz();
         int addWordsToStudyList(int, int);
-        int addNewWords(int);
         int getCategory(int);
         bool grade(pair<string, VocabWord*>&, string&);
         Result evaluateAnswer(string&, string&);
@@ -328,8 +336,8 @@ class Session{
 
 Session::Session(string filename){
     this->filename = filename;
-    vocablist.loadWords(filename);
-    vocablist.loadSavedScores(filename);
+    vocab_list.loadWords(filename);
+    vocab_list.loadSavedScores(filename);
 }
 
 void Session::round(bool ask_definition = false){
@@ -342,11 +350,11 @@ void Session::round(bool ask_definition = false){
 
 void Session::showStats(){
     cout << "--------------------------------" << endl;
-	int hard_size = vocablist[HARD].size(); 
-	int new_size = vocablist[NEW].size();
-	int learning_size = vocablist[FAMILIAR].size();
-	int review_size = vocablist[REVIEW].size();
-	int learned_size = vocablist[LEARNED].size();
+	int hard_size = vocab_list[HARD].size();
+	int new_size = vocab_list[NEW].size();
+	int learning_size = vocab_list[FAMILIAR].size();
+	int review_size = vocab_list[REVIEW].size();
+	int learned_size = vocab_list[LEARNED].size();
 
 	int unlearned_size = hard_size + new_size + learning_size;
 	cout << unlearned_size << " word";
@@ -382,12 +390,13 @@ void Session::showStats(){
 }
 
 void Session::save(){
-    this->vocablist.saveToFile(filename);
+    this->vocab_list.saveToFile(filename);
 }
 
 void Session::fillStudyList(){
     int toadd = WORDS_PER_ROUND - MIN_REVIEW_WORDS;
-    int min_familiar = pow(vocablist[FAMILIAR].size(), 2) / LEARNING_RATIO;
+    int min_familiar = pow(vocab_list[FAMILIAR].size(), 2) / LEARNING_RATIO;
+
     toadd -= addWordsToStudyList(toadd, HARD);
     toadd -= addWordsToStudyList(min(toadd, min_familiar), FAMILIAR);
     toadd -= addWordsToStudyList(min(toadd, MAX_NEW_WORDS), NEW);
@@ -399,10 +408,10 @@ int Session::addWordsToStudyList(int to_add, int cat){
     int added = 0;
     pair<string, VocabWord*> word;
 
-    to_add = min(to_add, (int)vocablist[cat].size());
+    to_add = min(to_add, (int)vocab_list[cat].size());
     while (added < to_add){
-        word = vocablist.nextWord(cat, cat==NEW);
-        studyList[word.first] = word.second;
+        word = vocab_list.popNextWord(cat, cat==NEW);
+        study_list[word.first] = word.second;
         added++;
     }
 
@@ -413,24 +422,24 @@ void Session::quiz(){
     string response;
     pair<string, VocabWord*> word;
     vector<pair<string, VocabWord*> > to_delete;
-    vector<int> indices = util::generate_random_indices(studyList.size());
+    vector<int> indices = util::generate_random_indices(study_list.size());
     bool correct = false;
 
     cout << endl;
     for (int i = 0; i < indices.size(); i++){
-        word = studyList.at_index(indices[i]);
+        word = study_list.wordAtIndex(indices[i]);
         cout << i + 1  << ") ";
         cout << (reverse ? word.second->definition : word.first) << ": ";
         getline(cin, response);
         correct = grade(word, response);
         if (correct) to_delete.push_back(word);
     }
-    for (pair<string, VocabWord*> word : to_delete){
+    for (auto word : to_delete){
         this->categorize(word.first, word.second);
-        studyList.erase(word.first);
+        study_list.erase(word.first);
     }
-    if (studyList.size()){
-        cout << studyList.size() << " to try again:" << endl;
+    if (study_list.size()){
+        cout << study_list.size() << " to try again:" << endl;
         quiz();
     }
 }
@@ -450,7 +459,6 @@ bool Session::grade(pair<string, VocabWord*>& word, string& response){
             return false;
         }
     }
-
     if (result.is_correct && !result.is_exact) cout << answer << endl;
     cout << "Correct!" << endl;
     word.second->changeScore(CORRECT);
@@ -462,6 +470,7 @@ bool Session::grade(pair<string, VocabWord*>& word, string& response){
 Result Session::evaluateAnswer(string& response, string& answer){
     bool correct = false;
     bool exact = false;
+
     util::strip_spaces(response);
     if (response.compare(answer) == 0) {
         correct = true;
@@ -509,7 +518,8 @@ bool Session::compareCommaSplit(int num_commas, string& response, string& answer
 
 void Session::categorize(string key, VocabWord* word){
     int cat = getCategory(word->score);
-    vocablist[cat][key] = word;
+
+    vocab_list[cat][key] = word;
 }
 
 int Session::getCategory(int score){
@@ -520,7 +530,6 @@ int Session::getCategory(int score){
 }
 
 bool Session::response_in_answers(string& next_response,vector<string>& answers){
-
     for (string next_answer : answers){
         if (evaluateAnswer(next_response, next_answer).is_correct){
             return true;
