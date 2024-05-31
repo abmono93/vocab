@@ -1,3 +1,387 @@
+ni se te ocurra
+don't even think about it
+
+el pasillo
+hallway
+
+algo por el estilo
+something like that
+
+turbio
+cloudy, muddy, unclear
+
+basta
+enough
+
+la consulta
+consultation, question
+
+el asco
+disgust
+
+la rotonda
+roundabout; rotunda
+
+el paladar
+palate
+
+ajustarse a
+to fit, match
+
+la joda
+joke; pain in the ass
+
+milenario
+ancient, thousand-year-old
+
+el botones
+bellboy
+
+tramar
+to plot
+
+picar
+to sting
+
+cauto
+cautius
+
+castigar
+to punish
+
+el encargado
+manager (e.g. bar, restaurant, hotel)
+
+tarado
+defective; idiot
+
+humildemente
+humbly
+
+la púa
+sharp point, pick
+
+el embutido
+sausage, cold cut
+
+el mozo
+waiter, boy
+
+el ticholo
+guava candy
+
+el pelotudo
+asshole
+
+tirar onda
+insinuate; make a move
+
+ejercicio
+exercise; fiscal year
+
+sujetar
+to hold; to fasten
+
+el día de cierre
+closing day
+
+atado
+tied
+
+el tebeo
+comic book
+
+el rastrillo
+rake
+
+el morbo
+morbid curiosity
+
+hacer una paja
+jerk off
+
+el preso
+prisoner
+
+la botana
+snack
+
+la pulpería
+tavern, bar
+
+la charamasca
+firewood, kindling
+
+el topogigio
+homemade popsicle (Honduras)
+
+la champa
+shack, hut
+
+la vainilla
+vanilla
+
+el cocodrilo
+crocodile
+
+el acantilado
+cliff
+
+costero
+coastal
+
+rotativo
+rotating
+
+el aire libre
+fresh air
+
+el pasatiempo
+hobby (Mex.)
+
+la afición
+hobby
+
+el justiciero
+vigilante, avenger
+
+la bajeza
+vileness; vile deed
+
+el sueldo
+salary, wage
+
+botarse
+to kick out
+
+mudar pelo
+to shed
+
+lioso
+complicated
+
+el pegamento
+glue
+
+la bofetada
+slap on the face
+
+el bofetón
+big slap
+
+machacar
+to crush, pound
+
+el tiburón
+shark
+
+la cuna
+cradle
+
+agudo
+sharp, severe
+
+la bala
+bullet
+
+la guita
+cash (slang - Lat. Am.)
+
+brillar
+to shine
+
+la prenda
+garment, clothing
+
+el sobaco
+armpit (rare)
+
+hinchable
+inflatable
+
+las chorradas
+nonsense, crap (slang - Spain)
+
+un bodrio
+hodgepodge
+
+el perro lazarillo
+seeing-eye dog
+
+el embarazo
+pregnancy; embarrassment
+
+el cuenco
+bowl; basin
+
+la huelga
+strike
+
+mi granito de arena
+my part
+
+consentido
+consensual; spoiled
+
+chiqueado
+spoiled (slang)
+
+el globo
+balloon
+
+la pulgada
+inch
+
+las cuetes
+firecrackers
+
+la nave espacial
+spaceship
+
+la jeringuilla
+needle, syringe
+
+el mármol
+marble
+
+en camino
+on the way
+
+el transformismo
+impersonation; drag
+
+el ramo
+industry; bunch
+
+el recibo
+receipt
+
+el matón
+thug, bully
+
+chulo
+pretty (Mexico)
+
+chulada
+very cool (Spain)
+
+la condena
+conviction, sentence (prison)
+
+la balacera
+shooting, gunfire
+
+el currículo
+curriculum
+
+el currículum
+resume
+
+las palomitas
+popcorn
+
+la rodilla
+knee
+
+la matriz
+parent; matrix
+
+la depre
+blues (slang)
+
+cliquear
+to click (a mouse - Lat. Am.)
+
+pinchar
+to click (a mouse - Spain)
+
+la picha
+dick
+
+el hijo único
+only child
+
+un reto
+a challenge
+
+el jugo de carne
+gravy
+
+mear
+to piss
+
+el tonto
+fool
+
+dejar constancia
+to put on record
+
+tomar el relevo
+to take over
+
+la pera
+pear; chin
+
+deprisa
+quickly
+
+latir
+to beat, pulse
+
+el desafío
+dare, challenge
+
+apuesto a que
+I bet that...
+
+fregar
+to scrub
+
+el cirujano
+surgeon
+
+la partitura
+(musical) score
+
+el gilipollas
+asshole, jerk
+
+el chollo
+bargain, steal
+
+el zumo
+juice (Spain)
+
+los alicates
+pliers
+
+alargar
+to extend
+
+enganchar
+to hook
+
+pillar
+to catch (e.g. a criminal)
+
+cojonudo
+awesome
+
+la patada
+kick
+
+ganarse
+to earn
+
+follar
+to fuck
+
+el hostal
+hostel; guesthouse
+
+quemarropa
+point blank
+
 la bocina
 horn
 
@@ -455,7 +839,7 @@ surtir efecto
 to kick in
 
 surtir
-to furnish, stock, equip
+to supply; to take effect
 
 por casualidad
 by chance
@@ -689,7 +1073,7 @@ apresurar
 to speed up
 
 el acontecimiento
-event
+event, occurrence
 
 el encierro
 confinement
@@ -912,9 +1296,6 @@ potty
 
 imprevisto
 unforeseen
-
-machacar
-to grind (food)
 
 la pócima
 potion
@@ -2069,7 +2450,7 @@ el desmonte
 dismount; land clearing
 
 dotar
-to provide, equip
+to equip with
 
 confundir
 to confuse
