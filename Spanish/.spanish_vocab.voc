@@ -51,46 +51,42 @@ tarado||defective; idiot||8|0
 tirar onda||insinuate; make a move||8|0
 tramar||to plot||8|0
 turbio||cloudy, muddy, unclear||8|0
-dotar||to equip with||4|1
-el matón||thug, bully||6|1
-hospedarse||to stay (e.g. in a hotel)||8|1
-la cuna||cradle||4|1
-lioso||complicated||8|1
-regar||to water; to irrigate||8|1
+desarrugar||to steam (clothing)||8|1
+dotar||to equip with||3|1
+el azote||scourge||7|1
+el cuenco||bowl; basin||8|1
+el pedazo||piece, chunk||7|1
+enganchar||to hook||5|1
+la cuna||cradle||8|1
 agudo||sharp, severe||9|2
-al revés||the other way around||11|2
 alargar||to extend||10|2
-apuesto a que||I bet that...||10|2
+apuesto a que||I bet that...||11|2
+arrugar||to wrinkle||9|2
 asomarse||to lean out||11|2
 añorar||to long for something||9|2
 brillar||to shine||10|2
-chiqueado||spoiled (slang)||11|2
 chulo||pretty (Mexico)||9|2
 consentido||consensual; spoiled||11|2
 cosechar||to harvest||11|2
 cuadrar||to square||10|2
 derrumbarse||to collapse||10|2
-desarrugar||to steam (clothing)||9|2
 el acontecimiento||event, occurrence||9|2
-el azote||scourge||9|2
 el becerro||calf (baby cow)||10|2
 el bofetón||big slap||9|2
-el botiquín||(first-aid) kit||9|2
+el botiquín||(first-aid) kit||10|2
 el caracol||snail, conch||9|2
 el concurso||contest||9|2
-el cuenco||bowl; basin||9|2
 el currículum||resume||9|2
 el desnivel||unevenness||11|2
 el escondrijo||cache||11|2
 el girasol||sunflower||9|2
 el globo||balloon||10|2
 el lecho||bed, riverbed||9|2
+el matón||thug, bully||9|2
 el mármol||marble||9|2
 el palo||stick; golf club||10|2
-el pedazo||piece, chunk||9|2
 el pegamento||glue||9|2
 el perro lazarillo||seeing-eye dog||9|2
-el ramo||industry; bunch||10|2
 el recibo||receipt||11|2
 el sobaco||armpit (rare)||9|2
 el tazón||bowl; mug||10|2
@@ -98,18 +94,18 @@ el tenedor||fork||11|2
 el tiburón||shark||9|2
 el transformismo||impersonation; drag||11|2
 el vaivén||swaying||11|2
-el zarpazo||swipe||11|2
 el zumo||juice (Spain)||11|2
-empeñarse en||to strive to||9|2
+empedrar||to pave||11|2
+empeñarse en||to strive to||10|2
 encomendar||to entrust||9|2
-enganchar||to hook||9|2
 engastar||to set, mount||11|2
 ensayar||to test; to rehearse||9|2
 enseguida||right away||9|2
 entregar||to hand over, deliver||10|2
 extraviado||misplaced||9|2
 extrañar||to miss (someone/something); to surprise||9|2
-hinchable||inflatable||9|2
+hinchable||inflatable||10|2
+hospedarse||to stay (e.g. in a hotel)||9|2
 la bala||bullet||9|2
 la balacera||shooting, gunfire||9|2
 la bocina||horn||9|2
@@ -127,8 +123,9 @@ la partitura||(musical) score||11|2
 la pera||pear; chin||11|2
 la pregaria||prayer||10|2
 la prenda||garment, clothing||10|2
-las cuetes||firecrackers||10|2
+las cuetes||firecrackers||11|2
 las palomitas||popcorn||10|2
+lioso||complicated||10|2
 los alicates||pliers||10|2
 los grilletes||shackles||11|2
 los primeros auxilios||first aid||11|2
@@ -137,8 +134,10 @@ mi granito de arena||my part||10|2
 pillar||to catch (e.g. a criminal)||9|2
 pinchar||to click (a mouse - Spain)||9|2
 prendarse de||to fall in love with, be captivated||9|2
+regar||to water; to irrigate||9|2
 remendar||to patch up||9|2
 sobreponerse a||to overcome||11|2
+suceder||to happen||11|2
 surtir||to supply; to take effect||9|2
 templado||hardened, tempered||10|2
 un bodrio||hodgepodge||10|2
@@ -190,6 +189,7 @@ ahorrar||to save||12|3
 ajeno||alien||12|3
 ajustado||adjusted; tight||12|3
 al cabo de||at the end of||14|3
+al revés||the other way around||12|3
 alborotado||rowdy||12|3
 alcanzar||to reach||13|3
 alegrar||to cheer||12|3
@@ -246,7 +246,6 @@ arrastrar||to drag||12|3
 arreglar||to fix||12|3
 arrepentirse||to repent, regret||12|3
 arrojar||to throw, toss||12|3
-arrugar||to wrinkle||12|3
 asaltar||to assault; to raid||12|3
 asar||to roast||13|3
 asomar||to peep||13|3
@@ -314,6 +313,7 @@ cegar||to blind||12|3
 celoso||jealous||12|3
 cepillarse||to brush oneself||12|3
 cerrar||to close||13|3
+chiqueado||spoiled (slang)||12|3
 chorrear||to spurt||12|3
 chulada||very cool (Spain)||12|3
 chuparse los dedos||finger-licking||13|3
@@ -755,6 +755,7 @@ el páramo||wasteland||12|3
 el párrafo||paragraph||13|3
 el pífano||fife||12|3
 el quejido||groan||13|3
+el ramo||industry; bunch||12|3
 el raquitismo||rickets||12|3
 el raspón||scratch||12|3
 el rastro||trace (track, trail)||12|3
@@ -825,6 +826,7 @@ el vidrio||glass||13|3
 el vientre||belly; womb||12|3
 el vuelo||flight||13|3
 el vínculo||link, relationship||13|3
+el zarpazo||swipe||12|3
 el zumbido||buzz||12|3
 el ámbito||area; field||12|3
 el ímpetu||impetus, momentum||12|3
@@ -834,7 +836,6 @@ embriagarse||to get drunk||12|3
 embullado||excited (rare)||12|3
 empatar||to tie (a game)||12|3
 empañar||to tarnish||12|3
-empedrar||to pave||12|3
 empeorar||to worsen||13|3
 empezar||to start||13|3
 empeñar||to pawn||12|3
@@ -1031,7 +1032,7 @@ la cabecera||header; head||12|3
 la cacería||hunt||12|3
 la cadena||chain||12|3
 la cafetería||café; cafeteria||12|3
-la caja||box||12|3
+la caja||box||13|3
 la calabaza||pumpkin||12|3
 la cama||bed||14|3
 la caminata||hike||12|3
@@ -1535,7 +1536,6 @@ sordomudo||deaf and dumb||12|3
 su imagen y semejanza||his own image||14|3
 su mismo||its own (his own/ her own)||12|3
 subir||to go up||12|3
-suceder||to happen||12|3
 sucio||dirty||12|3
 sumergir||to submerge||14|3
 superar||to overcome, exceed||12|3
